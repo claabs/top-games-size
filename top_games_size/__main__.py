@@ -1,19 +1,28 @@
 from top_games_size.get_top_sizes import get_top_sizes
-from top_games_size.igdb import get_platforms
 from top_games_size.platform import Platform
 
+IGDB_MIN_RATINGS = 4
+TOP_N_GAMES = 200
+CRITIC_SCORE = False  # False for user score
+USE_METACRITIC = True  # False for IGDB
+
 platforms = [
-    Platform("Sony - PlayStation", 7),
-    Platform("Sony - PlayStation 2", 8),
-    Platform("Sony - PlayStation Portable", 38),
-    Platform("Nintendo - GameCube", 21),
-    Platform("Nintendo - Wii", 5),
-    Platform("Sega - Saturn", 32),
-    Platform("Sega - Dreamcast", 23),
-    Platform("Microsoft - Xbox", 11),
-    Platform("Microsoft - Xbox 360", 12),
+    Platform("Sony - PlayStation", 7, 1500000078),
+    Platform("Sony - PlayStation 2", 8, 1500000094),
+    Platform("Sony - PlayStation Portable", 38, 1500000109),
+    Platform("Nintendo - GameCube", 21, 1500000099),
+    Platform("Nintendo - Wii", 5, 1500000114),
+    Platform("Sega - Saturn", 32, None),
+    Platform("Sega - Dreamcast", 23, 1500000067),
+    Platform("Microsoft - Xbox", 11, 1500000098),
+    Platform("Microsoft - Xbox 360", 12, 1500000111),
 ]
 
 if __name__ == "__main__":
-    # get_platforms()
-    get_top_sizes(platforms)
+    get_top_sizes(
+        platforms,
+        limit=TOP_N_GAMES,
+        min_ratings=IGDB_MIN_RATINGS,
+        use_critic_ratings=CRITIC_SCORE,
+        use_metacritic=USE_METACRITIC,
+    )

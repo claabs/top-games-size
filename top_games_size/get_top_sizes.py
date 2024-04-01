@@ -4,35 +4,57 @@ import humanize
 from rapidfuzz import fuzz, process
 
 from top_games_size.igdb import get_top_rated_games
+from top_games_size.metacritic import get_top_rated_games_metacritic
 from top_games_size.parse_redump_dat import parse_redump_xml
 
 redump_dat_dir = "redump_datfiles"
 
 
-def get_top_sizes(platforms):
+def get_top_sizes(platforms, **kwargs):
+    lines = []
+    grand_total_bytes = 0
     for platform in platforms:
-        get_top_sizes_platform(platform)
+        line, total_bytes = get_top_sizes_platform(platform, **kwargs)
+        lines.append(line)
+        grand_total_bytes += total_bytes
+    print("===RESULTS===")
+    print(*lines, sep="\n")
+    print("-------------")
+    print(f"GRAND TOTAL: {humanize.naturalsize(grand_total_bytes, binary=True)}")
 
 
-def get_top_sizes_platform(platform):
+def get_top_sizes_platform(platform, **kwargs):
+    use_metacritic = kwargs.get("use_metacritic")
+    print(f"Processing: {platform.redump_name}")
     redump_games = parse_redump_xml(read_platform_dat(platform))
-    igdb_games = get_top_rated_games(platform)
+
+    top_games = []
+    if use_metacritic:
+        if not platform.metacritic_id:
+            return (f"{platform.redump_name}: None", 0)
+        top_games = get_top_rated_games_metacritic(platform, **kwargs)
+    else:
+        top_games = get_top_rated_games(platform, **kwargs)
 
     top_redump_games = []
     redump_names = list(map(lambda x: x.name, redump_games))
-    for igdb_game in igdb_games:
-        matched_game, score, index = process.extractOne(
-            igdb_game.name, redump_names, scorer=fuzz.WRatio
+    for top_game in top_games:
+        result = process.extractOne(
+            top_game, redump_names, scorer=fuzz.WRatio, score_cutoff=60
         )
-        if matched_game:
+        if result:
+            matched_game, score, index = result
             # print(score, igdb_game.name, matched_game, sep=" | ")
             top_redump_games.append(redump_games[index])
         else:
-            print(f"FAILED TO MATCH: {igdb_game.name}")
+            print(f"FAILED TO MATCH: {top_game}")
 
     total_bytes = sum_redump_games(top_redump_games)
     human_size = humanize.naturalsize(total_bytes, binary=True)
-    print(f"{platform.redump_name}: {human_size}")
+    return (
+        f"{platform.redump_name}: {human_size} ({len(top_redump_games)} games)",
+        total_bytes,
+    )
 
 
 def read_platform_dat(platform):

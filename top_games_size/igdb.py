@@ -32,23 +32,33 @@ def get_wrapper():
         print("Error:", response.text)
 
 
-def get_top_rated_games(platform, limit=100):
+def get_top_rated_games(platform, **kwargs):
+    limit = kwargs.get("limit")
+    min_ratings = kwargs.get("min_ratings")
+    use_critic_ratings = kwargs.get("use_critic_ratings")
+
     global wrapper
     if not wrapper:
         wrapper = get_wrapper()
 
     # Protobuf API request
 
+    rating_query = (
+        f"aggregated_rating_count >= {min_ratings} ; sort aggregated_rating desc;"
+        if use_critic_ratings
+        else f"rating_count >= {min_ratings} ; sort rating desc;"
+    )
     byte_array = wrapper.api_request(
         "games.pb",  # Note the '.pb' suffix at the endpoint
-        f"fields name; offset 0; where platforms={platform.igdb_id} & rating_count > 3 ; sort rating desc; limit {limit};",
+        f"fields name; offset 0; where platforms={platform.igdb_id} & {rating_query} limit {limit};",
     )
     games_message = GameResult()
     games_message.ParseFromString(
         byte_array
     )  # Fills the protobuf message object with the response
     games = games_message.games
-    return games
+
+    return list(map(lambda x: x.name, games))
 
 
 def get_platforms():
