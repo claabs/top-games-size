@@ -2,7 +2,7 @@
 
 ## Results
 
-Total storage size  of the top 200 rated games by critic score on Metacritic by platform:
+Total storage size of the top 200 rated games by critic score on Metacritic by platform:
 
 ```txt
 Sony - PlayStation: 93.5 GiB (196 games)
@@ -18,7 +18,7 @@ Microsoft - Xbox 360: 1.4 TiB (195 games)
 GRAND TOTAL: 4.9 TiB
 ```
 
-Total storage size  of the top 200 rated games by user score on Metacritic by platform:
+Total storage size of the top 200 rated games by user score on Metacritic by platform:
 
 ```txt
 Sony - PlayStation: 82.4 GiB (165 games)
@@ -34,7 +34,7 @@ Microsoft - Xbox 360: 1.4 TiB (196 games)
 GRAND TOTAL: 4.8 TiB
 ```
 
-Total storage size  of the top 100 rated games with 4 or more critic reviews on IGDB by platform:
+Total storage size of the top 100 rated games with 4 or more critic reviews on IGDB by platform:
 
 ```txt
 Sony - PlayStation: 43.5 GiB

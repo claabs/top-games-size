@@ -3,7 +3,7 @@ from top_games_size.platform import Platform
 
 IGDB_MIN_RATINGS = 4
 TOP_N_GAMES = 200
-CRITIC_SCORE = False  # False for user score
+CRITIC_SCORE = True  # False for user score
 USE_METACRITIC = True  # False for IGDB
 
 platforms = [

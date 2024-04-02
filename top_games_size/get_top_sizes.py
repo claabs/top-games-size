@@ -49,6 +49,12 @@ def get_top_sizes_platform(platform, **kwargs):
         else:
             print(f"FAILED TO MATCH: {top_game}")
 
+    if not os.path.exists("output"):
+        os.makedirs("output")
+    with open(f"output/{platform.redump_name}.txt", "w") as file:
+        for string in sorted(top_games, key=sort_ignore_articles):
+            file.write(string + "\n")
+
     total_bytes = sum_redump_games(top_redump_games)
     human_size = humanize.naturalsize(total_bytes, binary=True)
     return (
@@ -90,3 +96,11 @@ def sum_redump_games(redump_games):
         total_bytes += biggest_rom.size
         # print(humanize.naturalsize(biggest_rom.size, binary=True), redump_game.name, sep=" | ")
     return total_bytes
+
+
+def sort_ignore_articles(string):
+    articles = ["a", "an", "the"]
+    words = string.split()
+    if words[0].lower() in articles:
+        return " ".join(words[1:])
+    return string
