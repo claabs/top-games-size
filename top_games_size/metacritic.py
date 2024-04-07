@@ -6,11 +6,12 @@ import requests
 def get_top_rated_games_metacritic(platform, **kwargs):
     limit = kwargs.get("limit")
     use_critic_ratings = kwargs.get("use_critic_ratings")
+    min_rating = kwargs.get("min_rating")
 
     offset = 0
-    all_game_titles = []
+    all_games = []
 
-    while len(all_game_titles) < limit:
+    while len(all_games) < limit:
         params = {
             "sortBy": "-metaScore" if use_critic_ratings else "-userScore",
             "productType": "games",
@@ -18,7 +19,7 @@ def get_top_rated_games_metacritic(platform, **kwargs):
             "releaseYearMin": 1958,
             "releaseYearMax": datetime.date.today().year,
             "limit": min(
-                50, limit - len(all_game_titles)
+                50, limit - len(all_games)
             ),  # Fetching up to 50 records or remaining to reach limit
             "apiKey": "1MOZgmNFxvmljaQR1X9KAij9Mo4xAY3u",
             "offset": offset,
@@ -35,18 +36,25 @@ def get_top_rated_games_metacritic(platform, **kwargs):
             # Parse response JSON
             data = response.json()
             games = data.get("data", {}).get("items", [])
-            game_titles = [game.get("title") for game in games]
-            all_game_titles.extend(game_titles)
+            all_games.extend(games)
 
             # Increment offset for next batch
             offset += len(games)
 
             # Break the loop if no more games available or limit reached
-            if len(games) < 50 or len(all_game_titles) >= limit:
+            if len(games) < 50 or len(all_games) >= limit:
                 break
         else:
             # Handle unsuccessful response
             print(f"Request failed with status code {response.status_code}")
             break
 
-    return all_game_titles[:limit]  # Truncate to the specified limit
+    valid_games = list(
+        filter(
+            lambda x: x.get("criticScoreSummary").get("score") > min_rating,
+            all_games[:limit],
+        )
+    )
+    valid_game_titles = list(map(lambda x: x.get("title"), valid_games))
+
+    return valid_game_titles  # Truncate to the specified limit
