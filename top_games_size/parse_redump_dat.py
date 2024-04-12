@@ -1,5 +1,7 @@
 import xml.etree.ElementTree as ET
 
+from top_games_size.game_size import GameSize
+
 
 class Game:
     def __init__(self, name, category, description, roms):
@@ -21,7 +23,7 @@ class Rom:
 def parse_redump_xml(xml_string):
     root = ET.fromstring(xml_string)
 
-    games = []
+    game_sizes = []
 
     for game_element in root.findall("game"):
         name = game_element.attrib["name"]
@@ -43,6 +45,11 @@ def parse_redump_xml(xml_string):
 
         ## Filter out junk
         if category == "Games":
-            games.append(game)
+            biggest_rom = None
+            for rom in game.roms:
+                if not biggest_rom or rom.size > biggest_rom.size:
+                    biggest_rom = rom
 
-    return games
+            game_sizes.append(GameSize(name, biggest_rom.size))
+
+    return game_sizes
