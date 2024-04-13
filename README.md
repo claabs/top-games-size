@@ -12,9 +12,9 @@ Sony - PlayStation Vita: 105.0 GiB (95 games)
 Nintendo - GameCube: 236.6 GiB (174 games)
 Nintendo - Wii: 775.0 GiB (173 games)
 Sega - Dreamcast: 58.9 GiB (64 games)
-Microsoft - Xbox: 211.3 GiB (29 games)
+Microsoft - Xbox: 335.2 GiB (46 games)
 -------------
-GRAND TOTAL: 2.1 TiB
+GRAND TOTAL: 2.3 TiB
 ```
 
 Total storage size of the top 200 rated games by critic score on Metacritic with a score >75:
