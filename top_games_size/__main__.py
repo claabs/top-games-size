@@ -16,7 +16,7 @@ platforms = [
     Platform("Nintendo - Wii", 5, 1500000114, TOP_N_GAMES),
     # Platform("Sega - Saturn", 32, None, TOP_N_GAMES),
     Platform("Sega - Dreamcast", 23, 1500000067, TOP_N_GAMES),
-    Platform("Microsoft - Xbox", 11, 1500000098, 50, exclusive_key="xbox-exclusive"),
+    Platform("Microsoft - Xbox", 11, 1500000098, 500, filter_list=True),
     # Platform("Microsoft - Xbox 360", 12, 1500000111, TOP_N_GAMES),
 ]
 

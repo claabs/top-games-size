@@ -5,7 +5,6 @@ from rapidfuzz import fuzz, process, utils
 
 from top_games_size.igdb import get_top_rated_games
 from top_games_size.metacritic import (
-    get_top_rated_exclusives,
     get_top_rated_games_metacritic,
 )
 from top_games_size.parse_archive_org_xml import parse_archive_org_xml
@@ -13,6 +12,7 @@ from top_games_size.parse_redump_dat import parse_redump_xml
 
 redump_dat_dir = "redump_datfiles"
 archive_org_xml_dir = "archive_org_xml"
+filter_list_dir = "filter_list"
 
 
 def get_top_sizes(platforms, **kwargs):
@@ -49,12 +49,26 @@ def get_top_sizes_platform(platform, **kwargs):
     if use_metacritic:
         if not platform.metacritic_id:
             return (f"{platform.name}: None", 0)
-        if platform.exclusive_key:
-            top_games = get_top_rated_exclusives(platform, **kwargs)
-        else:
-            top_games = get_top_rated_games_metacritic(platform, **kwargs)
+        top_games = get_top_rated_games_metacritic(platform, **kwargs)
     else:
         top_games = get_top_rated_games(platform, **kwargs)
+
+    if platform.filter_list:
+        filter_list = read_filter_list(get_filter_list(platform)).splitlines()
+        result = process.cdist(
+            top_games,
+            filter_list,
+            scorer=fuzz.ratio,
+            score_cutoff=70,
+            processor=utils.default_process,
+        )
+        filtered_top_games = []
+        for i, row in enumerate(result):
+            max_score = max(row)
+            if max_score >= 70:
+                filtered_top_games.append(top_games[i])
+
+        top_games = filtered_top_games
 
     top_game_sizes = []
     game_size_names = list(map(lambda x: x.name, game_sizes))
@@ -120,6 +134,25 @@ def get_archive_org_xml(platform):
 
 def read_archive_org_xml(filename):
     file_path = os.path.join(archive_org_xml_dir, filename)
+    with open(file_path, "r") as file:
+        file_contents = file.read()
+        return file_contents
+
+
+def get_filter_list(platform):
+    files = os.listdir(filter_list_dir)
+
+    # Find the file that starts with the platform string
+    matching_files = [
+        file
+        for file in files
+        if file.startswith(platform.name) and file.endswith(".txt")
+    ]
+    return matching_files[0] if matching_files else None
+
+
+def read_filter_list(filename):
+    file_path = os.path.join(filter_list_dir, filename)
     with open(file_path, "r") as file:
         file_contents = file.read()
         return file_contents

@@ -161,4 +161,5 @@ cython_debug/
 
 redump_datfiles/*.dat
 archive_org_xml/*.xml
+filter_list/*.txt
 output
