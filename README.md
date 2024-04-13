@@ -2,6 +2,21 @@
 
 ## Results
 
+Total storage size of the top 200 rated games by critic score on Metacritic with a score >75, and only exclusives for Xbox:
+
+```txt
+Sony - PlayStation: 52.9 GiB (99 games)
+Sony - PlayStation 2: 613.1 GiB (200 games)
+Sony - PlayStation Portable: 137.4 GiB (147 games)
+Sony - PlayStation Vita: 105.0 GiB (95 games)
+Nintendo - GameCube: 236.6 GiB (174 games)
+Nintendo - Wii: 775.0 GiB (173 games)
+Sega - Dreamcast: 58.9 GiB (64 games)
+Microsoft - Xbox: 211.3 GiB (29 games)
+-------------
+GRAND TOTAL: 2.1 TiB
+```
+
 Total storage size of the top 200 rated games by critic score on Metacritic with a score >75:
 
 ```txt
@@ -16,7 +31,6 @@ Microsoft - Xbox: 1.4 TiB (200 games)
 -------------
 GRAND TOTAL: 3.4 TiB
 ```
-
 
 Total storage size of the top 200 rated games by critic score on Metacritic by platform:
 

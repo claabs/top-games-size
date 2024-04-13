@@ -33,7 +33,7 @@ def get_wrapper():
 
 
 def get_top_rated_games(platform, **kwargs):
-    limit = kwargs.get("limit")
+    limit = platform.limit
     min_ratings = kwargs.get("min_ratings")
     use_critic_ratings = kwargs.get("use_critic_ratings")
 

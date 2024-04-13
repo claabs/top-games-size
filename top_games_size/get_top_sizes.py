@@ -4,7 +4,10 @@ import humanize
 from rapidfuzz import fuzz, process, utils
 
 from top_games_size.igdb import get_top_rated_games
-from top_games_size.metacritic import get_top_rated_games_metacritic
+from top_games_size.metacritic import (
+    get_top_rated_exclusives,
+    get_top_rated_games_metacritic,
+)
 from top_games_size.parse_archive_org_xml import parse_archive_org_xml
 from top_games_size.parse_redump_dat import parse_redump_xml
 
@@ -46,7 +49,10 @@ def get_top_sizes_platform(platform, **kwargs):
     if use_metacritic:
         if not platform.metacritic_id:
             return (f"{platform.name}: None", 0)
-        top_games = get_top_rated_games_metacritic(platform, **kwargs)
+        if platform.exclusive_key:
+            top_games = get_top_rated_exclusives(platform, **kwargs)
+        else:
+            top_games = get_top_rated_games_metacritic(platform, **kwargs)
     else:
         top_games = get_top_rated_games(platform, **kwargs)
 
