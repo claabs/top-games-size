@@ -13,6 +13,8 @@ rapidfuzz = "^3.7.0"
 python-dotenv = "^1.0.1"
 humanize = "^4.9.0"
 numpy = "^1.26.4"
+joblib = "^1.4.0"
+random-user-agent = "^1.0.1"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.3.4"

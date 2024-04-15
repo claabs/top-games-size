@@ -3,10 +3,10 @@ import os
 import humanize
 from rapidfuzz import fuzz, process, utils
 
-from top_games_size.igdb import get_top_rated_games
-from top_games_size.metacritic import (
+from common.metacritic import (
     get_top_rated_games_metacritic,
 )
+from top_games_size.igdb import get_top_rated_games
 from top_games_size.parse_archive_org_xml import parse_archive_org_xml
 from top_games_size.parse_redump_dat import parse_redump_xml
 

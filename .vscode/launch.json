@@ -4,11 +4,19 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
-            "name": "Python: Module",
+            "name": "top_games_size",
             "type": "debugpy",
             "request": "launch",
             "module": "top_games_size",
+            "justMyCode": true
+        },
+        {
+            "name": "rom_metacritic_match",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "rom_metacritic_match",
             "justMyCode": true
         },
         {
