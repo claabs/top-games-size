@@ -1,17 +1,14 @@
-import dataclasses
+import bisect
 import json
 from typing import List
 
+from rapidfuzz import fuzz
+
 from common.metacritic import get_all_game_ratings, get_all_game_slugs_metacritic
+from common.parse_rdb import parse_rdb
 from rom_metacritic_match.metacritic_db import MetacriticDatabase
+from rom_metacritic_match.rom_match_platform import RomMatchPlatform
 from top_games_size.platform import Platform
-
-
-class EnhancedJSONEncoder(json.JSONEncoder):
-    def default(self, o):
-        if dataclasses.is_dataclass(o):
-            return dataclasses.asdict(o)
-        return super().default(o)
 
 
 def scrape_metacritic_games(platforms: List[Platform]):
@@ -38,6 +35,7 @@ def scrape_scores():
             all_game_ratings.append(game_rating)
             db.insert_game(
                 game_rating.game_slug,
+                game_rating.title,
                 game_rating.overall_score.user_score.score,
                 game_rating.overall_score.user_score.review_count,
                 game_rating.overall_score.critic_score.score,
@@ -60,6 +58,48 @@ def scrape_scores():
             with open("output/failed_game_slugs.txt", "a") as file:
                 file.write(game_slug + "\n")
         count += 1
-    with open("output/all_game_ratings.json", "w") as file:
-        json.dump(all_game_ratings, file, cls=EnhancedJSONEncoder)
     db.close()
+
+
+def metacritic_matcher(platform: RomMatchPlatform):
+    db = MetacriticDatabase()
+    rdb_games = parse_rdb(platform)
+    rdb_titles = list(map(lambda x: x.rom_name, rdb_games))
+    metacritic_games = db.get_platform_games(platform.platform_slug)
+    weights = [1, 0.5, 0.5]
+    min_avg_score = 40
+    for metacritic_game in metacritic_games:
+        print(metacritic_game)
+        game_slug, meta_title, meta_developer, meta_publisher = metacritic_game
+        matches = []
+        for rdb_game in rdb_games:
+            title_result = fuzz.ratio(
+                meta_title,
+                rdb_game.rom_name,
+            )
+            developer_result = fuzz.ratio(
+                meta_developer,
+                rdb_game.developer,
+            )
+            publisher_result = fuzz.ratio(
+                meta_publisher,
+                rdb_game.publisher,
+            )
+            weighted_average = (
+                title_result * weights[0]
+                + developer_result * weights[1]
+                + publisher_result * weights[2]
+            ) / sum(weights)
+            if weighted_average >= min_avg_score:
+                match = {
+                    "score": weighted_average,
+                    "rdb_game": rdb_game,
+                    "title_result": title_result,
+                    "developer_result": developer_result,
+                    "publisher_result": publisher_result,
+                }
+                bisect.insort(matches, match, key=lambda x: -1 * x["score"])
+
+        if matches:
+            # match_str, score, index = result
+            print(matches[0])
