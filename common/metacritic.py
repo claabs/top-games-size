@@ -5,23 +5,28 @@ from typing import List
 
 import requests
 from joblib import Memory
-from random_user_agent.user_agent import UserAgent
 
 from top_games_size.platform import Platform
 
 memory = Memory("metacritic_cache")
-agents = UserAgent()
+
+max_attempts = 3
+default_timeout = 15
 
 
-@memory.cache()
-def cached_get(url, params):
-    response = requests.get(
-        url,
-        params=params,
-        headers={"User-Agent": agents.get_random_user_agent()},
-        timeout=30,
-    )
-    return response
+@memory.cache(ignore=["attempt"])
+def cached_get(url, params, attempt=1):
+    try:
+        response = requests.get(
+            url,
+            params=params,
+            timeout=default_timeout,
+        )
+        return response
+    except Exception as e:
+        if attempt > max_attempts:
+            raise e
+        return cached_get(url, params, attempt=attempt + 1)
 
 
 def get_top_rated_games_metacritic(platform, **kwargs):
@@ -139,18 +144,30 @@ def get_game_score(game_slug, platform_slug=None, use_critic_ratings=False) -> S
         f"https://internal-prod.apigee.fandom.net/v1/xapi/reviews/metacritic/{review_author}/games/{game_slug}{platform}/stats/web",
         params=params,
     )
-    response.raise_for_status()
+    try:
+        response.raise_for_status()
+    except Exception:
+        response = cached_get.call(
+            f"https://internal-prod.apigee.fandom.net/v1/xapi/reviews/metacritic/{review_author}/games/{game_slug}{platform}/stats/web",
+            params=params,
+        )
+        response.raise_for_status()
 
     data = response.json()
     item = data.get("data", {}).get("item", {})
     score = item.get("score", None)
     review_count = item.get("reviewCount", 0)
 
+    if review_count is None:
+        review_count = 0
+
+    if review_count < 4:
+        score = None
+
     if score and use_critic_ratings:
         score = score / 10
 
-    if platform_slug:
-        return Score(score, review_count)
+    return Score(score, review_count)
 
 
 def get_platform_slug(platform) -> str | None:
@@ -175,9 +192,12 @@ class PlatformScorePair(ScorePair):
 
 @dataclass
 class GameRatings:
+    title: str
     game_slug: str
     overall_score: ScorePair
     platform_scores: List[PlatformScorePair]
+    developer: str | None
+    publisher: str | None
 
 
 def get_all_game_ratings(game_slug) -> GameRatings:
@@ -190,7 +210,15 @@ def get_all_game_ratings(game_slug) -> GameRatings:
         f"https://internal-prod.apigee.fandom.net/v1/xapi/composer/metacritic/pages/games/{game_slug}/web",
         params=params,
     )
-    response.raise_for_status()
+    try:
+        response.raise_for_status()
+    except Exception:
+        response = cached_get.call(
+            f"https://internal-prod.apigee.fandom.net/v1/xapi/composer/metacritic/pages/games/{game_slug}/web",
+            params=params,
+        )
+        response.raise_for_status()
+
     data = response.json()
     product = next(
         filter(
@@ -202,8 +230,28 @@ def get_all_game_ratings(game_slug) -> GameRatings:
     if not product:
         raise KeyError(f"Could not find product for {game_slug}")
 
-    platforms = product.get("data", {}).get("item", {}).get("platforms", [])
+    product_item = product.get("data", {}).get("item", {})
+    platforms = product_item.get("platforms", [])
     platform_slugs = list(map(get_platform_slug, platforms))
+    title = product_item.get("title")
+
+    companies = product_item.get("production", {}).get("companies", [])
+    developer = next(
+        filter(
+            lambda x: x.get("typeName") == "Developer",
+            companies,
+        ),
+        None,
+    )
+    developer = developer.get("name", None) if developer else None
+    publisher = next(
+        filter(
+            lambda x: x.get("typeName") == "Publisher",
+            companies,
+        ),
+        None,
+    )
+    publisher = publisher.get("name", None) if publisher else None
 
     platform_scores: List[PlatformScorePair] = []
     for platform_slug in platform_slugs:
@@ -215,4 +263,6 @@ def get_all_game_ratings(game_slug) -> GameRatings:
     overall_user_score = get_game_score(game_slug, use_critic_ratings=False)
     overall_critic_score = get_game_score(game_slug, use_critic_ratings=True)
     overall_score = ScorePair(overall_user_score, overall_critic_score)
-    return GameRatings(game_slug, overall_score, platform_scores)
+    return GameRatings(
+        title, game_slug, overall_score, platform_scores, developer, publisher
+    )
