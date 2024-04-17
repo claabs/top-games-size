@@ -144,7 +144,7 @@ class MetacriticDatabase:
             WHERE 
                 gp.platform = ? and 
                 ((gp.critic_score >= ? and gp.critic_reviews >= ?) or
-                (gp.user_score >= ? and gp.user_reviews >= ?))
+                (gp.user_score >= ? and gp.user_reviews >= ?)) and best_score not null
             ORDER BY best_score DESC
             """,
             (
@@ -223,7 +223,7 @@ class MetacriticDatabase:
             GROUP BY gp.game_slug
             HAVING COUNT(platform) = 1 and gp.platform = ? and 
                 ((gp.critic_score >= ? and gp.critic_reviews >= ?) or
-                (gp.user_score >= ? and gp.user_reviews >= ?))
+                (gp.user_score >= ? and gp.user_reviews >= ?)) and best_score not null
             ORDER BY best_score DESC
             """,
             (
