@@ -1,3 +1,4 @@
+import csv
 import os
 from dataclasses import dataclass
 from typing import Callable, List
@@ -52,6 +53,9 @@ def list_top_games(platforms: List[RomMatchPlatform]):
             )
             if not os.path.exists(list_dir):
                 os.makedirs(list_dir)
-            with open(os.path.join(list_dir, f"{platform.rdb_name}.tsv"), "w") as file:
-                for game_slug, title, developer, publisher, score in games:
-                    file.write(f"{title}\t{score}\t{developer}\t{publisher}\n")
+            csv_writer = csv.writer(
+                open(os.path.join(list_dir, f"{platform.rdb_name}.csv"), "w")
+            )
+            csv_writer.writerow(["title", "score", "developer", "publisher"])
+            for game_slug, title, developer, publisher, score in games:
+                csv_writer.writerow([title, score, developer, publisher])
