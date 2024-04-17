@@ -1,6 +1,7 @@
 import contextlib
 import json
 import os
+import re
 import subprocess
 from dataclasses import dataclass
 from typing import List
@@ -17,6 +18,7 @@ class RdbEntry:
     region: str
     developer: str | None
     publisher: str | None
+    clean_name: str
 
 
 def read_rdb(filename) -> List[RdbEntry]:
@@ -32,6 +34,16 @@ def read_rdb(filename) -> List[RdbEntry]:
             # Some games do not have a name, we just discard them
             if "name" not in game or not game["name"]:
                 continue
+            # Discard any games with no size (no dump)
+            if "size" not in game or not game["size"]:
+                continue
+
+            clean_name: str = game.get("rom_name")
+            # Remove parenthesis groups
+            clean_name = re.sub(r"\([^()]*\)", "", clean_name)
+            # Remove file extension
+            clean_name = re.sub(r"\.[^.]+$", "", clean_name)
+            clean_name = clean_name.strip()
 
             values.append(
                 RdbEntry(
@@ -40,6 +52,7 @@ def read_rdb(filename) -> List[RdbEntry]:
                     game.get("region"),
                     game.get("developer", None),
                     game.get("publisher", None),
+                    clean_name,
                 )
             )
 

@@ -64,18 +64,19 @@ def scrape_scores():
 def metacritic_matcher(platform: RomMatchPlatform):
     db = MetacriticDatabase()
     rdb_games = parse_rdb(platform)
-    rdb_titles = list(map(lambda x: x.rom_name, rdb_games))
-    metacritic_games = db.get_platform_games(platform.platform_slug)
-    weights = [1, 0.5, 0.5]
+    metacritic_games = db.get_platform_games_critic_user(platform.platform_slug)
+    weights = [1, 0.0, 0.0]
     min_avg_score = 40
     for metacritic_game in metacritic_games:
         print(metacritic_game)
-        game_slug, meta_title, meta_developer, meta_publisher = metacritic_game
+        game_slug, meta_title, meta_developer, meta_publisher, best_score = (
+            metacritic_game
+        )
         matches = []
         for rdb_game in rdb_games:
             title_result = fuzz.ratio(
                 meta_title,
-                rdb_game.rom_name,
+                rdb_game.clean_name,
             )
             developer_result = fuzz.ratio(
                 meta_developer,
