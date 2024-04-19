@@ -1,8 +1,8 @@
 title,score,developer,publisher,rom_name,size,running_total
 Ninja Gaiden Black,9.4,Team Ninja,Tecmo,"Ninja Gaiden Black (USA) (En,Ja).iso",7.3 GiB,7.3 GiB
 Forza Motorsport (2005),9.2,Microsoft Game Studios,Microsoft Game Studios,"Forza Motorsport (World) (En,Ja,Fr,De,Es,It,Zh,Ko).iso",7.3 GiB,14.6 GiB
-Ninja Gaiden (2004),9.1,Team Ninja,Tecmo,"Ninja Gaiden Black (USA) (En,Ja).iso",7.3 GiB,21.9 GiB
-Project Gotham Racing 2,9.0,Bizarre Creations,Microsoft Game Studios,Project Gotham Racing (USA).iso,7.3 GiB,29.2 GiB
+Ninja Gaiden (2004),9.1,Team Ninja,Tecmo,"Ninja Gaiden (USA, Japan) (En,Ja).iso",7.3 GiB,21.9 GiB
+Project Gotham Racing 2,9.0,Bizarre Creations,Microsoft Game Studios,"Project Gotham Racing 2 (USA, Japan) (En,Ja,Fr,De,Es,It,Zh,Ko).iso",7.3 GiB,29.2 GiB
 Panzer Dragoon Orta,9.0,Smilebit,Sega,Panzer Dragoon Orta (USA) (Beta) (2002-11-14).iso,3.7 GiB,32.8 GiB
 Halo 2 Multiplayer Map Pack,8.9,Bungie,Microsoft Game Studios,"Halo 2 Multiplayer Map Pack (World) (En,Ja,Fr,De,Es,It,Zh,Ko).iso",7.3 GiB,40.1 GiB
 JSRF: Jet Set Radio Future,8.8,Smilebit,Sega,JSRF - Jet Set Radio Future (USA).iso,7.3 GiB,47.4 GiB
@@ -12,106 +12,106 @@ MechAssault,8.7,Day 1 Studios,Microsoft Game Studios,"MechAssault (USA) (En,Fr,D
 Dead or Alive 3,8.7,Team Ninja,Tecmo,"Dead or Alive 3 (USA) (En,Ja).iso",7.3 GiB,76.5 GiB
 World Series Baseball,8.5,Blueshift,Sega,World Series Baseball (USA).iso,7.3 GiB,83.8 GiB
 Project Gotham Racing,8.5,Bizarre Creations,Microsoft Game Studios,Project Gotham Racing (USA).iso,7.3 GiB,91.1 GiB
-Fable (2004),8.5,Big Blue Box,Microsoft Game Studios,Fable (USA) (Limited Edition Bonus DVD).iso,7.3 GiB,98.4 GiB
-Tom Clancy's Rainbow Six 3: Black Arrow,8.4,Ubisoft Montreal,Ubisoft,Tom Clancy's Rainbow Six 3 - Black Arrow (Japan).iso,7.3 GiB,105.7 GiB
+Fable (2004),8.5,Big Blue Box,Microsoft Game Studios,"Fable (USA, Europe).iso",7.3 GiB,98.4 GiB
+Tom Clancy's Rainbow Six 3: Black Arrow,8.4,Ubisoft Montreal,Ubisoft,"Tom Clancy's Rainbow Six 3 - Black Arrow (USA, Europe) (En,Fr,De,Es,It).iso",7.3 GiB,105.7 GiB
 Tom Clancy's Ghost Recon 2: Summit Strike,8.4,Red Storm Entertainment,Ubisoft,"Tom Clancy's Ghost Recon 2 - Summit Strike (USA, Europe) (En,Fr,De,Es,It).iso",7.3 GiB,113.0 GiB
 Silent Hill 2: Restless Dreams,8.4,KCET,Konami,"Silent Hill 2 - Restless Dreams (USA) (En,Ja).iso",7.3 GiB,120.3 GiB
 Fatal Frame II: Crimson Butterfly - Director's Cut,8.4,Tecmo,Tecmo,Fatal Frame II - Crimson Butterfly - Director's Cut (USA).iso,7.3 GiB,127.5 GiB
 Unreal Championship,8.3,Digital Extremes,Atari SA,"Unreal Championship (USA, Europe) (En,Fr,De,Es,It).iso",7.3 GiB,134.8 GiB
 Steel Battalion,8.3,Capcom,Capcom,Steel Battalion (USA).iso,7.3 GiB,142.1 GiB
 Genma Onimusha,8.3,Capcom,Capcom,"Genma Onimusha (USA) (En,Ja).iso",7.3 GiB,149.4 GiB
-Dead or Alive Ultimate,8.3,Team Ninja,Tecmo,Dead or Alive 1 Ultimate (USA) (Beta) (2004-10-12).iso,3.7 GiB,153.1 GiB
-Sega GT 2002,8.2,Wow Entertainment,Sega,"Sega GT 2002 (USA) (En,Ja).iso",7.3 GiB,160.3 GiB
-Dance Dance Revolution Ultramix,8.2,Konami Computer Entertainment Hawaii,Konami,Dance Dance Revolution Ultramix (USA).iso,7.3 GiB,167.6 GiB
-Phantom Dust (2005),8.1,Microsoft Game Studios Japan,Majesco,Phantom Dust (USA).iso,7.3 GiB,174.9 GiB
-MechAssault 2: Lone Wolf,8.1,Day 1 Studios,Microsoft Game Studios,"MechAssault 2 - Lone Wolf (World) (En,Ja,Fr,De,Es,It) (Bonus Disc).iso",7.3 GiB,182.2 GiB
-Otogi: Myth of Demons,8.0,From Software,Sega,Otogi - Myth of Demons (USA).iso,7.3 GiB,189.5 GiB
-Links 2004,8.0,Indie Built,Microsoft Game Studios,Links 2004 (USA).iso,7.3 GiB,196.8 GiB
-Amped 2,8.0,Indie Built,Microsoft Game Studios,Amped 2 (USA).iso,7.3 GiB,204.1 GiB
-OutRun2,7.9,Sumo Digital,Microsoft Game Studios,OutRun 2 (USA).iso,7.3 GiB,211.4 GiB
-Otogi 2: Immortal Warriors,7.9,From Software,Sega,Otogi 2 - Immortal Warriors (USA).iso,7.3 GiB,218.6 GiB
-NFL Fever 2002,7.9,Microsoft Game Studios,Microsoft Game Studios,NFL Fever 2002 (USA).iso,7.3 GiB,225.9 GiB
-Deathrow,7.9,Southend Interactive,Ubisoft,Deathrow (USA).iso,7.3 GiB,233.2 GiB
-Tony Hawk's Pro Skater 2x,7.8,Treyarch,Activision,Tony Hawk's Pro Skater 2x (USA).iso,7.3 GiB,240.5 GiB
-Dance Dance Revolution Ultramix 2,7.8,Konami Computer Entertainment Hawaii,Konami,"Dance Dance Revolution Ultramix 2 (USA) (En,Fr,De,Es,It).iso",7.3 GiB,247.8 GiB
-Crimson Sea,7.8,Koei,Koei,Crimson Sea (USA).iso,7.3 GiB,255.1 GiB
-Conker: Live & Reloaded,7.8,Rare Ltd.,Microsoft Game Studios,"Conker - Live & Reloaded (USA) (En,Ja,Fr,De,Es,It).iso",7.3 GiB,262.4 GiB
-Amped: Freestyle Snowboarding,7.8,Indie Built,Microsoft Game Studios,Amped - Freestyle Snowboarding (USA).iso,7.3 GiB,269.7 GiB
-Outlaw Volleyball,7.7,Hypnotix,Simon & Schuster,Outlaw Volleyball (USA).iso,7.3 GiB,276.9 GiB
-Fatal Frame: Special Edition,7.7,Tecmo,Tecmo,Fatal Frame - Zero Special Edition (Japan).iso,7.3 GiB,284.2 GiB
-Brute Force,7.7,Digital Anvil,Microsoft Game Studios,"Brute Force (USA) (En,Fr,De,Es,It).iso",7.3 GiB,291.5 GiB
-Star Wars Starfighter: Special Edition,7.6,Secret Level,LucasArts,Star Wars - Starfighter Special Edition (USA).iso,7.3 GiB,298.8 GiB
-NBA Inside Drive 2002,7.6,High Voltage Software,Microsoft Game Studios,NBA Inside Drive 2002 (USA).iso,7.3 GiB,306.1 GiB
-Midtown Madness 3,7.6,Digital Illusions,Microsoft Game Studios,Midtown Madness 3 (USA).iso,7.3 GiB,313.4 GiB
-Dance Dance Revolution Ultramix 4,7.6,Konami,Konami,"Dance Dance Revolution Ultramix 4 (USA) (En,Fr,Es).iso",7.3 GiB,320.7 GiB
-Dance Dance Revolution Ultramix 3,7.5,Konami,Konami,Dance Dance Revolution Ultramix 3 (USA).iso,7.3 GiB,328.0 GiB
-Ultra Bust-A-Move,7.4,Taito Corporation,Majesco,Ultra Bust-A-Move (USA).iso,7.3 GiB,335.2 GiB
-TransWorld Snowboarding,7.4,Housemarque,Infogrames,TransWorld Snowboarding (USA).iso,7.3 GiB,342.5 GiB
-Phantom Crash,7.4,Genki,Phantagram,Phantom Crash (USA).iso,7.3 GiB,349.8 GiB
-NFL Fever 2004,7.4,Microsoft Game Studios,Microsoft Game Studios,NFL Fever 2004 (USA).iso,7.3 GiB,357.1 GiB
-Greg Hastings' Tournament Paintball,7.4,WXP,Activision,"Greg Hastings' Tournament Paintball (USA, Europe).iso",7.3 GiB,364.4 GiB
-Dai Senryaku VII: Modern Military Tactics,7.4,SystemSoft,Kemco,Dai Senryaku VII - Modern Military Tactics (USA).iso,7.3 GiB,371.7 GiB
-Apex (2003),7.4,Milestone S.r.l,Atari SA,"Apex (USA) (En,Fr,Es).iso",7.3 GiB,379.0 GiB
-Voodoo Vince,7.3,Beep Industries,Microsoft Game Studios,Voodoo Vince (USA).iso,7.3 GiB,386.3 GiB
-Dead or Alive: Xtreme Beach Volleyball,7.3,Team Ninja,Tecmo,"Dead or Alive Xtreme Beach Volleyball (USA) (En,Ja).iso",7.3 GiB,393.6 GiB
-Sega GT Online,7.2,Wow Entertainment,Sega,"Sega GT Online (USA) (En,Ja).iso",7.3 GiB,400.8 GiB
-NFL Fever 2003,7.2,Microsoft Game Studios,Microsoft Game Studios,NFL Fever 2003 (USA) (Rev 1).iso,7.3 GiB,408.1 GiB
-NBA Inside Drive 2003,7.2,High Voltage Software,Microsoft Game Studios,NBA Inside Drive 2003 (USA).iso,7.3 GiB,415.4 GiB
-Hunter: The Reckoning Redeemer,7.2,High Voltage Software,VU Games,Hunter - The Reckoning - Redeemer (USA).iso,7.3 GiB,422.7 GiB
-Raze's Hell,7.1,Artech Studios,Majesco,Raze's Hell (USA).iso,7.3 GiB,430.0 GiB
-NBA Inside Drive 2004,7.1,High Voltage Software,Microsoft Game Studios,NBA Inside Drive 2003 (USA).iso,7.3 GiB,437.3 GiB
-Breakdown,7.1,Namco,Namco,Breakdown (USA).iso,7.3 GiB,444.6 GiB
-Blood Wake,7.1,Stormfront Studios,Microsoft Game Studios,Blood Wake (USA).iso,7.3 GiB,451.9 GiB
-Blinx: The Time Sweeper,7.1,Artoon,Microsoft Game Studios,"Blinx - The Time Sweeper (USA) (En,Ja) (Rev 1).iso",7.3 GiB,459.1 GiB
-Tenchu: Return From Darkness,7.0,K2 LLC,Activision,"Tenchu - Return from Darkness (USA, Asia).iso",7.3 GiB,466.4 GiB
-Steel Battalion: Line of Contact,7.0,Capcom,Capcom,"Tekki Taisen - Steel Battalion - Line of Contact (Japan) (En,Ja) (Pilot Test).iso",7.3 GiB,473.7 GiB
-Quantum Redshift,7.0,Curly Monsters,Microsoft Game Studios,Quantum Redshift (USA).iso,7.3 GiB,481.0 GiB
-Fuzion Frenzy,7.0,Blitz Games,Microsoft Game Studios,Fuzion Frenzy (USA).iso,7.3 GiB,488.3 GiB
-Silent Scope Complete,6.9,Konami,Konami,Silent Scope Complete (USA).iso,7.3 GiB,495.6 GiB
-Kung Fu Chaos,6.8,Just Add Monsters,Microsoft Game Studios,"Kung Fu Chaos (USA, Asia) (En,Fr,De).iso",7.3 GiB,502.9 GiB
-Blinx 2: Masters of Time & Space,6.8,Artoon,Microsoft Game Studios,"Blinx - The Time Sweeper (USA) (En,Ja) (Rev 1).iso",7.3 GiB,510.2 GiB
+Dead or Alive Ultimate,8.3,Team Ninja,Tecmo,"Dead or Alive 2 Ultimate (USA, Japan) (En,Ja).iso",7.3 GiB,156.7 GiB
+Sega GT 2002,8.2,Wow Entertainment,Sega,"Sega GT 2002 (USA) (En,Ja).iso",7.3 GiB,164.0 GiB
+Dance Dance Revolution Ultramix,8.2,Konami Computer Entertainment Hawaii,Konami,Dance Dance Revolution Ultramix (USA).iso,7.3 GiB,171.3 GiB
+Phantom Dust (2005),8.1,Microsoft Game Studios Japan,Majesco,Phantom Dust (USA).iso,7.3 GiB,178.6 GiB
+MechAssault 2: Lone Wolf,8.1,Day 1 Studios,Microsoft Game Studios,"MechAssault 2 - Lone Wolf (World) (En,Ja,Fr,De,Es,It).iso",7.3 GiB,185.8 GiB
+Otogi: Myth of Demons,8.0,From Software,Sega,Otogi - Myth of Demons (USA).iso,7.3 GiB,193.1 GiB
+Links 2004,8.0,Indie Built,Microsoft Game Studios,Links 2004 (USA).iso,7.3 GiB,200.4 GiB
+Amped 2,8.0,Indie Built,Microsoft Game Studios,Amped 2 (USA).iso,7.3 GiB,207.7 GiB
+OutRun2,7.9,Sumo Digital,Microsoft Game Studios,OutRun 2 (USA).iso,7.3 GiB,215.0 GiB
+Otogi 2: Immortal Warriors,7.9,From Software,Sega,Otogi 2 - Immortal Warriors (USA).iso,7.3 GiB,222.3 GiB
+NFL Fever 2002,7.9,Microsoft Game Studios,Microsoft Game Studios,NFL Fever 2002 (USA).iso,7.3 GiB,229.6 GiB
+Deathrow,7.9,Southend Interactive,Ubisoft,Deathrow (USA).iso,7.3 GiB,236.9 GiB
+Tony Hawk's Pro Skater 2x,7.8,Treyarch,Activision,Tony Hawk's Pro Skater 2x (USA).iso,7.3 GiB,244.1 GiB
+Dance Dance Revolution Ultramix 2,7.8,Konami Computer Entertainment Hawaii,Konami,"Dance Dance Revolution Ultramix 2 (USA) (En,Fr,De,Es,It).iso",7.3 GiB,251.4 GiB
+Crimson Sea,7.8,Koei,Koei,Crimson Sea (USA).iso,7.3 GiB,258.7 GiB
+Conker: Live & Reloaded,7.8,Rare Ltd.,Microsoft Game Studios,"Conker - Live & Reloaded (USA) (En,Ja,Fr,De,Es,It).iso",7.3 GiB,266.0 GiB
+Amped: Freestyle Snowboarding,7.8,Indie Built,Microsoft Game Studios,Amped - Freestyle Snowboarding (USA).iso,7.3 GiB,273.3 GiB
+Outlaw Volleyball,7.7,Hypnotix,Simon & Schuster,Outlaw Volleyball (USA).iso,7.3 GiB,280.6 GiB
+Fatal Frame: Special Edition,7.7,Tecmo,Tecmo,Fatal Frame - Zero Special Edition (Japan).iso,7.3 GiB,287.9 GiB
+Brute Force,7.7,Digital Anvil,Microsoft Game Studios,"Brute Force (USA) (En,Fr,De,Es,It).iso",7.3 GiB,295.2 GiB
+Star Wars Starfighter: Special Edition,7.6,Secret Level,LucasArts,Star Wars - Starfighter Special Edition (USA).iso,7.3 GiB,302.4 GiB
+NBA Inside Drive 2002,7.6,High Voltage Software,Microsoft Game Studios,NBA Inside Drive 2002 (USA).iso,7.3 GiB,309.7 GiB
+Midtown Madness 3,7.6,Digital Illusions,Microsoft Game Studios,Midtown Madness 3 (USA).iso,7.3 GiB,317.0 GiB
+Dance Dance Revolution Ultramix 4,7.6,Konami,Konami,"Dance Dance Revolution Ultramix 4 (USA) (En,Fr,Es).iso",7.3 GiB,324.3 GiB
+Dance Dance Revolution Ultramix 3,7.5,Konami,Konami,Dance Dance Revolution Ultramix 3 (USA).iso,7.3 GiB,331.6 GiB
+Ultra Bust-A-Move,7.4,Taito Corporation,Majesco,Ultra Bust-A-Move (USA).iso,7.3 GiB,338.9 GiB
+TransWorld Snowboarding,7.4,Housemarque,Infogrames,TransWorld Snowboarding (USA).iso,7.3 GiB,346.2 GiB
+Phantom Crash,7.4,Genki,Phantagram,Phantom Crash (USA).iso,7.3 GiB,353.5 GiB
+NFL Fever 2004,7.4,Microsoft Game Studios,Microsoft Game Studios,NFL Fever 2004 (USA).iso,7.3 GiB,360.8 GiB
+Greg Hastings' Tournament Paintball,7.4,WXP,Activision,"Greg Hastings' Tournament Paintball (USA, Europe).iso",7.3 GiB,368.0 GiB
+Dai Senryaku VII: Modern Military Tactics,7.4,SystemSoft,Kemco,Dai Senryaku VII - Modern Military Tactics (USA).iso,7.3 GiB,375.3 GiB
+Apex (2003),7.4,Milestone S.r.l,Atari SA,"Apex (USA) (En,Fr,Es).iso",7.3 GiB,382.6 GiB
+Voodoo Vince,7.3,Beep Industries,Microsoft Game Studios,Voodoo Vince (USA).iso,7.3 GiB,389.9 GiB
+Dead or Alive: Xtreme Beach Volleyball,7.3,Team Ninja,Tecmo,"Dead or Alive Xtreme Beach Volleyball (USA) (En,Ja).iso",7.3 GiB,397.2 GiB
+Sega GT Online,7.2,Wow Entertainment,Sega,"Sega GT Online (USA) (En,Ja).iso",7.3 GiB,404.5 GiB
+NFL Fever 2003,7.2,Microsoft Game Studios,Microsoft Game Studios,NFL Fever 2003 (USA) (Rev 1).iso,7.3 GiB,411.8 GiB
+NBA Inside Drive 2003,7.2,High Voltage Software,Microsoft Game Studios,NBA Inside Drive 2003 (USA).iso,7.3 GiB,419.1 GiB
+Hunter: The Reckoning Redeemer,7.2,High Voltage Software,VU Games,Hunter - The Reckoning - Redeemer (USA).iso,7.3 GiB,426.3 GiB
+Raze's Hell,7.1,Artech Studios,Majesco,Raze's Hell (USA).iso,7.3 GiB,433.6 GiB
+NBA Inside Drive 2004,7.1,High Voltage Software,Microsoft Game Studios,"NBA Inside Drive 2004 (USA, Asia).iso",7.3 GiB,440.9 GiB
+Breakdown,7.1,Namco,Namco,Breakdown (USA).iso,7.3 GiB,448.2 GiB
+Blood Wake,7.1,Stormfront Studios,Microsoft Game Studios,Blood Wake (USA).iso,7.3 GiB,455.5 GiB
+Blinx: The Time Sweeper,7.1,Artoon,Microsoft Game Studios,"Blinx - The Time Sweeper (USA) (En,Ja) (Rev 1).iso",7.3 GiB,462.8 GiB
+Tenchu: Return From Darkness,7.0,K2 LLC,Activision,"Tenchu - Return from Darkness (USA, Asia).iso",7.3 GiB,470.1 GiB
+Steel Battalion: Line of Contact,7.0,Capcom,Capcom,"Tekki Taisen - Steel Battalion - Line of Contact (Japan) (En,Ja) (Pilot Test).iso",7.3 GiB,477.4 GiB
+Quantum Redshift,7.0,Curly Monsters,Microsoft Game Studios,Quantum Redshift (USA).iso,7.3 GiB,484.6 GiB
+Fuzion Frenzy,7.0,Blitz Games,Microsoft Game Studios,Fuzion Frenzy (USA).iso,7.3 GiB,491.9 GiB
+Silent Scope Complete,6.9,Konami,Konami,Silent Scope Complete (USA).iso,7.3 GiB,499.2 GiB
+Kung Fu Chaos,6.8,Just Add Monsters,Microsoft Game Studios,"Kung Fu Chaos (USA, Asia) (En,Fr,De).iso",7.3 GiB,506.5 GiB
+Blinx 2: Masters of Time & Space,6.8,Artoon,Microsoft Game Studios,"Blinx - The Time Sweeper (USA) (En,Ja) (Rev 1).iso",7.3 GiB,513.8 GiB
 UFC: Tapout 2,6.6,DreamFactory,TDK Mediactive,,,
-Grabbed by the Ghoulies,6.6,Rare Ltd.,Microsoft Game Studios,"Grabbed by the Ghoulies (USA) (En,Fr,De,Es,It).iso",7.3 GiB,517.4 GiB
-Tao Feng: Fist of the Lotus,6.5,Studio Gigante,Microsoft Game Studios,"Tao Feng - Fist of the Lotus (USA, Japan).iso",7.3 GiB,524.7 GiB
-NHL Rivals 2004,6.5,Microsoft Game Studios,Microsoft Game Studios,NHL Rivals 2004 (USA).iso,7.3 GiB,532.0 GiB
-Mad Dash Racing,6.5,Crystal Dynamics,Eidos Interactive,Mad Dash Racing (USA).iso,7.3 GiB,539.3 GiB
-Carve,6.4,Argonaut Games,Global Star Software,"Carve (USA, Europe) (En,Fr,De,Es,It).iso",7.3 GiB,546.6 GiB
-Furious Karting,6.3,Babylon Software,Atari SA,Furious Karting (USA).iso,7.3 GiB,553.9 GiB
-Tork: Prehistoric Punk,6.2,Tiwak,Ubisoft,Tork - Prehistoric Punk (USA).iso,7.3 GiB,561.2 GiB
-Tetris Worlds: Online Edition,6.2,Radical Entertainment,THQ,Tetris Worlds (USA) (Online Enabled).iso,7.3 GiB,568.5 GiB
-Pro Fishing Challenge,6.2,Opus,Atlus,Pro Fishing Challenge (USA).iso,7.3 GiB,575.7 GiB
-NightCaster: Defeat the Darkness,6.1,VR1 Entertainment,Microsoft Game Studios,Night Caster - Defeat the Darkness (USA).iso,7.3 GiB,583.0 GiB
-Chase: Hollywood Stunt Driver,6.0,I-Imagine,Bam Entertainment,Chase - Hollywood Stunt Driver (USA).iso,7.3 GiB,590.3 GiB
-Whacked!,5.9,Presto Studios,Microsoft Game Studios,Whacked! (Japan).iso,7.3 GiB,597.6 GiB
-Star Wars: Obi-Wan,5.8,LucasArts,LucasArts,Star Wars - Obi-Wan (USA).iso,7.3 GiB,604.9 GiB
-Iron Phoenix,5.8,InterServ International,Sega,Iron Phoenix (USA).iso,7.3 GiB,612.2 GiB
-Inside Pitch 2003,5.8,Microsoft Game Studios,Microsoft Game Studios,Inside Pitch 2003 (USA).iso,7.3 GiB,619.5 GiB
-Group S Challenge,5.7,Capcom,Capcom,Group S Challenge (USA).iso,7.3 GiB,626.8 GiB
-WWE WrestleMania 21,5.6,Studio Gigante,THQ,WWE WrestleMania 21 (USA) (Rev 2).iso,7.3 GiB,634.0 GiB
-New Legends,5.6,Infinite Machine,THQ,New Legends (USA).iso,7.3 GiB,641.3 GiB
-Maximum Chase,5.6,Genki,Majesco,Maximum Chase (USA).iso,7.3 GiB,648.6 GiB
-Tecmo Classic Arcade,5.5,Tecmo,Tecmo,"Tecmo Classic Arcade (USA, Japan).iso",7.3 GiB,655.9 GiB
-GunGriffon: Allied Strike,5.5,Game Arts,Tecmo,"Gungriffon - Allied Strike (USA, Japan) (En,Ja,Ko).iso",7.3 GiB,663.2 GiB
-Spikeout: Battle Street,5.4,Dimps Corporation,Sega,"Spikeout - Battle Street (USA) (En,Ja,Fr,De,Es,It).iso",7.3 GiB,670.5 GiB
-Yu-Gi-Oh! The Dawn of Destiny,5.3,KCEJ,Konami,Yu-Gi-Oh! The Dawn of Destiny (USA).iso,7.3 GiB,677.8 GiB
-"Knight's Apprentice, Memorick's Adventures",5.3,Microids,XS Games,"Knight's Apprentice - Memorick's Adventures ~ Memorick - The Apprentice Knight (USA, Europe) (En,Fr,De,Es,It).iso",7.3 GiB,685.1 GiB
-Azurik: Rise of Perathia,5.2,Adrenium,Microsoft Game Studios,Azurik - Rise of Perathia (USA).iso,7.3 GiB,692.3 GiB
-Dino Crisis 3,5.1,Capcom,Capcom,Dino Crisis 3 (Japan).iso,7.3 GiB,699.6 GiB
-Xbox Music Mixer,4.9,WildTangent,Microsoft Game Studios,Xbox Music Mixer (USA).iso,7.3 GiB,706.9 GiB
-Shrek (2001),4.9,Digital Illusions,TDK Mediactive,Shrek (USA).iso,7.3 GiB,714.2 GiB
-Pro Cast Sports Fishing,4.9,Capcom,Capcom,Pro Cast - Sports Fishing Game (USA).iso,7.3 GiB,721.5 GiB
-Bicycle Casino,4.9,Leaping Lizard Software Inc.,Activision Value,High Rollers Casino (USA).iso,7.3 GiB,728.8 GiB
-SeaBlade,4.8,Vision Scape,Simon & Schuster,SeaBlade (USA).iso,7.3 GiB,736.1 GiB
-Murakumo: Renegade Mech Pursuit,4.8,From Software,Ubisoft,Murakumo - Renegade Mech Pursuit (USA).iso,7.3 GiB,743.4 GiB
-AMF Bowling 2004,4.8,,Mud Duck Productions,AMF Bowling 2004 (USA).iso,7.3 GiB,750.7 GiB
-Loons: The Fight for Fame,4.7,Warthog,Infogrames,Loons - The Fight for Fame (USA).iso,7.3 GiB,757.9 GiB
-Nightcaster II: Equinox,4.6,Jaleco Entertainment,Jaleco Entertainment,Night Caster II - Equinox (USA).iso,7.3 GiB,765.2 GiB
-Kakuto Chojin,4.6,DreamFactory,Microsoft Game Studios,Kakuto Chojin (USA).iso,7.3 GiB,772.5 GiB
-Superman: The Man of Steel,4.4,Circus Freak,Atari SA,Superman - The Man of Steel (USA).iso,7.3 GiB,779.8 GiB
-Metal Dungeon,4.4,Panther Software,Xicat Interactive,Metal Dungeon (USA).iso,7.3 GiB,787.1 GiB
-Black Stone: Magic & Steel,4.4,Xpec,Xicat Interactive,"Black Stone - Magic & Steel (USA, Europe).iso",7.3 GiB,794.4 GiB
-Kabuki Warriors,3.2,Light Weight,Crave,Kabuki Warriors (USA).iso,7.3 GiB,801.7 GiB
-Bruce Lee: Quest of the Dragon,3.2,Ronin Entertainment,Universal Interactive,Bruce Lee - Quest of the Dragon (USA).iso,7.3 GiB,809.0 GiB
-Sneakers,2.8,Media.Vision,Microsoft Game Studios,Sneakers (USA).iso,7.3 GiB,816.2 GiB
-Stake: Fortune Fighters,2.6,Gameness Art Software,Metro3D,"Stake - Fortune Fighters (USA, Europe) (En,Fr,De,Es,It).iso",7.3 GiB,823.5 GiB
-Pulse Racer,2.4,Jaleco Entertainment,Jaleco Entertainment,Pulse Racer (USA).iso,7.3 GiB,830.8 GiB
+Grabbed by the Ghoulies,6.6,Rare Ltd.,Microsoft Game Studios,"Grabbed by the Ghoulies (USA) (En,Fr,De,Es,It).iso",7.3 GiB,521.1 GiB
+Tao Feng: Fist of the Lotus,6.5,Studio Gigante,Microsoft Game Studios,"Tao Feng - Fist of the Lotus (USA, Japan).iso",7.3 GiB,528.4 GiB
+NHL Rivals 2004,6.5,Microsoft Game Studios,Microsoft Game Studios,NHL Rivals 2004 (USA).iso,7.3 GiB,535.7 GiB
+Mad Dash Racing,6.5,Crystal Dynamics,Eidos Interactive,Mad Dash Racing (USA).iso,7.3 GiB,542.9 GiB
+Carve,6.4,Argonaut Games,Global Star Software,"Carve (USA, Europe) (En,Fr,De,Es,It).iso",7.3 GiB,550.2 GiB
+Furious Karting,6.3,Babylon Software,Atari SA,Furious Karting (USA).iso,7.3 GiB,557.5 GiB
+Tork: Prehistoric Punk,6.2,Tiwak,Ubisoft,Tork - Prehistoric Punk (USA).iso,7.3 GiB,564.8 GiB
+Tetris Worlds: Online Edition,6.2,Radical Entertainment,THQ,Tetris Worlds (USA) (Online Enabled).iso,7.3 GiB,572.1 GiB
+Pro Fishing Challenge,6.2,Opus,Atlus,Pro Fishing Challenge (USA).iso,7.3 GiB,579.4 GiB
+NightCaster: Defeat the Darkness,6.1,VR1 Entertainment,Microsoft Game Studios,Night Caster - Defeat the Darkness (USA).iso,7.3 GiB,586.7 GiB
+Chase: Hollywood Stunt Driver,6.0,I-Imagine,Bam Entertainment,Chase - Hollywood Stunt Driver (USA).iso,7.3 GiB,594.0 GiB
+Whacked!,5.9,Presto Studios,Microsoft Game Studios,"Whacked! (USA, Europe).iso",7.3 GiB,601.2 GiB
+Star Wars: Obi-Wan,5.8,LucasArts,LucasArts,Star Wars - Obi-Wan (USA).iso,7.3 GiB,608.5 GiB
+Iron Phoenix,5.8,InterServ International,Sega,Iron Phoenix (USA).iso,7.3 GiB,615.8 GiB
+Inside Pitch 2003,5.8,Microsoft Game Studios,Microsoft Game Studios,Inside Pitch 2003 (USA).iso,7.3 GiB,623.1 GiB
+Group S Challenge,5.7,Capcom,Capcom,Group S Challenge (USA).iso,7.3 GiB,630.4 GiB
+WWE WrestleMania 21,5.6,Studio Gigante,THQ,WWE WrestleMania 21 (USA) (Rev 2).iso,7.3 GiB,637.7 GiB
+New Legends,5.6,Infinite Machine,THQ,New Legends (USA).iso,7.3 GiB,645.0 GiB
+Maximum Chase,5.6,Genki,Majesco,Maximum Chase (USA).iso,7.3 GiB,652.3 GiB
+Tecmo Classic Arcade,5.5,Tecmo,Tecmo,"Tecmo Classic Arcade (USA, Japan).iso",7.3 GiB,659.5 GiB
+GunGriffon: Allied Strike,5.5,Game Arts,Tecmo,"Gungriffon - Allied Strike (USA, Japan) (En,Ja,Ko).iso",7.3 GiB,666.8 GiB
+Spikeout: Battle Street,5.4,Dimps Corporation,Sega,"Spikeout - Battle Street (USA) (En,Ja,Fr,De,Es,It).iso",7.3 GiB,674.1 GiB
+Yu-Gi-Oh! The Dawn of Destiny,5.3,KCEJ,Konami,Yu-Gi-Oh! The Dawn of Destiny (USA).iso,7.3 GiB,681.4 GiB
+"Knight's Apprentice, Memorick's Adventures",5.3,Microids,XS Games,"Knight's Apprentice - Memorick's Adventures ~ Memorick - The Apprentice Knight (USA, Europe) (En,Fr,De,Es,It).iso",7.3 GiB,688.7 GiB
+Azurik: Rise of Perathia,5.2,Adrenium,Microsoft Game Studios,Azurik - Rise of Perathia (USA).iso,7.3 GiB,696.0 GiB
+Dino Crisis 3,5.1,Capcom,Capcom,"Dino Crisis 3 (USA, Asia).iso",7.3 GiB,703.3 GiB
+Xbox Music Mixer,4.9,WildTangent,Microsoft Game Studios,Xbox Music Mixer (USA).iso,7.3 GiB,710.6 GiB
+Shrek (2001),4.9,Digital Illusions,TDK Mediactive,"Shrek 2 (USA, Japan).iso",7.3 GiB,717.8 GiB
+Pro Cast Sports Fishing,4.9,Capcom,Capcom,Pro Cast - Sports Fishing Game (USA).iso,7.3 GiB,725.1 GiB
+Bicycle Casino,4.9,Leaping Lizard Software Inc.,Activision Value,High Rollers Casino (USA).iso,7.3 GiB,732.4 GiB
+SeaBlade,4.8,Vision Scape,Simon & Schuster,SeaBlade (USA).iso,7.3 GiB,739.7 GiB
+Murakumo: Renegade Mech Pursuit,4.8,From Software,Ubisoft,Murakumo - Renegade Mech Pursuit (USA).iso,7.3 GiB,747.0 GiB
+AMF Bowling 2004,4.8,,Mud Duck Productions,AMF Bowling 2004 (USA).iso,7.3 GiB,754.3 GiB
+Loons: The Fight for Fame,4.7,Warthog,Infogrames,Loons - The Fight for Fame (USA).iso,7.3 GiB,761.6 GiB
+Nightcaster II: Equinox,4.6,Jaleco Entertainment,Jaleco Entertainment,Night Caster II - Equinox (USA).iso,7.3 GiB,768.9 GiB
+Kakuto Chojin,4.6,DreamFactory,Microsoft Game Studios,Kakuto Chojin (USA).iso,7.3 GiB,776.2 GiB
+Superman: The Man of Steel,4.4,Circus Freak,Atari SA,Superman - The Man of Steel (USA).iso,7.3 GiB,783.4 GiB
+Metal Dungeon,4.4,Panther Software,Xicat Interactive,Metal Dungeon (USA).iso,7.3 GiB,790.7 GiB
+Black Stone: Magic & Steel,4.4,Xpec,Xicat Interactive,"Black Stone - Magic & Steel (USA, Europe).iso",7.3 GiB,798.0 GiB
+Kabuki Warriors,3.2,Light Weight,Crave,Kabuki Warriors (USA).iso,7.3 GiB,805.3 GiB
+Bruce Lee: Quest of the Dragon,3.2,Ronin Entertainment,Universal Interactive,Bruce Lee - Quest of the Dragon (USA).iso,7.3 GiB,812.6 GiB
+Sneakers,2.8,Media.Vision,Microsoft Game Studios,Sneakers (USA).iso,7.3 GiB,819.9 GiB
+Stake: Fortune Fighters,2.6,Gameness Art Software,Metro3D,"Stake - Fortune Fighters (USA, Europe) (En,Fr,De,Es,It).iso",7.3 GiB,827.2 GiB
+Pulse Racer,2.4,Jaleco Entertainment,Jaleco Entertainment,Pulse Racer (USA).iso,7.3 GiB,834.5 GiB

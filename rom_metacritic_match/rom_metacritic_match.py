@@ -78,12 +78,44 @@ def scorer(query, choice, **kwargs):
     bonus = 0
     if "(Demo" in choice:
         bonus += -50
-    if "(USA)" in choice:
+    if "(Bonus Disc" in choice:
+        bonus += -25
+    if "(USA" in choice:
         bonus += 20
-    if "(Japan)" in choice:
+    if "(Japan" in choice:
         bonus += 10
 
+    disc_match = re.search(r"\(Disc (\d+)\)", choice)
+    if disc_match:
+        disc_number = int(disc_match.group(1))
+        bonus += disc_number * 5  # Adjust bonus proportionally to the disc number
+
+    rev_match = re.search(r"\(Rev (\d+)\)", choice)
+    if rev_match:
+        rev_number = int(rev_match.group(1))
+        bonus += rev_number * 5  # Adjust bonus proportionally to the rev number
+
     return fuzz.ratio(query, clean_name(choice), **kwargs) + bonus
+
+
+def find_all_discs_size(
+    results: list[tuple[str, float, int]], rdb_games: list[RdbEntry]
+) -> int:
+    match_str, score, index = results[0]
+    rdb_game = rdb_games[index]
+    disc_match = re.search(r"\(Disc (\d+)\)", rdb_game.rom_name)
+    if not disc_match:
+        return rdb_game.size
+    max_disc_number = int(disc_match.group(1))
+
+    # Generate titles for each disc number
+    total_size = rdb_game.size
+    for disc_number in range(1, max_disc_number):
+        disc_match = next((x for x in results if f"(Disc {disc_number})" in x[0]), None)
+        if disc_match:
+            match_str, score, index = disc_match
+            total_size += rdb_games[index].size
+    return total_size
 
 
 def fast_title_match(
@@ -97,16 +129,14 @@ def fast_title_match(
 
     meta_title_clean = re.sub(r"\(\d{4}\)$", "", meta_title)
     results = process.extract(
-        meta_title_clean,
-        rdb_titles,
-        score_cutoff=min_score,
-        scorer=scorer,
+        meta_title_clean, rdb_titles, score_cutoff=min_score, scorer=scorer, limit=None
     )
     if not (results and results[0]):
         return
     match_str, score, index = results[0]
     rdb_game = rdb_games[index]
-    return rdb_game.rom_name, rdb_game.size
+    size = find_all_discs_size(results, rdb_games)
+    return rdb_game.rom_name, size
 
 
 def match_metacritic_to_rom(
