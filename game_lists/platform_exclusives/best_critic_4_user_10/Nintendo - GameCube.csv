@@ -1,59 +1,59 @@
-title,score,developer,publisher
-The Legend of Zelda: The Wind Waker,9.6,Nintendo,Nintendo
-The Legend of Zelda Collector's Edition,9.5,Nintendo,Nintendo
-P.N. 03,9.3,Capcom,Capcom
-Super Smash Bros. Melee,9.2,HAL Labs,Nintendo
-Super Mario Sunshine,9.2,Nintendo,Nintendo
-Eternal Darkness: Sanity's Requiem,9.2,Silicon Knights,Nintendo
-The Legend of Zelda: Ocarina of Time / Master Quest,9.1,Nintendo,Nintendo
-Fire Emblem: Path of Radiance,9.1,Intelligent Systems,Nintendo
-Star Wars Rogue Leader: Rogue Squadron II,9.0,Factor 5,LucasArts
-Paper Mario: The Thousand-Year Door (2004),9.0,Intelligent Systems,Nintendo
-Final Fantasy Crystal Chronicles,8.9,Square Enix,Nintendo
-F-Zero GX,8.9,Amusement Vision,Nintendo
-Metal Gear Solid: The Twin Snakes,8.8,Silicon Knights,Konami
-The Legend of Zelda: Four Swords Adventures,8.6,Nintendo,Nintendo
-Super Mario Strikers,8.6,Next Level Games,Nintendo
-Gotcha Force,8.6,Capcom,Capcom
-Bomberman Generation,8.5,Hudson,Majesco
-Sonic Mega Collection (2002),8.3,Sonic Team,Sega
-Mario Superstar Baseball,8.3,Namco,Nintendo
-WWE WrestleMania XIX,8.2,Yuke's,THQ
-Star Fox Adventures,8.2,Rare Ltd.,Nintendo
-Shrek Extra Large,8.2,Digital Illusions,TDK Mediactive
-Mario Golf: Toadstool Tour,8.2,Camelot Software Planning,Nintendo
-Lost Kingdoms,8.2,From Software,Activision
-Baten Kaitos: Eternal Wings and the Lost Ocean,8.2,Monolith Soft,Namco
-Star Fox: Assault,8.1,Namco,Nintendo
-Pokemon XD: Gale of Darkness,8.1,Genius Sonority Inc.,Nintendo
-Pokemon Colosseum,8.1,Genius Sonority Inc.,Nintendo
-Lost Kingdoms II,8.1,From Software,Activision
-Kirby Air Ride,8.1,HAL Labs,Nintendo
-Wave Race: Blue Storm,8.0,Nintendo Software Technology,Nintendo
-Mario Party 6,8.0,Hudson Soft,Nintendo
-WWE Day of Reckoning 2,7.9,Yuke's,THQ
-WWE Day of Reckoning,7.9,Yuke's,THQ
-Wario World,7.9,Treasure,Nintendo
-Smuggler's Run: Warzones,7.9,Angel Studios,Rockstar Games
-Battalion Wars,7.9,Kuju Entertainment,Nintendo
-Mario Party 7,7.8,Hudson,Nintendo
-Beach Spikers: Virtua Beach Volleyball,7.8,Sega AM2,Sega
-Star Wars Rogue Squadron III: Rebel Strike,7.7,Factor 5,LucasArts
-Mario Party 5,7.7,Hudson,Nintendo
-Mario Party 4,7.7,Hudson,Nintendo
-Custom Robo,7.7,Noise Inc.,Nintendo
-1080: Avalanche,7.7,Nintendo,Nintendo
-Naruto: Clash of Ninja 2,7.6,Eighting,Tomy Corporation
-Dance Dance Revolution: Mario Mix,7.6,Konami,Nintendo
-Phantasy Star Online Episode III: C.A.R.D. Revolution,7.5,Sonic Team,Sega
-Geist (2005),7.4,n-Space,Nintendo
-Naruto: Clash of Ninja,7.2,Eighting,Tomy Corporation
-Disney's Magical Mirror Starring Mickey Mouse,7.1,Capcom,Nintendo
-Yu-Gi-Oh! The Falsebound Kingdom,7.0,Konami,Konami
-Harvest Moon: Another Wonderful Life,7.0,TOSE,Natsume
-Go! Go! Hypergrind,6.7,Poponchi,Atlus
-Mega Man Network Transmission,6.5,Arika,Capcom
-WWE WrestleMania X8,6.4,Yuke's,THQ
-"Disney/Pixar Monsters, Inc. Scream Arena",6.3,Radical Entertainment,THQ
-Pokemon Channel,6.1,Ambrella,Nintendo
-Universal Studios Theme Parks Adventure,3.9,Nai'a Digital Works,Kemco
+title,score,developer,publisher,rom_name,size
+The Legend of Zelda: The Wind Waker,9.6,Nintendo,Nintendo,"Legend of Zelda, The - The Wind Waker (USA).iso",1459978240
+The Legend of Zelda Collector's Edition,9.5,Nintendo,Nintendo,"Legend of Zelda, The - Collector's Edition (USA).iso",1459978240
+P.N. 03,9.3,Capcom,Capcom,P.N. 03 (USA).iso,1459978240
+Super Smash Bros. Melee,9.2,HAL Labs,Nintendo,"Super Smash Bros. Melee (USA) (En,Ja) (Rev 2).iso",1459978240
+Super Mario Sunshine,9.2,Nintendo,Nintendo,Super Mario Sunshine (USA).iso,1459978240
+Eternal Darkness: Sanity's Requiem,9.2,Silicon Knights,Nintendo,Eternal Darkness - Sanity's Requiem (USA).iso,1459978240
+The Legend of Zelda: Ocarina of Time / Master Quest,9.1,Nintendo,Nintendo,"Legend of Zelda, The - Ocarina of Time & Master Quest (USA).iso",1459978240
+Fire Emblem: Path of Radiance,9.1,Intelligent Systems,Nintendo,Fire Emblem - Path of Radiance (USA).iso,1459978240
+Star Wars Rogue Leader: Rogue Squadron II,9.0,Factor 5,LucasArts,Star Wars - Rogue Squadron III - Rebel Strike (USA) (Limited Edition Preview Disc).iso,1459978240
+Paper Mario: The Thousand-Year Door (2004),9.0,Intelligent Systems,Nintendo,Paper Mario - The Thousand-Year Door (USA).iso,1459978240
+Final Fantasy Crystal Chronicles,8.9,Square Enix,Nintendo,Final Fantasy Crystal Chronicles (USA).iso,1459978240
+F-Zero GX,8.9,Amusement Vision,Nintendo,F-Zero GX (USA).iso,1459978240
+Metal Gear Solid: The Twin Snakes,8.8,Silicon Knights,Konami,Metal Gear Solid - The Twin Snakes (USA) (Disc 2).iso,1459978240
+The Legend of Zelda: Four Swords Adventures,8.6,Nintendo,Nintendo,"Legend of Zelda, The - Four Swords Adventures (USA).iso",1459978240
+Super Mario Strikers,8.6,Next Level Games,Nintendo,Super Mario Strikers (USA).iso,1459978240
+Gotcha Force,8.6,Capcom,Capcom,Gotcha Force (USA).iso,1459978240
+Bomberman Generation,8.5,Hudson,Majesco,Bomberman Generation (USA) (Rev 1).iso,1459978240
+Sonic Mega Collection (2002),8.3,Sonic Team,Sega,Sonic Mega Collection (USA).iso,1459978240
+Mario Superstar Baseball,8.3,Namco,Nintendo,Mario Superstar Baseball (USA).iso,1459978240
+WWE WrestleMania XIX,8.2,Yuke's,THQ,WWE WrestleMania XIX (USA).iso,1459978240
+Star Fox Adventures,8.2,Rare Ltd.,Nintendo,Star Fox Adventures (USA) (Rev 1).iso,1459978240
+Shrek Extra Large,8.2,Digital Illusions,TDK Mediactive,Shrek Extra Large (USA).iso,1459978240
+Mario Golf: Toadstool Tour,8.2,Camelot Software Planning,Nintendo,Mario Golf - Toadstool Tour (USA).iso,1459978240
+Lost Kingdoms,8.2,From Software,Activision,Lost Kingdoms II (USA).iso,1459978240
+Baten Kaitos: Eternal Wings and the Lost Ocean,8.2,Monolith Soft,Namco,Baten Kaitos - Eternal Wings and the Lost Ocean (USA) (Disc 2).iso,1459978240
+Star Fox: Assault,8.1,Namco,Nintendo,Star Fox - Assault (USA).iso,1459978240
+Pokemon XD: Gale of Darkness,8.1,Genius Sonority Inc.,Nintendo,Pokemon XD - Gale of Darkness (USA).iso,1459978240
+Pokemon Colosseum,8.1,Genius Sonority Inc.,Nintendo,Pokemon Colosseum (USA) (Bonus Disc).iso,1459978240
+Lost Kingdoms II,8.1,From Software,Activision,Lost Kingdoms II (USA).iso,1459978240
+Kirby Air Ride,8.1,HAL Labs,Nintendo,Kirby Air Ride (USA).iso,1459978240
+Wave Race: Blue Storm,8.0,Nintendo Software Technology,Nintendo,Wave Race - Blue Storm (USA).iso,1459978240
+Mario Party 6,8.0,Hudson Soft,Nintendo,Mario Party 7 (USA) (Rev 1).iso,1459978240
+WWE Day of Reckoning 2,7.9,Yuke's,THQ,WWE Day of Reckoning 2 (USA).iso,1459978240
+WWE Day of Reckoning,7.9,Yuke's,THQ,WWE Day of Reckoning 2 (USA).iso,1459978240
+Wario World,7.9,Treasure,Nintendo,Wario World (USA).iso,1459978240
+Smuggler's Run: Warzones,7.9,Angel Studios,Rockstar Games,Smuggler's Run - Warzones (USA).iso,1459978240
+Battalion Wars,7.9,Kuju Entertainment,Nintendo,Battalion Wars (USA).iso,1459978240
+Mario Party 7,7.8,Hudson,Nintendo,Mario Party 7 (USA) (Rev 1).iso,1459978240
+Beach Spikers: Virtua Beach Volleyball,7.8,Sega AM2,Sega,Beach Spikers - Virtua Beach Volleyball (USA).iso,1459978240
+Star Wars Rogue Squadron III: Rebel Strike,7.7,Factor 5,LucasArts,Star Wars - Rogue Squadron III - Rebel Strike (USA) (Limited Edition Preview Disc).iso,1459978240
+Mario Party 5,7.7,Hudson,Nintendo,Mario Party 7 (USA) (Rev 1).iso,1459978240
+Mario Party 4,7.7,Hudson,Nintendo,Mario Party 7 (USA) (Rev 1).iso,1459978240
+Custom Robo,7.7,Noise Inc.,Nintendo,Custom Robo (USA).iso,1459978240
+1080: Avalanche,7.7,Nintendo,Nintendo,1080 Avalanche (USA).iso,1459978240
+Naruto: Clash of Ninja 2,7.6,Eighting,Tomy Corporation,Naruto - Clash of Ninja 2 (USA).iso,1459978240
+Dance Dance Revolution: Mario Mix,7.6,Konami,Nintendo,Dance Dance Revolution - Mario Mix (USA) (Rev 1).iso,1459978240
+Phantasy Star Online Episode III: C.A.R.D. Revolution,7.5,Sonic Team,Sega,"Phantasy Star Online Episode III - C.A.R.D. Revolution (USA) (En,Ja).iso",1459978240
+Geist (2005),7.4,n-Space,Nintendo,,
+Naruto: Clash of Ninja,7.2,Eighting,Tomy Corporation,Naruto - Clash of Ninja 2 (USA).iso,1459978240
+Disney's Magical Mirror Starring Mickey Mouse,7.1,Capcom,Nintendo,Disney's Magical Mirror Starring Mickey Mouse (USA).iso,1459978240
+Yu-Gi-Oh! The Falsebound Kingdom,7.0,Konami,Konami,Yu-Gi-Oh! The Falsebound Kingdom (USA).iso,1459978240
+Harvest Moon: Another Wonderful Life,7.0,TOSE,Natsume,Harvest Moon - Another Wonderful Life (USA).iso,1459978240
+Go! Go! Hypergrind,6.7,Poponchi,Atlus,Go! Go! Hypergrind (USA).iso,1459978240
+Mega Man Network Transmission,6.5,Arika,Capcom,Mega Man Network Transmission (USA).iso,1459978240
+WWE WrestleMania X8,6.4,Yuke's,THQ,WWE WrestleMania XIX (USA).iso,1459978240
+"Disney/Pixar Monsters, Inc. Scream Arena",6.3,Radical Entertainment,THQ,"Disney-Pixar Monsters, Inc. - Scream Arena (USA).iso",1459978240
+Pokemon Channel,6.1,Ambrella,Nintendo,Pokemon Channel (USA).iso,1459978240
+Universal Studios Theme Parks Adventure,3.9,Nai'a Digital Works,Kemco,Universal Studios Theme Park Adventure (USA).iso,1459978240

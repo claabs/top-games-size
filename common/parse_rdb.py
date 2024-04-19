@@ -60,14 +60,18 @@ def read_rdb(filename) -> List[RdbEntry]:
     return values
 
 
-def get_rdb_filename(platform: RomMatchPlatform):
+def get_rdb_filename(rdb_name: str):
     files = os.listdir(rdb_dir)
 
     # Find the file that starts with the platform string
-    matching_files = [file for file in files if file == f"{platform.rdb_name}.rdb"]
+    matching_files = [file for file in files if file == f"{rdb_name}.rdb"]
     return os.path.join(rdb_dir, matching_files[0]) if matching_files else None
 
 
 def parse_rdb(platform: RomMatchPlatform) -> List[RdbEntry]:
-    filename = get_rdb_filename(platform)
-    return read_rdb(filename)
+    filenames = list(map(lambda x: get_rdb_filename(x), platform.rdb_names))
+    rdb_entries: List[RdbEntry] = []
+    for filename in filenames:
+        rdb_entries.extend(read_rdb(filename))
+
+    return rdb_entries

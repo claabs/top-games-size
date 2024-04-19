@@ -1,11 +1,13 @@
 import bisect
 import json
+import re
+from functools import lru_cache
 from typing import List
 
-from rapidfuzz import fuzz
+from rapidfuzz import fuzz, process
 
 from common.metacritic import get_all_game_ratings, get_all_game_slugs_metacritic
-from common.parse_rdb import parse_rdb
+from common.parse_rdb import RdbEntry, parse_rdb
 from rom_metacritic_match.metacritic_db import MetacriticDatabase
 from rom_metacritic_match.rom_match_platform import RomMatchPlatform
 from top_games_size.platform import Platform
@@ -61,46 +63,90 @@ def scrape_scores():
     db.close()
 
 
-def metacritic_matcher(platform: RomMatchPlatform):
-    db = MetacriticDatabase()
-    rdb_games = parse_rdb(platform)
-    metacritic_games = db.get_platform_games_critic_user(platform.platform_slug)
-    weights = [1, 0.0, 0.0]
-    min_avg_score = 40
-    for metacritic_game in metacritic_games:
-        print(metacritic_game)
-        game_slug, meta_title, meta_developer, meta_publisher, best_score = (
-            metacritic_game
-        )
-        matches = []
-        for rdb_game in rdb_games:
-            title_result = fuzz.ratio(
-                meta_title,
-                rdb_game.clean_name,
-            )
-            developer_result = fuzz.ratio(
-                meta_developer,
-                rdb_game.developer,
-            )
-            publisher_result = fuzz.ratio(
-                meta_publisher,
-                rdb_game.publisher,
-            )
-            weighted_average = (
-                title_result * weights[0]
-                + developer_result * weights[1]
-                + publisher_result * weights[2]
-            ) / sum(weights)
-            if weighted_average >= min_avg_score:
-                match = {
-                    "score": weighted_average,
-                    "rdb_game": rdb_game,
-                    "title_result": title_result,
-                    "developer_result": developer_result,
-                    "publisher_result": publisher_result,
-                }
-                bisect.insort(matches, match, key=lambda x: -1 * x["score"])
+@lru_cache(maxsize=None)
+def clean_name(rom_name: str) -> str:
+    # Remove parenthesis groups
+    clean_name = re.sub(r"\([^()]*\)", "", rom_name)
+    # Remove file extension
+    clean_name = re.sub(r"\.[^.]+$", "", clean_name)
+    clean_name = clean_name.strip()
+    return clean_name
 
-        if matches:
-            # match_str, score, index = result
-            print(matches[0])
+
+@lru_cache(maxsize=None)
+def scorer(query, choice, **kwargs):
+    bonus = 0
+    if "(Demo" in choice:
+        bonus += -50
+    if "(USA)" in choice:
+        bonus += 20
+    if "(Japan)" in choice:
+        bonus += 10
+
+    return fuzz.ratio(query, clean_name(choice), **kwargs) + bonus
+
+
+def fast_title_match(
+    metacritic_game: tuple[str, str, str, str, float],
+    rdb_games: List[RdbEntry],
+    min_score=60,
+) -> tuple[str, int]:
+    game_slug, meta_title, meta_developer, meta_publisher, score = metacritic_game
+
+    rdb_titles = list(map(lambda x: x.rom_name, rdb_games))
+
+    result = process.extractOne(
+        meta_title,
+        rdb_titles,
+        score_cutoff=min_score,
+        scorer=scorer,
+    )
+    if not result:
+        return
+    match_str, score, index = result
+    rdb_game = rdb_games[index]
+    return rdb_game.rom_name, rdb_game.size
+
+
+def match_metacritic_to_rom(
+    metacritic_game: tuple[str, str, str, str, float],
+    rdb_games: List[RdbEntry],
+    weights=[1, 0.05, 0.05],
+    min_avg_score=40,
+) -> tuple[str, int] | None:
+    print(metacritic_game)
+    game_slug, meta_title, meta_developer, meta_publisher, score = metacritic_game
+
+    matches = []
+    for index, rdb_game in enumerate(rdb_games):
+        title_result = fuzz.ratio(
+            meta_title,
+            rdb_game.clean_name,
+        )
+        developer_result = fuzz.ratio(
+            meta_developer,
+            rdb_game.developer,
+        )
+        publisher_result = fuzz.ratio(
+            meta_publisher,
+            rdb_game.publisher,
+        )
+        weighted_average = (
+            title_result * weights[0]
+            + developer_result * weights[1]
+            + publisher_result * weights[2]
+        ) / sum(weights)
+        if weighted_average >= min_avg_score:
+            match = {
+                "score": weighted_average,
+                "rdb_game": rdb_game,
+                "title_result": title_result,
+                "developer_result": developer_result,
+                "publisher_result": publisher_result,
+                "index": index,
+            }
+            bisect.insort(matches, match, key=lambda x: -1 * x["score"])
+
+    if matches and matches[0]:
+        rdb_game = rdb_games[matches[0]["index"]]
+        return rdb_game.rom_name, rdb_game.size

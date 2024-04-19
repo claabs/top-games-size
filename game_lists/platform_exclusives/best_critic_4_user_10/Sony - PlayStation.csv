@@ -1,73 +1,73 @@
-title,score,developer,publisher
-Gran Turismo,9.6,Polyphony Digital,SCEA
-ISS Pro Evolution,9.4,KCET,Konami
-Chrono Cross,9.4,SquareSoft,Square EA
-Vagrant Story,9.2,SquareSoft,Square EA
-Medal of Honor (1999),9.2,Dreamworks Interactive,Electronic Arts
-Xenogears,9.1,SquareSoft,Square EA
-Suikoden II,9.1,Konami,Konami
-Spyro: Year of the Dragon,9.1,Insomniac Games,SCEA
-Crash Bandicoot: Warped,9.1,Naughty Dog,SCEA
-Colony Wars,9.1,Psygnosis,Psygnosis
-WWF SmackDown! 2: Know Your Role,9.0,Yuke's,THQ
-Wipeout 3,8.9,Psygnosis,Psygnosis
-Final Fantasy Chronicles,8.9,TOSE,Square EA
-Einhander,8.9,SquareSoft,SCEA
-Silent Hill,8.8,KCET,Konami
-Parasite Eve,8.8,SquareSoft,Square EA
-Tenchu: Stealth Assassins,8.7,Acquire,Activision
-Ace Combat 2,8.7,Namco,Namco
-Vanguard Bandits,8.6,S-Neo,Working Designs
-Tenchu 2: Birth of the Stealth Assassins,8.6,Acquire,Activision
-Lunar 2: Eternal Blue,8.6,Game Arts,Working Designs
-Final Fantasy Anthology,8.6,SquareSoft,Square EA
-Dragon Valor,8.6,Namco,Namco
-Alundra,8.6,Matrix Software,Working Designs
-Saiyuki: Journey West,8.5,Koei,Koei
-Parasite Eve II,8.5,SquareSoft,Square EA
-Yu-Gi-Oh! Forbidden Memories,8.4,KCEJ,Konami
-Star Ocean: The Second Story,8.4,Tri-Ace,SCEA
-Fear Effect 2: Retro Helix,8.4,Kronos Digital Entertainment,Eidos Interactive
-Digimon World 3,8.4,Boom,Bandai
-Digimon Digital Card Battle,8.4,Bec,Bandai
-Dead or Alive,8.4,Team Ninja,Tecmo
-Digimon Rumble Arena,8.3,Bandai,Bandai
-Bushido Blade,8.3,Light Weight,SCEA
-Brave Fencer Musashi,8.3,SquareSoft,Square EA
-Spider-Man 2: Enter: Electro,8.2,Vicarious Visions,Activision
-Strider 2,8.1,Use,Capcom
-Blade (2000),8.1,Hammerhead,Activision
-Incredible Crisis,8.0,Polygon Magic,Titus Software
-Gundam: Battle Assault 2,8.0,Natsume,Bandai
-Disney/Pixar Toy Story Racer,8.0,Traveller's Tales,Activision
-Digimon World 2,8.0,Bec,Bandai
-C-12: Final Resistance,8.0,SCE Studio Cambridge,SCEA
-X-Men: Mutant Academy 2,7.9,Paradox Development,Activision
-Crash Bash,7.9,Eurocom,SCEA
-Looney Tunes Racing,7.8,Circus Freak,Infogrames
-Disney's Atlantis: The Lost Empire (2001),7.8,Eurocom,SCEA
-Arc the Lad Collection,7.8,ARC Entertainment,Working Designs
-Bust A Groove 2,7.7,Metro,Enix Corporation
-Star Trek: Invasion,7.6,Warthog,Activision
-MLB 2002,7.6,989 Sports,SCEA
-Driver 2,7.4,Reflections Interactive,Infogrames
-Destruction Derby Raw,7.2,Studio 33,Midway
-Time Crisis: Project Titan,7.1,Flying Tiger Development,Namco
-Thunder Force V,7.0,TechnoSoft,Working Designs
-Delta Force: Urban Warfare,7.0,Rebellion,NovaLogic
-Castlevania Chronicles,7.0,Konami,Konami
-Alien Resurrection,7.0,Argonaut Games,Fox Interactive
-Inuyasha: A Feudal Fairy Tale,6.9,Dimps Corporation,Bandai
-Disney's The Lion King: Simba's Mighty Adventure,6.8,Paradox Development,Activision
-Disney's Lilo & Stitch,6.7,Blitz Games,SCEA
-Dave Mirra Freestyle BMX: Maximum Remix,6.7,"Z-Axis, Ltd.",Acclaim
-Twisted Metal: Small Brawl,6.5,Incognito Inc.,SCEA
-Duke Nukem: Land of the Babes,6.3,n-Space,Infogrames
-Rayman Rush,6.2,Ubisoft Shanghai,Ubisoft
-Hoshigami: Ruining Blue Earth,6.2,Max Five,Atlus
-Countdown Vampires,6.2,K2 LLC,Bandai
-Spec Ops: Ranger Elite,6.1,Runecraft,Take-Two Interactive
-Clock Tower II: The Struggle Within,5.8,Human Entertainment,Agetec
-The Simpsons Wrestling,5.3,Big Ape Productions,Activision
-007 Racing,5.1,Eutechnyx,Electronic Arts
-Dragon Ball Z: Ultimate Battle 22,5.0,TOSE,Infogrames
+title,score,developer,publisher,rom_name,size
+Gran Turismo,9.6,Polyphony Digital,SCEA,Gran Turismo 2 (Japan) (Disc 2) (Gran Turismo) (Rev 1).bin,698057136
+ISS Pro Evolution,9.4,KCET,Konami,"ISS Pro Evolution (Europe) (En,Fr,De) (EDC) (Track 01).bin",428419152
+Chrono Cross,9.4,SquareSoft,Square EA,Chrono Cross (USA) (Disc 2).bin,741797280
+Vagrant Story,9.2,SquareSoft,Square EA,Vagrant Story (USA).bin,750643152
+Medal of Honor (1999),9.2,Dreamworks Interactive,Electronic Arts,Medal of Honor - Underground (USA).bin,748001856
+Xenogears,9.1,SquareSoft,Square EA,Xenogears (USA) (Disc 2).bin,688700880
+Suikoden II,9.1,Konami,Konami,Suikoden II (Italy).bin,514340064
+Spyro: Year of the Dragon,9.1,Insomniac Games,SCEA,Spyro the Dragon (USA).bin,661547040
+Crash Bandicoot: Warped,9.1,Naughty Dog,SCEA,Crash Bandicoot - Warped (USA).bin,285130608
+Colony Wars,9.1,Psygnosis,Psygnosis,Colony Wars (USA) (Disc 2) (Track 1).bin,642091296
+WWF SmackDown! 2: Know Your Role,9.0,Yuke's,THQ,WWF SmackDown! 2 - Know Your Role (USA).bin,746266080
+Wipeout 3,8.9,Psygnosis,Psygnosis,WipEout 3 (Japan) (Track 01).bin,72827328
+Final Fantasy Chronicles,8.9,TOSE,Square EA,Final Fantasy VIII (USA) (Disc 4).bin,694475040
+Einhander,8.9,SquareSoft,SCEA,Einhaender (Japan).bin,639264192
+Silent Hill,8.8,KCET,Konami,Silent Hill (USA).bin,616494480
+Parasite Eve,8.8,SquareSoft,Square EA,Parasite Eve (USA) (Disc 2).bin,646877616
+Tenchu: Stealth Assassins,8.7,Acquire,Activision,Tenchu - Stealth Assassins (USA) (Rev 1).bin,692960352
+Ace Combat 2,8.7,Namco,Namco,Ace Combat 2 (Germany).bin,581038080
+Vanguard Bandits,8.6,S-Neo,Working Designs,Vanguard Bandits (USA).bin,570973872
+Tenchu 2: Birth of the Stealth Assassins,8.6,Acquire,Activision,Tenchu 2 - Birth of the Stealth Assassins (USA).bin,744034032
+Lunar 2: Eternal Blue,8.6,Game Arts,Working Designs,Lunar 2 - Eternal Blue Complete (USA) (Disc 3).bin,751242912
+Final Fantasy Anthology,8.6,SquareSoft,Square EA,Final Fantasy VIII (USA) (Disc 4).bin,694475040
+Dragon Valor,8.6,Namco,Namco,Dragon Valor (USA) (Disc 2) (Track 1).bin,657981408
+Alundra,8.6,Matrix Software,Working Designs,Alundra (USA) (Rev 1).bin,600359760
+Saiyuki: Journey West,8.5,Koei,Koei,Saiyuki - Journey West (USA).bin,522226320
+Parasite Eve II,8.5,SquareSoft,Square EA,"Parasite Eve II (USA, Canada) (Disc 2).bin",607735632
+Yu-Gi-Oh! Forbidden Memories,8.4,KCEJ,Konami,Yu-Gi-Oh! Forbidden Memories (USA).bin,517872768
+Star Ocean: The Second Story,8.4,Tri-Ace,SCEA,Star Ocean - The Second Story (USA) (Disc 2).bin,723338784
+Fear Effect 2: Retro Helix,8.4,Kronos Digital Entertainment,Eidos Interactive,Fear Effect 2 - Retro Helix (USA) (Disc 4) (Rev 1).bin,715087968
+Digimon World 3,8.4,Boom,Bandai,Digimon World 3 (USA).bin,647526768
+Digimon Digital Card Battle,8.4,Bec,Bandai,Digimon Digital Card Battle (Europe).bin,215803056
+Dead or Alive,8.4,Team Ninja,Tecmo,Dead or Alive (Europe) (Beta) (1998-04-22) (Track 01).bin,164273088
+Digimon Rumble Arena,8.3,Bandai,Bandai,Digimon Rumble Arena (USA).bin,266827344
+Bushido Blade,8.3,Light Weight,SCEA,Bushido Blade (Japan).bin,510021792
+Brave Fencer Musashi,8.3,SquareSoft,Square EA,Brave Fencer Musashiden (Japan) (Track 1).bin,388790304
+Spider-Man 2: Enter: Electro,8.2,Vicarious Visions,Activision,Spider-Man 2 - Enter - Electro (USA) (Rev 1).bin,717414096
+Strider 2,8.1,Use,Capcom,Strider 2 (Europe) (Beta) (2000-05-30).bin,459625488
+Blade (2000),8.1,Hammerhead,Activision,Sydney 2000 (Japan) (Track 01).bin,413469840
+Incredible Crisis,8.0,Polygon Magic,Titus Software,"Incredible Crisis (Europe) (En,Fr,De,Es,It).bin",721379568
+Gundam: Battle Assault 2,8.0,Natsume,Bandai,Gundam Battle Assault 2 (USA) (Track 1).bin,243822432
+Disney/Pixar Toy Story Racer,8.0,Traveller's Tales,Activision,Disney-Pixar Toy Story Racer (USA).bin,259183344
+Digimon World 2,8.0,Bec,Bandai,Digimon World 3 (USA).bin,647526768
+C-12: Final Resistance,8.0,SCE Studio Cambridge,SCEA,C-12 - Final Resistance (USA) (Track 1).bin,453416208
+X-Men: Mutant Academy 2,7.9,Paradox Development,Activision,X-Men - Mutant Academy (USA) (Track 01).bin,463289904
+Crash Bash,7.9,Eurocom,SCEA,Crash Bash (USA).bin,178220448
+Looney Tunes Racing,7.8,Circus Freak,Infogrames,"Looney Tunes Racing (Europe) (En,Fr,De,Es,It).bin",674339568
+Disney's Atlantis: The Lost Empire (2001),7.8,Eurocom,SCEA,Disney's Atlantis - The Lost Empire (Europe) (Track 1).bin,342194832
+Arc the Lad Collection,7.8,ARC Entertainment,Working Designs,Street Fighter Collection (USA) (Disc 2) (Rev 1) (Track 1).bin,590227344
+Bust A Groove 2,7.7,Metro,Enix Corporation,Bust A Groove 2 (USA).bin,612411408
+Star Trek: Invasion,7.6,Warthog,Activision,Star Trek - Invasion (USA).bin,679718592
+MLB 2002,7.6,989 Sports,SCEA,MLB 2005 (USA).bin,612696000
+Driver 2,7.4,Reflections Interactive,Infogrames,Driver 2 (USA) (Disc 2) (Rev 1).bin,602862288
+Destruction Derby Raw,7.2,Studio 33,Midway,"Destruction Derby Raw (Europe) (En,Fr,De,Es,It) (Track 01).bin",272535648
+Time Crisis: Project Titan,7.1,Flying Tiger Development,Namco,Time Crisis - Project Titan (Japan) (Track 01).bin,39739392
+Thunder Force V,7.0,TechnoSoft,Working Designs,Thunder Force V - Perfect System (USA).bin,594275136
+Delta Force: Urban Warfare,7.0,Rebellion,NovaLogic,"Delta Force Urban Warfare (USA) (En,Fr,Es).bin",274494864
+Castlevania Chronicles,7.0,Konami,Konami,Castlevania Chronicles (Europe).bin,528315648
+Alien Resurrection,7.0,Argonaut Games,Fox Interactive,"Alien Resurrection (Europe) (En,Fr,De,Es,It) (Track 1).bin",503850144
+Inuyasha: A Feudal Fairy Tale,6.9,Dimps Corporation,Bandai,Inuyasha - A Feudal Fairy Tale (USA) (Rev 1).bin,666629712
+Disney's The Lion King: Simba's Mighty Adventure,6.8,Paradox Development,Activision,Disney's The Lion King - Simba's Mighty Adventure (USA) (Track 1).bin,595994448
+Disney's Lilo & Stitch,6.7,Blitz Games,SCEA,Disney's Lilo & Stitch (USA).bin,521203200
+Dave Mirra Freestyle BMX: Maximum Remix,6.7,"Z-Axis, Ltd.",Acclaim,Dave Mirra Freestyle BMX - Maximum Remix (USA) (Track 1).bin,299734176
+Twisted Metal: Small Brawl,6.5,Incognito Inc.,SCEA,Twisted Metal - Small Brawl (USA).bin,328143984
+Duke Nukem: Land of the Babes,6.3,n-Space,Infogrames,Duke Nukem - Land of the Babes (USA).bin,707813232
+Rayman Rush,6.2,Ubisoft Shanghai,Ubisoft,"Rayman Rush (Europe) (En,Fr,De,Es,It).bin",506971248
+Hoshigami: Ruining Blue Earth,6.2,Max Five,Atlus,Hoshigami - Ruining Blue Earth (USA) (Track 1).bin,555542400
+Countdown Vampires,6.2,K2 LLC,Bandai,Countdown Vampires (USA) (Disc 2).bin,586539408
+Spec Ops: Ranger Elite,6.1,Runecraft,Take-Two Interactive,Spec Ops - Ranger Elite (USA).bin,194540976
+Clock Tower II: The Struggle Within,5.8,Human Entertainment,Agetec,Clock Tower II - The Struggle Within (USA).bin,428922480
+The Simpsons Wrestling,5.3,Big Ape Productions,Activision,"Simpsons Wrestling, The (USA).bin",506830128
+007 Racing,5.1,Eutechnyx,Electronic Arts,007 Racing (USA).bin,565011552
+Dragon Ball Z: Ultimate Battle 22,5.0,TOSE,Infogrames,Dragon Ball Z - Ultimate Battle 22 (USA).bin,336338352

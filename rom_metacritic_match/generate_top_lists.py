@@ -3,8 +3,13 @@ import os
 from dataclasses import dataclass
 from typing import Callable, List
 
+from common.parse_rdb import parse_rdb
 from rom_metacritic_match.metacritic_db import MetacriticDatabase
 from rom_metacritic_match.rom_match_platform import RomMatchPlatform
+from rom_metacritic_match.rom_metacritic_match import (
+    fast_title_match,
+    match_metacritic_to_rom,
+)
 
 
 @dataclass
@@ -46,6 +51,7 @@ def list_top_games(platforms: List[RomMatchPlatform]):
     ]
 
     for platform in platforms:
+        rdb_games = parse_rdb(platform)
         for query_setting in queries:
             games = query_setting.func(platform.platform_slug)
             list_dir = os.path.join(
@@ -54,8 +60,15 @@ def list_top_games(platforms: List[RomMatchPlatform]):
             if not os.path.exists(list_dir):
                 os.makedirs(list_dir)
             csv_writer = csv.writer(
-                open(os.path.join(list_dir, f"{platform.rdb_name}.csv"), "w")
+                open(os.path.join(list_dir, f"{platform.rdb_names[0]}.csv"), "w")
             )
-            csv_writer.writerow(["title", "score", "developer", "publisher"])
-            for game_slug, title, developer, publisher, score in games:
-                csv_writer.writerow([title, score, developer, publisher])
+            csv_writer.writerow(
+                ["title", "score", "developer", "publisher", "rom_name", "size"]
+            )
+            for metacritic_game in games:
+                game_slug, title, developer, publisher, score = metacritic_game
+                match = fast_title_match(metacritic_game, rdb_games)
+                rom_name, size = match if match else (None, None)
+                csv_writer.writerow(
+                    [title, score, developer, publisher, rom_name, size]
+                )

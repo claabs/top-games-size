@@ -1,8 +1,9 @@
 from dataclasses import dataclass
+from typing import List
 
 
 @dataclass
 class RomMatchPlatform:
-    rdb_name: str
+    rdb_names: List[str]
     platform_slug: str
     metacritic_id: int
