@@ -1,23 +1,23 @@
-title,score,developer,publisher,rom_name,size
-NFL 2K1,9.7,Visual Concepts,Sega,NFL 2K1 (USA) (Track 5).bin,1157736720
-Resident Evil Code: Veronica,9.4,NexTech,Capcom,Resident Evil - Code - Veronica (USA) (Disc 2) (Track 3).bin,1185760800
-NBA 2K1,9.3,Visual Concepts,Sega,NBA 2K2 (USA) (Track 5).bin,883253616
-Shenmue,9.0,Sega AM2,Sega,Shenmue (USA) (Disc 3) (Track 6).bin,844097520
-Phantasy Star Online,8.9,Sonic Team,Sega,"Phantasy Star Online Ver. 2 (USA) (En,Ja,Fr,De,Es) (Track 3).bin",1185760800
-Power Stone 2,8.7,Capcom,Capcom,Power Stone 2 (USA) (Track 3).bin,1185760800
-Metropolis Street Racer,8.7,Bizarre Creations,Sega,MSR - Metropolis Street Racer (USA) (Rev A) (Track 3).bin,1185760800
-Test Drive V-Rally,8.6,Eden Studios,Infogrames,"Test Drive V-Rally (USA) (En,Fr,De) (Track 10).bin",736347696
-F355 Challenge: Passione Rossa,8.5,Sega,Acclaim,F355 Challenge - Passione Rossa (USA) (Track 3).bin,1185760800
-Street Fighter III: Double Impact,8.4,Capcom,Capcom,Street Fighter III - Double Impact (USA) (Track 3).bin,1185760800
-Crazy Taxi 2,8.3,Hitmaker,Sega,Crazy Taxi 2 (USA) (Track 3).bin,1185760800
-Record of Lodoss War,8.1,Neverland,Conspiracy Entertainment,Record of Lodoss War (USA) (Track 5).bin,674047920
-Ooga Booga,8.1,Visual Concepts,Sega,Ooga Booga (USA) (Track 3).bin,1076884368
-Capcom vs. SNK,8.1,Capcom,Capcom,Capcom vs. SNK (USA) (Track 3).bin,1185760800
-Project Justice,8.0,Capcom,Capcom,Project Justice (USA) (Track 3).bin,1185760800
-Tokyo Xtreme Racer 2,7.9,Genki,Crave,Tokyo Xtreme Racer 2 (USA) (Track 3).bin,1185760800
-Spawn: In the Demon's Hand,7.8,Capcom,Capcom,Spawn - In the Demon's Hand (USA) (Track 3).bin,1185760800
-Mars Matrix,7.8,Takumi Corporation,Capcom,Mars Matrix (USA) (Track 3).bin,1185760800
-Speed Devils Online Racing,7.6,Ubisoft Montreal,Ubisoft,Speed Devils - Online Racing (USA) (Track 13).bin,452393088
-Sega Smash Pack Volume 1,7.6,Sega,Sega,Sega Smash Pack - Volume 1 (USA) (Track 03).bin,659385552
-Sega Bass Fishing 2,7.6,Wow Entertainment,Sega,Sega Bass Fishing 2 (USA) (Track 3).bin,1185760800
-Sonic Shuffle,7.1,Sega,Sega,Sonic Shuffle (USA) (Track 3).bin,1185760800
+title,score,developer,publisher,rom_name,size,running_total
+NFL 2K1,9.7,Visual Concepts,Sega,NFL 2K1 (USA) (Track 5).bin,1.1 GiB,1.1 GiB
+Resident Evil Code: Veronica,9.4,NexTech,Capcom,Resident Evil - Code - Veronica (USA) (Disc 2) (Track 3).bin,1.1 GiB,2.2 GiB
+NBA 2K1,9.3,Visual Concepts,Sega,NBA 2K1 (USA) (Track 5).bin,832.8 MiB,3.0 GiB
+Shenmue,9.0,Sega AM2,Sega,Shenmue (USA) (Disc 3) (Track 6).bin,805.0 MiB,3.8 GiB
+Phantasy Star Online,8.9,Sonic Team,Sega,Phantasy Star Online (Japan) (Tentou-you Demo Movie) (Track 3).bin,828.9 MiB,4.6 GiB
+Power Stone 2,8.7,Capcom,Capcom,Power Stone 2 (USA) (Track 3).bin,1.1 GiB,5.7 GiB
+Metropolis Street Racer,8.7,Bizarre Creations,Sega,MSR - Metropolis Street Racer (USA) (Rev A) (Track 3).bin,1.1 GiB,6.8 GiB
+Test Drive V-Rally,8.6,Eden Studios,Infogrames,"Test Drive V-Rally (USA) (En,Fr,De) (Track 10).bin",702.2 MiB,7.5 GiB
+F355 Challenge: Passione Rossa,8.5,Sega,Acclaim,F355 Challenge - Passione Rossa (USA) (Track 3).bin,1.1 GiB,8.6 GiB
+Street Fighter III: Double Impact,8.4,Capcom,Capcom,Street Fighter III - Double Impact (USA) (Track 3).bin,1.1 GiB,9.7 GiB
+Crazy Taxi 2,8.3,Hitmaker,Sega,Crazy Taxi 2 (USA) (Track 3).bin,1.1 GiB,10.8 GiB
+Record of Lodoss War,8.1,Neverland,Conspiracy Entertainment,Record of Lodoss War (USA) (Track 5).bin,642.8 MiB,11.4 GiB
+Ooga Booga,8.1,Visual Concepts,Sega,Ooga Booga (USA) (Track 3).bin,1.0 GiB,12.4 GiB
+Capcom vs. SNK,8.1,Capcom,Capcom,Capcom vs. SNK (USA) (Track 3).bin,1.1 GiB,13.5 GiB
+Project Justice,8.0,Capcom,Capcom,Project Justice (USA) (Track 3).bin,1.1 GiB,14.6 GiB
+Tokyo Xtreme Racer 2,7.9,Genki,Crave,Tokyo Xtreme Racer 2 (USA) (Track 3).bin,1.1 GiB,15.7 GiB
+Spawn: In the Demon's Hand,7.8,Capcom,Capcom,Spawn - In the Demon's Hand (USA) (Track 3).bin,1.1 GiB,16.8 GiB
+Mars Matrix,7.8,Takumi Corporation,Capcom,Mars Matrix (USA) (Track 3).bin,1.1 GiB,18.0 GiB
+Speed Devils Online Racing,7.6,Ubisoft Montreal,Ubisoft,Speed Devils - Online Racing (USA) (Track 13).bin,431.4 MiB,18.4 GiB
+Sega Smash Pack Volume 1,7.6,Sega,Sega,Sega Smash Pack - Volume 1 (USA) (Track 03).bin,628.8 MiB,19.0 GiB
+Sega Bass Fishing 2,7.6,Wow Entertainment,Sega,Sega Bass Fishing 2 (USA) (Track 3).bin,1.1 GiB,20.1 GiB
+Sonic Shuffle,7.1,Sega,Sega,Sonic Shuffle (USA) (Track 3).bin,1.1 GiB,21.2 GiB

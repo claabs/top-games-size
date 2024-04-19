@@ -95,15 +95,16 @@ def fast_title_match(
 
     rdb_titles = list(map(lambda x: x.rom_name, rdb_games))
 
-    result = process.extractOne(
-        meta_title,
+    meta_title_clean = re.sub(r"\(\d{4}\)$", "", meta_title)
+    results = process.extract(
+        meta_title_clean,
         rdb_titles,
         score_cutoff=min_score,
         scorer=scorer,
     )
-    if not result:
+    if not (results and results[0]):
         return
-    match_str, score, index = result
+    match_str, score, index = results[0]
     rdb_game = rdb_games[index]
     return rdb_game.rom_name, rdb_game.size
 

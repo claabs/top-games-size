@@ -3,12 +3,13 @@ import os
 from dataclasses import dataclass
 from typing import Callable, List
 
+import humanize
+
 from common.parse_rdb import parse_rdb
 from rom_metacritic_match.metacritic_db import MetacriticDatabase
 from rom_metacritic_match.rom_match_platform import RomMatchPlatform
 from rom_metacritic_match.rom_metacritic_match import (
     fast_title_match,
-    match_metacritic_to_rom,
 )
 
 
@@ -63,12 +64,37 @@ def list_top_games(platforms: List[RomMatchPlatform]):
                 open(os.path.join(list_dir, f"{platform.rdb_names[0]}.csv"), "w")
             )
             csv_writer.writerow(
-                ["title", "score", "developer", "publisher", "rom_name", "size"]
+                [
+                    "title",
+                    "score",
+                    "developer",
+                    "publisher",
+                    "rom_name",
+                    "size",
+                    "running_total",
+                ]
             )
+            running_size_total = 0
             for metacritic_game in games:
                 game_slug, title, developer, publisher, score = metacritic_game
+                human_size = None
+                human_size_total = None
                 match = fast_title_match(metacritic_game, rdb_games)
                 rom_name, size = match if match else (None, None)
+                if size:
+                    running_size_total += size
+                    human_size = humanize.naturalsize(size, binary=True)
+                    human_size_total = humanize.naturalsize(
+                        running_size_total, binary=True
+                    )
                 csv_writer.writerow(
-                    [title, score, developer, publisher, rom_name, size]
+                    [
+                        title,
+                        score,
+                        developer,
+                        publisher,
+                        rom_name,
+                        human_size,
+                        human_size_total,
+                    ]
                 )
