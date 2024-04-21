@@ -166,3 +166,4 @@ rdb/*.rdb
 output
 metacritic_cache
 metacritic_games.db
+out.json

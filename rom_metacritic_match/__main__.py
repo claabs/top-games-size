@@ -1,10 +1,5 @@
 from rom_metacritic_match.generate_top_lists import list_top_games
 from rom_metacritic_match.rom_match_platform import RomMatchPlatform
-from rom_metacritic_match.rom_metacritic_match import (
-    match_metacritic_to_rom,
-    scrape_metacritic_games,
-    scrape_scores,
-)
 
 platforms = [
     RomMatchPlatform(["Sony - PlayStation"], "playstation", 1500000078),
@@ -34,11 +29,9 @@ platforms = [
     RomMatchPlatform(["Nintendo - Wii", "Nintendo - Wii (Digital)"], "wii", 1500000114),
     RomMatchPlatform(["Sega - Dreamcast"], "dreamcast", 1500000067),
     RomMatchPlatform(["Microsoft - Xbox"], "xbox", 1500000098),
-    # RomMatchPlatform("Microsoft - Xbox 360", "xbox-360", 1500000111),
 ]
 
 if __name__ == "__main__":
     # scrape_metacritic_games(platforms)
     # scrape_scores()
-    # metacritic_matcher(platforms[0])
     list_top_games(platforms)

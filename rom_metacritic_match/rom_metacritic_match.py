@@ -7,9 +7,8 @@ from typing import List
 from rapidfuzz import fuzz, process
 
 from common.metacritic import get_all_game_ratings, get_all_game_slugs_metacritic
-from common.parse_rdb import RdbEntry, parse_rdb
+from common.parse_rdb import RdbEntry
 from rom_metacritic_match.metacritic_db import MetacriticDatabase
-from rom_metacritic_match.rom_match_platform import RomMatchPlatform
 from top_games_size.platform import Platform
 
 
@@ -71,6 +70,7 @@ def clean_name(rom_name: str) -> str:
     clean_name = re.sub(r"\.[^.]+$", "", clean_name)
     clean_name = clean_name.strip()
 
+    # TODO: Handle cases like "Godfather, The - Blackhand Edition (USA).iso"
     words = clean_name.split()
     if words[-1] in {"The", "A", "An"}:
         # Move the article to the beginning of the title
@@ -175,47 +175,3 @@ def fast_title_match(
     size = find_all_discs_size(refined_results, rdb_games)
     rom_name = refined_results[0][0]
     return rom_name, size
-
-
-def match_metacritic_to_rom(
-    metacritic_game: tuple[str, str, str, str, float],
-    rdb_games: List[RdbEntry],
-    weights=[1, 0.05, 0.05],
-    min_avg_score=40,
-) -> tuple[str, int] | None:
-    print(metacritic_game)
-    game_slug, meta_title, meta_developer, meta_publisher, score = metacritic_game
-
-    matches = []
-    for index, rdb_game in enumerate(rdb_games):
-        title_result = fuzz.ratio(
-            meta_title,
-            rdb_game.clean_name,
-        )
-        developer_result = fuzz.ratio(
-            meta_developer,
-            rdb_game.developer,
-        )
-        publisher_result = fuzz.ratio(
-            meta_publisher,
-            rdb_game.publisher,
-        )
-        weighted_average = (
-            title_result * weights[0]
-            + developer_result * weights[1]
-            + publisher_result * weights[2]
-        ) / sum(weights)
-        if weighted_average >= min_avg_score:
-            match = {
-                "score": weighted_average,
-                "rdb_game": rdb_game,
-                "title_result": title_result,
-                "developer_result": developer_result,
-                "publisher_result": publisher_result,
-                "index": index,
-            }
-            bisect.insort(matches, match, key=lambda x: -1 * x["score"])
-
-    if matches and matches[0]:
-        rdb_game = rdb_games[matches[0]["index"]]
-        return rdb_game.rom_name, rdb_game.size

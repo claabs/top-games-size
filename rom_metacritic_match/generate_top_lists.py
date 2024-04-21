@@ -7,6 +7,7 @@ import humanize
 
 from common.parse_rdb import parse_rdb
 from rom_metacritic_match.metacritic_db import MetacriticDatabase
+from rom_metacritic_match.overrides import overrides
 from rom_metacritic_match.rom_match_platform import RomMatchPlatform
 from rom_metacritic_match.rom_metacritic_match import (
     fast_title_match,
@@ -79,7 +80,20 @@ def list_top_games(platforms: List[RomMatchPlatform]):
                 game_slug, title, developer, publisher, score = metacritic_game
                 human_size = None
                 human_size_total = None
-                match = fast_title_match(metacritic_game, rdb_games)
+                override = overrides.get(platform.rdb_names[0], {}).get(title, None)
+                if override:
+                    override_rom_name, override_size = override
+                    if not override_size:
+                        override_size = next(
+                            filter(
+                                lambda x: x.rom_name == override_rom_name,
+                                rdb_games,
+                            ),
+                            None,
+                        ).size
+                    match = (override_rom_name, override_size)
+                else:
+                    match = fast_title_match(metacritic_game, rdb_games)
                 rom_name, size = match if match else (None, None)
                 if size:
                     running_size_total += size
