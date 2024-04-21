@@ -70,32 +70,69 @@ def clean_name(rom_name: str) -> str:
     # Remove file extension
     clean_name = re.sub(r"\.[^.]+$", "", clean_name)
     clean_name = clean_name.strip()
-    return clean_name
+
+    words = clean_name.split()
+    if words[-1] in {"The", "A", "An"}:
+        # Move the article to the beginning of the title
+        reordered_name = f"{words[-1]} {' '.join(words[:-1])}"
+        reordered_name = reordered_name.rstrip(",")
+    else:
+        # Title doesn't end with an article, keep it unchanged
+        reordered_name = clean_name
+
+    return reordered_name
 
 
 @lru_cache(maxsize=None)
 def scorer(query, choice, **kwargs):
-    bonus = 0
-    if "(Demo" in choice:
-        bonus += -50
-    if "(Bonus Disc" in choice:
-        bonus += -25
-    if "(USA" in choice:
-        bonus += 20
-    if "(Japan" in choice:
-        bonus += 10
+    return fuzz.ratio(query, clean_name(choice), **kwargs)
 
-    disc_match = re.search(r"\(Disc (\d+)\)", choice)
-    if disc_match:
-        disc_number = int(disc_match.group(1))
-        bonus += disc_number * 5  # Adjust bonus proportionally to the disc number
 
-    rev_match = re.search(r"\(Rev (\d+)\)", choice)
-    if rev_match:
-        rev_number = int(rev_match.group(1))
-        bonus += rev_number * 5  # Adjust bonus proportionally to the rev number
+def refine_results(
+    results: list[tuple[str, float, int]], rdb_games: list[RdbEntry]
+) -> list[tuple[str, float, int]]:
+    highest_score = results[0][1]
+    highest_score_results = []
 
-    return fuzz.ratio(query, clean_name(choice), **kwargs) + bonus
+    # Iterate through the list and collect tuples with the highest score
+    for result in results:
+        if result[1] == highest_score:
+            highest_score_results.append(result)
+        else:
+            # Since the list is sorted, once we find a score lower than the highest score, we can stop
+            break
+    # Apply bonus scores to best matches to break ties
+    sorted_results = []
+    for result in highest_score_results:
+        match_str, score, index = result
+        rom_name = rdb_games[index].rom_name
+        bonus = 0
+        if "(Demo" in rom_name:
+            bonus += -50
+        if "(Bonus Disc" in rom_name:
+            bonus += -25
+        if "(Preview Disc" in rom_name:
+            bonus += -25
+        if "(USA" in rom_name:
+            bonus += 20
+        if "(Japan" in rom_name:
+            bonus += 10
+
+        disc_match = re.search(r"\(Disc (\d+)\)", rom_name)
+        if disc_match:
+            disc_number = int(disc_match.group(1))
+            bonus += disc_number * 5  # Adjust bonus proportionally to the disc number
+
+        rev_match = re.search(r"\(Rev (\d+)\)", rom_name)
+        if rev_match:
+            rev_number = int(rev_match.group(1))
+            bonus += rev_number * 5  # Adjust bonus proportionally to the rev number
+
+        bisect.insort(
+            sorted_results, (rom_name, score + bonus, index), key=lambda x: -1 * x[1]
+        )
+
+    return sorted_results
 
 
 def find_all_discs_size(
@@ -128,15 +165,16 @@ def fast_title_match(
     rdb_titles = list(map(lambda x: x.rom_name, rdb_games))
 
     meta_title_clean = re.sub(r"\(\d{4}\)$", "", meta_title)
+    meta_title_clean = re.sub(r"\(Remake\)$", "", meta_title_clean)
     results = process.extract(
         meta_title_clean, rdb_titles, score_cutoff=min_score, scorer=scorer, limit=None
     )
     if not (results and results[0]):
         return
-    match_str, score, index = results[0]
-    rdb_game = rdb_games[index]
-    size = find_all_discs_size(results, rdb_games)
-    return rdb_game.rom_name, size
+    refined_results = refine_results(results, rdb_games)
+    size = find_all_discs_size(refined_results, rdb_games)
+    rom_name = refined_results[0][0]
+    return rom_name, size
 
 
 def match_metacritic_to_rom(

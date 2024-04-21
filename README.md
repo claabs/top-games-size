@@ -2,7 +2,6 @@
 
 ## Results
 
-
 - [Best games with 4 critic reviews or 10 user reviews, sorted by highest of either score](game_lists/all/best_critic_4_user_10)
   - [Platform exclusives only](game_lists/platform_exclusives/best_critic_4_user_10)
 - [Best games with 4 critic reviews, sorted by critic score](game_lists/all/best_critic_4)
