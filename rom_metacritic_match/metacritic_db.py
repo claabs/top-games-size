@@ -115,7 +115,7 @@ class MetacriticDatabase:
         )
         return self.cursor.fetchone() is not None
 
-    def get_platform_games_critic_user(
+    def get_platform_games_best_critic_user(
         self,
         platform,
         min_critic_score=6,
@@ -162,6 +162,49 @@ class MetacriticDatabase:
         games = self.cursor.fetchall()
         return games
 
+    def get_platform_games_avg_critic_user(
+        self,
+        platform,
+        min_critic_reviews=4,
+        min_user_reviews=10,
+    ):
+        self.cursor.execute(
+            """
+            SELECT 
+                gp.game_slug, 
+                g.title, 
+                g.developer, 
+                g.publisher,
+                (CASE
+                    WHEN gp.critic_reviews >= ? and gp.user_reviews >= ?
+                        THEN (gp.critic_score + gp.user_score) / 2
+                    WHEN gp.critic_reviews >= ? and gp.user_reviews < ?
+                        THEN gp.critic_score
+                    WHEN gp.critic_reviews < ? and gp.user_reviews >= ?
+                        THEN gp.user_score
+                    ELSE NULL
+                END ) AS avg_score
+            FROM 
+                game_platforms gp
+            JOIN 
+                games g ON gp.game_slug = g.game_slug
+            WHERE 
+                gp.platform = ? and avg_score not null
+            ORDER BY avg_score DESC
+            """,
+            (
+                min_critic_reviews,
+                min_user_reviews,
+                min_critic_reviews,
+                min_user_reviews,
+                min_critic_reviews,
+                min_user_reviews,
+                platform,
+            ),
+        )
+        games = self.cursor.fetchall()
+        return games
+
     def get_platform_games_critic(
         self,
         platform,
@@ -194,7 +237,7 @@ class MetacriticDatabase:
         games = self.cursor.fetchall()
         return games
 
-    def get_platform_exclusive_games_critic_user(
+    def get_platform_exclusive_games_best_critic_user(
         self,
         platform,
         min_critic_score=6,
@@ -236,6 +279,49 @@ class MetacriticDatabase:
                 min_critic_reviews,
                 min_user_score,
                 min_user_reviews,
+            ),
+        )
+        games = self.cursor.fetchall()
+        return games
+
+    def get_platform_exclusive_games_avg_critic_user(
+        self,
+        platform,
+        min_critic_reviews=4,
+        min_user_reviews=10,
+    ):
+        self.cursor.execute(
+            """
+            SELECT 
+                gp.game_slug, 
+                g.title, 
+                g.developer, 
+                g.publisher,
+                (CASE
+                    WHEN gp.critic_reviews >= ? and gp.user_reviews >= ?
+                        THEN (gp.critic_score + gp.user_score) / 2
+                    WHEN gp.critic_reviews >= ? and gp.user_reviews < ?
+                        THEN gp.critic_score
+                    WHEN gp.critic_reviews < ? and gp.user_reviews >= ?
+                        THEN gp.user_score
+                    ELSE NULL
+                END ) AS avg_score
+            FROM 
+                game_platforms gp
+            JOIN 
+                games g ON gp.game_slug = g.game_slug
+            GROUP BY gp.game_slug
+            HAVING COUNT(platform) = 1 and gp.platform = ? and avg_score not null
+            ORDER BY avg_score DESC
+            """,
+            (
+                min_critic_reviews,
+                min_user_reviews,
+                min_critic_reviews,
+                min_user_reviews,
+                min_critic_reviews,
+                min_user_reviews,
+                platform,
             ),
         )
         games = self.cursor.fetchall()
