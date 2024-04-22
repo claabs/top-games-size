@@ -118,9 +118,7 @@ class MetacriticDatabase:
     def get_platform_games_best_critic_user(
         self,
         platform,
-        min_critic_score=6,
         min_critic_reviews=4,
-        min_user_score=6,
         min_user_reviews=10,
     ):
         self.cursor.execute(
@@ -131,9 +129,9 @@ class MetacriticDatabase:
                 g.developer, 
                 g.publisher,
                 (CASE
-                     WHEN (gp.critic_score >= ? and gp.critic_reviews >= ?) and gp.critic_score > gp.user_score
+                     WHEN (gp.critic_reviews >= ? and gp.user_reviews >= ? and gp.critic_score >= gp.user_score) or (gp.critic_reviews >= ? and gp.user_reviews < ?)
                         THEN gp.critic_score
-                     WHEN (gp.user_score >= ? and gp.user_reviews >= ?) and gp.user_score > gp.critic_score
+                     WHEN (gp.critic_reviews >= ? and gp.user_reviews >= ? and gp.critic_score < gp.user_score) or (gp.critic_reviews < ? and gp.user_reviews >= ?)
                         THEN gp.user_score
                      ELSE NULL
                 END ) AS best_score
@@ -142,21 +140,19 @@ class MetacriticDatabase:
             JOIN 
                 games g ON gp.game_slug = g.game_slug
             WHERE 
-                gp.platform = ? and 
-                ((gp.critic_score >= ? and gp.critic_reviews >= ?) or
-                (gp.user_score >= ? and gp.user_reviews >= ?)) and best_score not null
+                gp.platform = ? and best_score not null
             ORDER BY best_score DESC
             """,
             (
-                min_critic_score,
                 min_critic_reviews,
-                min_user_score,
+                min_user_reviews,
+                min_critic_reviews,
+                min_user_reviews,
+                min_critic_reviews,
+                min_user_reviews,
+                min_critic_reviews,
                 min_user_reviews,
                 platform,
-                min_critic_score,
-                min_critic_reviews,
-                min_user_score,
-                min_user_reviews,
             ),
         )
         games = self.cursor.fetchall()
@@ -240,9 +236,7 @@ class MetacriticDatabase:
     def get_platform_exclusive_games_best_critic_user(
         self,
         platform,
-        min_critic_score=6,
         min_critic_reviews=4,
-        min_user_score=6,
         min_user_reviews=10,
     ):
         self.cursor.execute(
@@ -253,9 +247,9 @@ class MetacriticDatabase:
                 g.developer, 
                 g.publisher,
                 (CASE
-                     WHEN (gp.critic_score >= ? and gp.critic_reviews >= ?) and gp.critic_score > gp.user_score
+                     WHEN (gp.critic_reviews >= ? and gp.user_reviews >= ? and gp.critic_score >= gp.user_score) or (gp.critic_reviews >= ? and gp.user_reviews < ?)
                         THEN gp.critic_score
-                     WHEN (gp.user_score >= ? and gp.user_reviews >= ?) and gp.user_score > gp.critic_score
+                     WHEN (gp.critic_reviews >= ? and gp.user_reviews >= ? and gp.critic_score < gp.user_score) or (gp.critic_reviews < ? and gp.user_reviews >= ?)
                         THEN gp.user_score
                      ELSE NULL
                 END ) AS best_score
@@ -264,21 +258,19 @@ class MetacriticDatabase:
             JOIN 
                 games g ON gp.game_slug = g.game_slug
             GROUP BY gp.game_slug
-            HAVING COUNT(platform) = 1 and gp.platform = ? and 
-                ((gp.critic_score >= ? and gp.critic_reviews >= ?) or
-                (gp.user_score >= ? and gp.user_reviews >= ?)) and best_score not null
+            HAVING COUNT(platform) = 1 and gp.platform = ? and best_score not null
             ORDER BY best_score DESC
             """,
             (
-                min_critic_score,
                 min_critic_reviews,
-                min_user_score,
+                min_user_reviews,
+                min_critic_reviews,
+                min_user_reviews,
+                min_critic_reviews,
+                min_user_reviews,
+                min_critic_reviews,
                 min_user_reviews,
                 platform,
-                min_critic_score,
-                min_critic_reviews,
-                min_user_score,
-                min_user_reviews,
             ),
         )
         games = self.cursor.fetchall()

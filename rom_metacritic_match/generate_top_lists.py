@@ -27,9 +27,7 @@ def list_top_games(platforms: List[RomMatchPlatform]):
         QuerySetting(
             "all",
             "best_critic_4_user_10",
-            lambda platform: db.get_platform_games_best_critic_user(
-                platform, min_critic_score=0, min_user_score=0
-            ),
+            lambda platform: db.get_platform_games_best_critic_user(platform),
         ),
         QuerySetting(
             "all",
@@ -44,9 +42,7 @@ def list_top_games(platforms: List[RomMatchPlatform]):
         QuerySetting(
             "platform_exclusives",
             "best_critic_4_user_10",
-            lambda platform: db.get_platform_exclusive_games_best_critic_user(
-                platform, min_critic_score=0, min_user_score=0
-            ),
+            lambda platform: db.get_platform_exclusive_games_best_critic_user(platform),
         ),
         QuerySetting(
             "platform_exclusives",
