@@ -9,7 +9,7 @@ Metal Gear Solid,9.4,KCEJ,Konami,Metal Gear Solid (USA) (Disc 2) (Rev 1).bin,1.3
 Castlevania: Symphony of the Night,9.3,Digital Eclipse,Konami,Castlevania - Symphony of the Night (USA) (Track 1).bin,513.7 MiB,8.0 GiB
 Gran Turismo 2,9.3,Polyphony Digital,SCEA,Gran Turismo 2 (USA) (Simulation Mode) (Rev 2).bin,659.8 MiB,8.6 GiB
 Street Fighter Alpha 3,9.3,Capcom,Capcom,Street Fighter Alpha 3 (USA) (Track 1).bin,461.7 MiB,9.1 GiB
-Wipeout XL,9.3,Psygnosis,SCEA,Wipeout XL (USA) (Beta) (1996-08-08) (Track 01).bin,82.3 MiB,9.2 GiB
+Wipeout XL,9.3,Psygnosis,SCEA,"Wipeout XL (Japan, Asia) (Track 01).bin",82.1 MiB,9.2 GiB
 Final Fantasy VII,9.2,SquareSoft,SCEA,Final Fantasy VII (USA) (Disc 3).bin,2.0 GiB,11.2 GiB
 Medal of Honor (1999),9.2,Dreamworks Interactive,Electronic Arts,Medal of Honor (USA).bin,708.2 MiB,11.9 GiB
 PaRappa the Rapper,9.2,Epics,SCEA,"PaRappa the Rapper (USA) (En,Fr,De,Es,It).bin",694.0 MiB,12.5 GiB
@@ -59,7 +59,7 @@ Oddworld: Abe's Oddysee,8.5,Oddworld Inhabitants,GT Interactive,Oddworld - Abe's
 Rollcage Stage II,8.5,Attention To Detail,Midway,Rollcage Stage II (USA) (Track 01).bin,181.0 MiB,40.5 GiB
 Tomb Raider II,8.5,Core Design Ltd.,Eidos Interactive,Tomb Raider 2 (Japan) (Track 01).bin,235.6 MiB,40.8 GiB
 Dance Dance Revolution Konamix,8.4,Konami,Konami,Dance Dance Revolution Konamix (USA).bin,431.5 MiB,41.2 GiB
-Dead or Alive,8.4,Team Ninja,Tecmo,Dead or Alive (USA) (Beta) (1998-02-20) (Track 01).bin,146.5 MiB,41.3 GiB
+Dead or Alive,8.4,Team Ninja,Tecmo,"Dead or Alive (Japan, Asia) (Track 01).bin",146.0 MiB,41.3 GiB
 Fear Effect 2: Retro Helix,8.4,Kronos Digital Entertainment,Eidos Interactive,Fear Effect 2 - Retro Helix (USA) (Disc 4) (Rev 1).bin,2.6 GiB,43.9 GiB
 Knockout Kings 2001,8.4,Black Ops Entertainment,EA Sports,Knockout Kings 2001 (USA).bin,575.3 MiB,44.5 GiB
 Xenogears,8.4,SquareSoft,Square EA,Xenogears (USA) (Disc 2).bin,1.3 GiB,45.8 GiB
@@ -90,7 +90,7 @@ Bomberman Party Edition,7.9,Metro,Vatical Entertainment,Bomberman - Party Editio
 Final Fantasy Origins,7.9,TOSE,Square Enix,Final Fantasy Origins (USA) (Rev 1).bin,562.2 MiB,59.7 GiB
 Parasite Eve II,7.9,SquareSoft,Square EA,"Parasite Eve II (USA, Canada) (Disc 2).bin",1.1 GiB,60.8 GiB
 RayStorm,7.9,Taito Corporation,Working Designs,RayStorm (USA).bin,619.1 MiB,61.4 GiB
-Arc the Lad Collection,7.8,ARC Entertainment,Working Designs,Arc the Lad Collection - Arc the Lad (USA) (Beta) (2001-08-24).bin,598.7 MiB,62.0 GiB
+Arc the Lad Collection,7.8,ARC Entertainment,Working Designs,Arc the Lad Collection - Arc the Lad (USA).bin,598.7 MiB,62.0 GiB
 Dragon Quest VII: Fragments of the Forgotten Past,7.8,ArtePiazza,Nintendo,,,
 Lunar: Silver Star Story,7.8,Game Arts,Working Designs,"Lunar - Silver Star Story (Japan, Asia) (Disc 2) (Track 1).bin",1.1 GiB,63.1 GiB
 MLB 2003,7.8,989 Sports,SCEA,MLB 2003 (USA).bin,523.8 MiB,63.6 GiB
@@ -189,21 +189,21 @@ NASCAR Heat,6.2,Monster Games Inc.,Hasbro Interactive,NASCAR Heat (USA) (Track 1
 NFL GameDay 2002,6.2,Red Zone Entertainment,SCEA,NFL GameDay 2002 (USA) (Track 1).bin,464.7 MiB,106.0 GiB
 One Piece Mansion,6.2,Capcom,Capcom,One Piece Mansion (USA).bin,415.7 MiB,106.4 GiB
 Rayman Rush,6.2,Ubisoft Shanghai,Ubisoft,Rayman Rush (USA).bin,483.5 MiB,106.9 GiB
-Stuart Little 2,6.2,Creations,Activision,Stuart Little 2 (USA) (Beta) (2002-04-27).bin,518.4 MiB,107.4 GiB
-Vanguard Bandits,6.2,S-Neo,Working Designs,Vanguard Bandits (USA).bin,544.5 MiB,107.9 GiB
-007: The World is not Enough,6.1,Eurocom,Electronic Arts,007 - The World Is Not Enough (USA) (Beta) (2000-08-26).bin,715.5 MiB,108.6 GiB
+Stuart Little 2,6.2,Creations,Activision,Stuart Little 2 (Netherlands).bin,590.4 MiB,107.5 GiB
+Vanguard Bandits,6.2,S-Neo,Working Designs,Vanguard Bandits (USA).bin,544.5 MiB,108.0 GiB
+007: The World is not Enough,6.1,Eurocom,Electronic Arts,007 - The World Is Not Enough (USA).bin,692.8 MiB,108.7 GiB
 Alien Resurrection,6.1,Argonaut Games,Fox Interactive,Alien Resurrection (USA) (Track 1).bin,257.5 MiB,108.9 GiB
 Disney's Aladdin in Nasira's Revenge,6.1,Argonaut Games,SCEA,Disney's Aladdin in Nasira's Revenge (USA).bin,603.7 MiB,109.5 GiB
 Gundam: Battle Assault,6.1,Natsume,Bandai,Gundam Battle Assault (USA) (Track 01).bin,14.3 MiB,109.5 GiB
 NFL GameDay 2003,6.1,989 Sports,SCEA,NFL GameDay 2003 (USA) (Track 1).bin,500.5 MiB,110.0 GiB
 Pro Pinball: Fantastic Journey,6.0,Empire Interactive,Take-Two Interactive,Pro Pinball - Fantastic Journey (USA) (Track 01).bin,98.8 MiB,110.1 GiB
-Speedball 2100,6.0,The Bitmap Brothers,Take-Two Interactive,Speedball 2100 (USA) (Track 01).bin,68.3 MiB,110.1 GiB
+Speedball 2100,6.0,The Bitmap Brothers,Take-Two Interactive,Speedball 2100 (USA) (Track 01).bin,68.3 MiB,110.2 GiB
 Men in Black - The Series: Crashdown,5.9,Runecraft,Infogrames,Men in Black - The Series - Crashdown (USA).bin,633.9 MiB,110.8 GiB
-Peter Pan in Disney's Return to Neverland,5.9,Doki Denki,SCEA,Peter Pan in Disney's Return to Never Land (USA).bin,555.8 MiB,111.3 GiB
+Peter Pan in Disney's Return to Neverland,5.9,Doki Denki,SCEA,Peter Pan in Disney's Return to Never Land (USA).bin,555.8 MiB,111.4 GiB
 Darkstone,5.8,Delphine Software International,Take-Two Interactive,Darkstone (USA) (Track 01).bin,356.8 MiB,111.7 GiB
-Championship Surfer,5.7,Krome Studios,Mattel,Championship Surfer (USA) (Track 01).bin,91.8 MiB,111.7 GiB
-Dragon Valor,5.7,Namco,Namco,Dragon Valor (USA) (Disc 2) (Track 1).bin,1.2 GiB,112.9 GiB
-Polaris Snocross,5.7,Vicarious Visions,Vatical Entertainment,Polaris SnoCross (USA).bin,227.5 MiB,113.1 GiB
+Championship Surfer,5.7,Krome Studios,Mattel,Championship Surfer (USA) (Track 01).bin,91.8 MiB,111.8 GiB
+Dragon Valor,5.7,Namco,Namco,Dragon Valor (USA) (Disc 2) (Track 1).bin,1.2 GiB,113.0 GiB
+Polaris Snocross,5.7,Vicarious Visions,Vatical Entertainment,Polaris SnoCross (USA).bin,227.5 MiB,113.2 GiB
 Sydney 2000,5.7,Attention To Detail,Eidos Interactive,Sydney 2000 (USA) (Track 1).bin,377.7 MiB,113.5 GiB
 Yu-Gi-Oh! Forbidden Memories,5.7,KCEJ,Konami,Yu-Gi-Oh! Forbidden Memories (USA).bin,493.9 MiB,114.0 GiB
 Cool Boarders 2001,5.6,Idol Minds,SCEA,Cool Boarders 2001 (USA).bin,223.8 MiB,114.2 GiB
@@ -214,56 +214,56 @@ The Mummy,5.5,Rebellion,Konami,"Mummy, The (USA).bin",436.9 MiB,115.7 GiB
 Disney/Pixar Buzz Lightyear of Star Command,5.4,Traveller's Tales,Activision,Disney-Pixar Buzz Lightyear of Star Command (USA).bin,520.6 MiB,116.2 GiB
 Disney's Lilo & Stitch,5.4,Blitz Games,SCEA,Disney's Lilo & Stitch (USA).bin,497.1 MiB,116.7 GiB
 World's Scariest Police Chases,5.4,Unique Development Studios,Activision,World's Scariest Police Chases (USA).bin,417.1 MiB,117.1 GiB
-Ford Racing,5.3,"MotiveTime, Ltd.",Empire Interactive,Ford Racing (USA) (Track 01).bin,40.9 MiB,117.1 GiB
+Ford Racing,5.3,"MotiveTime, Ltd.",Empire Interactive,Ford Racing (USA) (Track 01).bin,40.9 MiB,117.2 GiB
 Hot Wheels Extreme Racing,5.3,Atod,THQ,Hot Wheels - Extreme Racing (USA) (Track 01).bin,68.8 MiB,117.2 GiB
 NBA ShootOut 2002,5.3,Killer Game,SCEA,NBA ShootOut 2002 (USA) (Track 1).bin,282.6 MiB,117.5 GiB
-The Dukes of Hazzard II: Daisy Dukes It Out,5.3,Sinister Games,SouthPeak Games,"Dukes of Hazzard II, The - Daisy Dukes It Out (USA).bin",667.5 MiB,118.1 GiB
-Ultimate Fighting Championship,5.3,Anchor (Legacy),Crave,Ultimate Fighting Championship (USA).bin,521.5 MiB,118.6 GiB
+The Dukes of Hazzard II: Daisy Dukes It Out,5.3,Sinister Games,SouthPeak Games,"Dukes of Hazzard II, The - Daisy Dukes It Out (USA).bin",667.5 MiB,118.2 GiB
+Ultimate Fighting Championship,5.3,Anchor (Legacy),Crave,Ultimate Fighting Championship (USA).bin,521.5 MiB,118.7 GiB
 Smurf Racer!,5.2,Artificial Mind and Movement,Infogrames,"Smurf Racer! (USA) (En,Fr,Es).bin",238.9 MiB,118.9 GiB
 007 Racing,5.1,Eutechnyx,Electronic Arts,007 Racing (USA).bin,538.8 MiB,119.4 GiB
 Action Bass,5.1,Vingt-et-un Systems,Take-Two Interactive,Action Bass (USA).bin,163.9 MiB,119.6 GiB
-Blade (2000),5.1,Hammerhead,Activision,Blade (USA).bin,596.0 MiB,120.1 GiB
-Digimon Digital Card Battle,5.1,Bec,Bandai,Digimon Digital Card Battle (Europe).bin,205.8 MiB,120.3 GiB
+Blade (2000),5.1,Hammerhead,Activision,Blade (USA).bin,596.0 MiB,120.2 GiB
+Digimon Digital Card Battle,5.1,Bec,Bandai,Digimon Digital Card Battle (Europe).bin,205.8 MiB,120.4 GiB
 Evil Dead: Hail to the King,5.1,Heavy Iron Studios,THQ,Evil Dead - Hail to the King (USA) (Disc 2).bin,991.3 MiB,121.3 GiB
-Twisted Metal: Small Brawl,5.1,Incognito Inc.,SCEA,Twisted Metal - Small Brawl (USA).bin,312.9 MiB,121.6 GiB
+Twisted Metal: Small Brawl,5.1,Incognito Inc.,SCEA,Twisted Metal - Small Brawl (USA).bin,312.9 MiB,121.7 GiB
 Army Men: World War,5.0,3DO,3DO,Army Men - World War (USA).bin,490.5 MiB,122.1 GiB
-E.T. Interplanetary Mission,5.0,Digital Eclipse,NewKidCo,E.T. the Extra-Terrestrial - Interplanetary Mission (USA) (Track 01).bin,46.0 MiB,122.1 GiB
+E.T. Interplanetary Mission,5.0,Digital Eclipse,NewKidCo,E.T. the Extra-Terrestrial - Interplanetary Mission (USA) (Track 01).bin,46.0 MiB,122.2 GiB
 Who Wants to Be a Millionaire 3rd Edition,5.0,Jellyvision,SCEA,Who Wants to Be a Millionaire - 3rd Edition (USA).bin,447.8 MiB,122.6 GiB
 Clock Tower II: The Struggle Within,4.9,Human Entertainment,Agetec,Clock Tower II - The Struggle Within (USA).bin,409.1 MiB,123.0 GiB
 Runabout 2,4.9,Climax Entertainment,Hot-B,Runabout 2 (USA) (Track 1).bin,308.9 MiB,123.3 GiB
-Army Men: Sarge's Heroes 2,4.8,3DO,3DO,Army Men - Sarge's Heroes 2 (USA).bin,676.3 MiB,123.9 GiB
+Army Men: Sarge's Heroes 2,4.8,3DO,3DO,Army Men - Sarge's Heroes 2 (USA).bin,676.3 MiB,124.0 GiB
 Freestyle Motocross: McGrath Vs. Pastrana,4.8,"Z-Axis, Ltd.",Acclaim,Freestyle Motocross - McGrath vs. Pastrana (USA) (Track 1).bin,157.8 MiB,124.1 GiB
 Power Spike Pro Beach Volleyball,4.8,Carapace,Infogrames,Power Spike - Pro Beach Volleyball (USA).bin,401.6 MiB,124.5 GiB
 Spec Ops: Ranger Elite,4.8,Runecraft,Take-Two Interactive,Spec Ops - Ranger Elite (USA).bin,185.5 MiB,124.7 GiB
 Digimon World 3,4.7,Boom,Bandai,Digimon World 3 (USA).bin,617.5 MiB,125.3 GiB
-MTV Sports: T.J. Lavin's Ultimate BMX,4.7,Blue Shift,THQ,MTV Sports - T.J. Lavin's Ultimate BMX (USA).bin,568.0 MiB,125.8 GiB
-Woody Woodpecker Racing,4.6,Syrox Developments,Konami,Woody Woodpecker Racing (USA).bin,125.6 MiB,125.9 GiB
-Disney's Dinosaur,4.4,Disney Interactive Studios,Ubisoft,Disney's Dinosaur (USA) (Track 1).bin,486.0 MiB,126.4 GiB
+MTV Sports: T.J. Lavin's Ultimate BMX,4.7,Blue Shift,THQ,MTV Sports - T.J. Lavin's Ultimate BMX (USA).bin,568.0 MiB,125.9 GiB
+Woody Woodpecker Racing,4.6,Syrox Developments,Konami,Woody Woodpecker Racing (USA).bin,125.6 MiB,126.0 GiB
+Disney's Dinosaur,4.4,Disney Interactive Studios,Ubisoft,Disney's Dinosaur (USA) (Track 1).bin,486.0 MiB,126.5 GiB
 Disney's Treasure Planet,4.4,Bizarre Creations,Disney Interactive,Disney's Treasure Planet (USA).bin,559.4 MiB,127.0 GiB
-Mike Tyson Boxing,4.4,Virtucraft,Ubisoft,"Mike Tyson Boxing (USA) (En,Fr,Es).bin",458.9 MiB,127.4 GiB
+Mike Tyson Boxing,4.4,Virtucraft,Ubisoft,"Mike Tyson Boxing (USA) (En,Fr,Es).bin",458.9 MiB,127.5 GiB
 Creatures,4.3,Creature Labs,Conspiracy Entertainment,Creatures (USA).bin,462.4 MiB,127.9 GiB
 Danger Girl,4.3,n-Space,THQ,Danger Girl (USA).bin,650.8 MiB,128.5 GiB
 ECW Anarchy Rulz,4.3,Acclaim Studios Salt Lake City,Acclaim,ECW Anarchy Rulz (USA) (Track 1).bin,489.7 MiB,129.0 GiB
-Jeremy McGrath Supercross 2000,4.3,Acclaim Studios Salt Lake City,Acclaim,Jeremy McGrath Supercross 2000 (USA) (Track 1).bin,242.1 MiB,129.2 GiB
-All-Star Slammin' D-Ball,4.2,Access,Agetec,All-Star Slammin' D-Ball (USA).bin,204.6 MiB,129.4 GiB
+Jeremy McGrath Supercross 2000,4.3,Acclaim Studios Salt Lake City,Acclaim,Jeremy McGrath Supercross 2000 (USA) (Track 1).bin,242.1 MiB,129.3 GiB
+All-Star Slammin' D-Ball,4.2,Access,Agetec,All-Star Slammin' D-Ball (USA).bin,204.6 MiB,129.5 GiB
 ATV: Quad Power Racing,4.2,Climax Studios,Acclaim,ATV - Quad Power Racing (USA) (Track 1).bin,282.1 MiB,129.7 GiB
-Digimon World 2,4.2,Bec,Bandai,Digimon World 2 (USA).bin,440.6 MiB,130.1 GiB
+Digimon World 2,4.2,Bec,Bandai,Digimon World 2 (USA).bin,440.6 MiB,130.2 GiB
 Countdown Vampires,4.1,K2 LLC,Bandai,Countdown Vampires (USA) (Disc 2).bin,1.1 GiB,131.2 GiB
-MTV Sports: Skateboarding featuring Andy Macdonald,4.0,Darkblack,THQ,MTV Sports - Skateboarding featuring Andy Macdonald (USA).bin,636.6 MiB,131.8 GiB
+MTV Sports: Skateboarding featuring Andy Macdonald,4.0,Darkblack,THQ,MTV Sports - Skateboarding featuring Andy Macdonald (USA).bin,636.6 MiB,131.9 GiB
 WCW Backstage Assault,4.0,Kodiak Interactive,Electronic Arts,WCW Backstage Assault (USA).bin,670.0 MiB,132.5 GiB
 Resident Evil: Survivor,3.9,TOSE,Capcom,Resident Evil - Survivor (USA).bin,406.0 MiB,132.9 GiB
-Duke Nukem: Land of the Babes,3.7,n-Space,Infogrames,Duke Nukem - Land of the Babes (USA).bin,675.0 MiB,133.5 GiB
+Duke Nukem: Land of the Babes,3.7,n-Space,Infogrames,Duke Nukem - Land of the Babes (USA).bin,675.0 MiB,133.6 GiB
 "Army Men: World War - Land, Sea, Air",3.5,3DO,3DO,"Army Men - World War - Land, Sea, Air (USA).bin",265.0 MiB,133.8 GiB
-World Destruction League: Thunder Tanks,3.5,3DO,3DO,World Destruction League - Thunder Tanks (USA).bin,468.8 MiB,134.2 GiB
-Gold and Glory: The Road to El Dorado,3.4,Revolution Software,Ubisoft,Gold and Glory - The Road to El Dorado (USA).bin,603.7 MiB,134.8 GiB
+World Destruction League: Thunder Tanks,3.5,3DO,3DO,World Destruction League - Thunder Tanks (USA).bin,468.8 MiB,134.3 GiB
+Gold and Glory: The Road to El Dorado,3.4,Revolution Software,Ubisoft,Gold and Glory - The Road to El Dorado (USA).bin,603.7 MiB,134.9 GiB
 Motocross Mania,3.4,Deibus Studios,On Deck Interactive,Motocross Mania (USA) (Track 01).bin,131.2 MiB,135.0 GiB
 V.I.P.,3.3,Ubisoft Shanghai,Ubisoft,V.I.P. (USA).bin,604.4 MiB,135.6 GiB
-The Simpsons Wrestling,3.2,Big Ape Productions,Activision,"Simpsons Wrestling, The (USA).bin",483.4 MiB,136.0 GiB
+The Simpsons Wrestling,3.2,Big Ape Productions,Activision,"Simpsons Wrestling, The (USA).bin",483.4 MiB,136.1 GiB
 Disney's The Lion King: Simba's Mighty Adventure,3.0,Paradox Development,Activision,Disney's The Lion King - Simba's Mighty Adventure (USA) (Track 1).bin,568.4 MiB,136.6 GiB
 Hooters Road Trip,3.0,Hoplite Research,Ubisoft,Hooters - Road Trip (USA).bin,281.4 MiB,136.9 GiB
 The Powerpuff Girls: Chemical X-Traction,3.0,VIS Entertainment,Bam Entertainment,"Powerpuff Girls, The - Chemical X-Traction (USA) (En,Es) (Track 01).bin",212.7 MiB,137.1 GiB
 Mortal Kombat: Special Forces,2.8,Midway,Midway,Mortal Kombat - Special Forces (USA).bin,305.0 MiB,137.4 GiB
-Animorphs: Shattered Reality,2.7,SingleTrac,Infogrames,Animorphs - Shattered Reality (USA) (Track 1).bin,255.2 MiB,137.6 GiB
+Animorphs: Shattered Reality,2.7,SingleTrac,Infogrames,Animorphs - Shattered Reality (USA) (Track 1).bin,255.2 MiB,137.7 GiB
 HBO Boxing,2.6,Osiris Studios,Acclaim,HBO Boxing (USA) (Track 1).bin,395.6 MiB,138.0 GiB
 KISS Pinball,2.6,Tarantula Studios,Take-Two Interactive,KISS Pinball (USA).bin,270.1 MiB,138.3 GiB
 Dragon Ball Z: Ultimate Battle 22,2.5,TOSE,Infogrames,Dragon Ball Z - Ultimate Battle 22 (USA).bin,320.8 MiB,138.6 GiB

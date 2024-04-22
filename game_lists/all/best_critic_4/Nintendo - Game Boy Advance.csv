@@ -2,15 +2,15 @@ title,score,developer,publisher,rom_name,size,running_total
 The Legend of Zelda: A Link to the Past / Four Swords,9.5,Nintendo,Nintendo,"Legend of Zelda, The - A Link to the Past & Four Swords (USA).gba",8.0 MiB,8.0 MiB
 Tony Hawk's Pro Skater 2,9.5,Neversoft Entertainment,Activision,"Tony Hawk's Pro Skater 2 (USA, Europe).gba",8.0 MiB,16.0 MiB
 Super Mario Advance 4: Super Mario Bros. 3,9.4,Nintendo,Nintendo,Super Mario Advance 4 - Super Mario Bros. 3 (USA) (Rev 1) (Switch Online).gba,8.0 MiB,24.0 MiB
-Mario Kart: Super Circuit,9.3,Intelligent Systems,Nintendo,Mario Kart - Super Circuit (USA) (Virtual Console).gba,4.0 MiB,28.0 MiB
+Mario Kart: Super Circuit,9.3,Intelligent Systems,Nintendo,Mario Kart - Super Circuit (USA).gba,4.0 MiB,28.0 MiB
 Advance Wars,9.2,Intelligent Systems,Nintendo,Advance Wars (USA) (Rev 1).gba,4.0 MiB,32.0 MiB
 Final Fantasy VI,9.2,TOSE,Nintendo,Final Fantasy VI Advance (USA).gba,8.0 MiB,40.0 MiB
-Metroid Fusion,9.2,Nintendo,Nintendo,Metroid Fusion (USA) (Virtual Console).gba,8.0 MiB,48.0 MiB
+Metroid Fusion,9.2,Nintendo,Nintendo,Metroid Fusion (USA).gba,8.0 MiB,48.0 MiB
 Super Mario World: Super Mario Advance 2,9.2,Nintendo,Nintendo,"Super Mario Advance 2 - Super Mario World (USA, Australia).gba",4.0 MiB,52.0 MiB
 Castlevania: Aria of Sorrow,9.1,KCET,Konami,Castlevania - Aria of Sorrow (USA).gba,8.0 MiB,60.0 MiB
-Castlevania: Circle of the Moon,9.1,KCEK,Konami,Castlevania - Circle of the Moon (USA) (Virtual Console).gba,8.0 MiB,68.0 MiB
+Castlevania: Circle of the Moon,9.1,KCEK,Konami,Castlevania - Circle of the Moon (USA).gba,8.0 MiB,68.0 MiB
 Golden Sun,9.1,Camelot Software Planning,Nintendo,"Golden Sun (USA, Europe).gba",8.0 MiB,76.0 MiB
-Yoshi's Island: Super Mario Advance 3,9.1,Nintendo,Nintendo,"Super Mario Advance (USA, Europe) (Virtual Console).gba",4.0 MiB,80.0 MiB
+Yoshi's Island: Super Mario Advance 3,9.1,Nintendo,Nintendo,"Super Mario Advance (USA, Europe).gba",4.0 MiB,80.0 MiB
 Mario & Luigi: Superstar Saga,9.0,Alphadream Corporation,Nintendo,Mario & Luigi - Superstar Saga (USA).gba,16.0 MiB,96.0 MiB
 Tony Hawk's Pro Skater 3,9.0,Neversoft Entertainment,Activision,"Tony Hawk's Pro Skater 3 (USA, Europe).gba",8.0 MiB,104.0 MiB
 Advance Wars 2: Black Hole Rising,8.9,Intelligent Systems,Nintendo,Advance Wars 2 - Black Hole Rising (USA).gba,8.0 MiB,112.0 MiB
@@ -24,11 +24,11 @@ Wario Land 4,8.8,Nintendo,Nintendo,"Wario Land 4 (USA, Europe).gba",8.0 MiB,203.
 WarioWare: Twisted!,8.8,Nintendo,Nintendo,"WarioWare - Twisted! (USA, Australia).gba",16.0 MiB,219.0 MiB
 Castlevania: Harmony of Dissonance,8.7,KCET,Konami,Castlevania - Harmony of Dissonance (USA).gba,8.0 MiB,227.0 MiB
 Final Fantasy Tactics Advance,8.7,Square Enix,Square Enix,Final Fantasy Tactics Advance (USA).gba,16.0 MiB,243.0 MiB
-Sonic Advance,8.7,Sonic Team,THQ,"Sonic Advance (USA) (En,Ja) (Beta) (2001-10-31).gba",8.0 MiB,251.0 MiB
+Sonic Advance,8.7,Sonic Team,THQ,"Sonic Advance (USA) (En,Ja).gba",8.0 MiB,251.0 MiB
 Ultimate Card Games,8.7,Cosmigo,Telegames,Ultimate Card Games (USA) (Rev 2).gba,4.0 MiB,255.0 MiB
 Castlevania Double Pack,8.6,KCET,Konami,Castlevania Double Pack (USA).gba,16.0 MiB,271.0 MiB
 F-Zero: Maximum Velocity,8.6,Nd Cube,Nintendo,"F-Zero - Maximum Velocity (USA, Europe).gba",4.0 MiB,275.0 MiB
-Golden Sun: The Lost Age,8.6,Camelot Software Planning,Nintendo,"Golden Sun - The Lost Age (USA, Europe) (Virtual Console).gba",16.0 MiB,291.0 MiB
+Golden Sun: The Lost Age,8.6,Camelot Software Planning,Nintendo,"Golden Sun - The Lost Age (USA, Europe).gba",16.0 MiB,291.0 MiB
 Moto Racer Advance,8.6,Adeline Software,Ubisoft,"Moto Racer Advance (USA) (En,Fr,De,Es,It).gba",4.0 MiB,295.0 MiB
 Tony Hawk's Underground,8.6,Neversoft Entertainment,Activision,"Tony Hawk's Underground (USA, Europe).gba",8.0 MiB,303.0 MiB
 Astro Boy: Omega Factor,8.5,Hitmaker,Sega,"Astro Boy - Omega Factor (USA) (En,Ja,Fr,De,Es,It).gba",8.0 MiB,311.0 MiB
@@ -42,15 +42,15 @@ Mario Golf: Advance Tour,8.4,Camelot Software Planning,Nintendo,Mario Golf - Adv
 Puyo Pop,8.4,Sonic Team,THQ,"Puyo Pop (USA) (En,Ja).gba",8.0 MiB,381.8 MiB
 Rayman,8.4,Digital Eclipse,Ubisoft,"Rayman 3 (USA) (En,Fr,Es).gba",8.0 MiB,389.8 MiB
 Spider-Man: Mysterio's Menace,8.4,Vicarious Visions,Activision,"Spider-Man - Mysterio's Menace (USA, Europe).gba",8.0 MiB,397.8 MiB
-Super Mario Advance,8.4,Nintendo,Nintendo,"Super Mario Advance (USA, Europe) (Virtual Console).gba",4.0 MiB,401.8 MiB
+Super Mario Advance,8.4,Nintendo,Nintendo,"Super Mario Advance (USA, Europe).gba",4.0 MiB,401.8 MiB
 The Legend of Zelda,8.4,Nintendo,Nintendo,"Avatar - The Legend of Aang (Europe) (En,Fr,De,Nl).gba",8.0 MiB,409.8 MiB
 Boktai: The Sun Is in Your Hand,8.3,KCEJ,Konami,Boktai - The Sun Is in Your Hand (USA).gba,16.0 MiB,425.8 MiB
 Final Fantasy V,8.3,TOSE,Nintendo,Final Fantasy V Advance (USA).gba,8.0 MiB,433.8 MiB
 Gunstar Super Heroes,8.3,Treasure,Sega,Gunstar Super Heroes (USA).gba,8.0 MiB,441.8 MiB
 Klonoa: Empire of Dreams,8.3,Now Production,Namco,Klonoa - Empire of Dreams (USA).gba,4.0 MiB,445.8 MiB
-Racing Gears Advance,8.3,"Orbital Media, Inc.","Orbital Media, Inc.",Racing Gears Advance (USA) (Beta).gba,8.0 MiB,453.8 MiB
+Racing Gears Advance,8.3,"Orbital Media, Inc.","Orbital Media, Inc.",Racing Gears Advance (USA).gba,8.0 MiB,453.8 MiB
 Rayman 3,8.3,Ubisoft,Ubisoft,"Rayman 3 (USA) (En,Fr,Es).gba",8.0 MiB,461.8 MiB
-Sonic Advance 2,8.3,Dimps Corporation,THQ,Sonic Advance 2 (USA) (Beta) (2002-10-25).gba,16.0 MiB,477.8 MiB
+Sonic Advance 2,8.3,Dimps Corporation,THQ,"Sonic Advance 2 (USA) (En,Ja,Fr,De,Es,It).gba",16.0 MiB,477.8 MiB
 Street Fighter Alpha 3,8.3,Capcom,Capcom,Street Fighter Alpha 3 (USA).gba,8.0 MiB,485.8 MiB
 Super Puzzle Fighter II Turbo,8.3,Atomic Planet Entertainment,Capcom,Super Puzzle Fighter II (USA) (Rev 1).gba,8.0 MiB,493.8 MiB
 Virtua Tennis,8.3,Hitmaker,Sega,Virtua Tennis (USA).gba,8.0 MiB,501.8 MiB
@@ -63,7 +63,7 @@ Mat Hoffman's Pro BMX 2,8.2,Rainbow Studios,Activision,"Mat Hoffman's Pro BMX 2 
 Mega Man Zero,8.2,Inti Creates,Capcom,"Megaman Zero (USA, Europe).gba",8.0 MiB,561.8 MiB
 Ninja Five-0,8.2,Hudson,Konami,Ninja Five-0 (USA).gba,4.0 MiB,565.8 MiB
 Pokemon Ruby Version,8.2,Game Freak,Nintendo,"Pokemon - Ruby Version (USA, Europe) (Rev 2).gba",16.0 MiB,581.8 MiB
-Super Monkey Ball Jr.,8.2,Realism Ltd,THQ,Super Monkey Ball Jr. (USA) (Beta) (2002-08-06).gba,4.0 MiB,585.8 MiB
+Super Monkey Ball Jr.,8.2,Realism Ltd,THQ,Super Monkey Ball Jr. (USA).gba,4.0 MiB,585.8 MiB
 Super Robot Taisen: Original Generation 2,8.2,Banpresto,Atlus,Super Robot Taisen - Original Generation 2 (USA).gba,16.0 MiB,601.8 MiB
 Tekken Advance,8.2,Eighting/Raizing,Namco,Tekken Advance (USA).gba,8.0 MiB,609.8 MiB
 V-Rally 3,8.2,Eden Studios,Atari SA,"V-Rally 3 (USA) (En,Fr,Es).gba",4.0 MiB,613.8 MiB
@@ -73,8 +73,8 @@ Drill Dozer,8.1,Game Freak,Nintendo,Drill Dozer (USA).gba,8.0 MiB,625.8 MiB
 Duke Nukem Advance,8.1,Torus Games,Take-Two Interactive,Duke Nukem Advance (USA).gba,8.0 MiB,633.8 MiB
 Harvest Moon: Friends of Mineral Town,8.1,TOSE,Natsume,Harvest Moon - Friends of Mineral Town (USA).gba,8.0 MiB,641.8 MiB
 Karnaaj Rally,8.1,Paragon 5,Jaleco Entertainment,"Karnaaj Rally (USA, Europe).gba",8.0 MiB,649.8 MiB
-Kirby: Nightmare in Dream Land,8.1,HAL Labs,Nintendo,Kirby - Nightmare in Dream Land (USA) (Virtual Console).gba,8.0 MiB,657.8 MiB
-Mario Tennis: Power Tour,8.1,Camelot Software Planning,Nintendo,"Mario Tennis - Power Tour (USA) (En,Fr,De,Es,It) (Virtual Console).gba",16.0 MiB,673.8 MiB
+Kirby: Nightmare in Dream Land,8.1,HAL Labs,Nintendo,Kirby - Nightmare in Dream Land (USA).gba,8.0 MiB,657.8 MiB
+Mario Tennis: Power Tour,8.1,Camelot Software Planning,Nintendo,"Mario Tennis - Power Tour (USA, Australia) (En,Fr,De,Es,It).gba",16.0 MiB,673.8 MiB
 Mario vs. Donkey Kong (2004),8.1,Nintendo Software Technology,Nintendo,"Mario vs. Donkey Kong (USA, Australia).gba",16.0 MiB,689.8 MiB
 Mega Man Battle Network 2,8.1,Capcom,Capcom,Megaman - Battle Network 2 (USA) (Debug Version).gba,8.0 MiB,697.8 MiB
 Mega Man Zero 2,8.1,Inti Creates,Capcom,Megaman Zero 2 (USA).gba,8.0 MiB,705.8 MiB
@@ -122,12 +122,12 @@ Gradius Galaxies,7.8,Mobile 21,Konami,Gradius Galaxies (USA).gba,4.0 MiB,1.1 GiB
 Iridion II,7.8,Shin'en,Majesco,Iridion II (USA) (Aftermarket) (Unl).gba,8.0 MiB,1.1 GiB
 Klonoa 2: Dream Champ Tournament,7.8,Now Production,Namco,Klonoa 2 - Dream Champ Tournament (USA).gba,4.0 MiB,1.1 GiB
 Konami Collector's Series: Arcade Advanced,7.8,KCEA,Konami,Konami Collector's Series - Arcade Advanced (USA).gba,4.0 MiB,1.1 GiB
-Konami Krazy Racers,7.8,KCEK,Konami,Konami Krazy Racers (USA) (Beta).gba,4.0 MiB,1.1 GiB
+Konami Krazy Racers,7.8,KCEK,Konami,Konami Krazy Racers (USA).gba,4.0 MiB,1.1 GiB
 Max Payne (2003),7.8,Mobius Entertainment,Rockstar Games,Max Payne (USA).gba,16.0 MiB,1.1 GiB
-Nicktoons Racing,7.8,Crawfish Interactive,Infogrames,Nicktoons Racing (USA) (Beta).gba,4.0 MiB,1.1 GiB
+Nicktoons Racing,7.8,Crawfish Interactive,Infogrames,Nicktoons Racing (USA).gba,4.0 MiB,1.1 GiB
 Rebelstar: Tactical Command,7.8,Codo Games,Namco,Rebelstar - Tactical Command (USA).gba,4.0 MiB,1.1 GiB
 Road Rash: Jailbreak,7.8,Magic Pockets,Electronic Arts,Road Rash - Jailbreak (USA).gba,4.0 MiB,1.1 GiB
-Super Ghouls 'n Ghosts,7.8,Affect,Capcom,Super Ghouls'n Ghosts (USA) (Virtual Console).gba,4.0 MiB,1.1 GiB
+Super Ghouls 'n Ghosts,7.8,Affect,Capcom,"Super Ghouls'n Ghosts (USA, Europe).gba",4.0 MiB,1.1 GiB
 Top Gear Rally,7.8,Tantalus,Nintendo,Top Gear Rally (USA).gba,4.0 MiB,1.1 GiB
 Wade Hixton's Counter Punch,7.8,Inferno Games,Destination Software,"Wade Hixton's Counter Punch (USA, Europe).gba",8.0 MiB,1.1 GiB
 All-Star Baseball 2003,7.7,Acclaim Studios Austin,Acclaim,All-Star Baseball 2003 (USA).gba,4.0 MiB,1.1 GiB
@@ -137,11 +137,11 @@ Denki Blocks!,7.7,Denki,Majesco,"Denki Blocks! (USA) (En,Es).gba",4.0 MiB,1.1 Gi
 Disney's Kim Possible 2: Drakken's Demise,7.7,Artificial Mind and Movement,Disney Interactive,"Kim Possible 2 - Drakken's Demise (USA) (En,Fr).gba",8.0 MiB,1.2 GiB
 Donkey Kong Country 3: Dixie Kong's Double Trouble!,7.7,Rare Ltd.,Nintendo,,,
 DOOM II,7.7,id Software,Bethesda Softworks,,,
-F-Zero: GP Legend,7.7,Suzak,Nintendo,F-Zero - GP Legend (USA) (Virtual Console).gba,16.0 MiB,1.2 GiB
+F-Zero: GP Legend,7.7,Suzak,Nintendo,F-Zero - GP Legend (USA).gba,16.0 MiB,1.2 GiB
 GT Advance 2: Rally Racing,7.7,MTO,THQ,GT Advance 2 - Rally Racing (USA).gba,8.0 MiB,1.2 GiB
 Hamtaro: Ham-Ham Games,7.7,Alphadream Corporation,Nintendo,"Hamtaro - Ham-Ham Games (Japan, USA) (En,Ja).gba",16.0 MiB,1.2 GiB
 Mech Platoon,7.7,Will,Kemco,Mech Platoon (USA).gba,8.0 MiB,1.2 GiB
-Mega Man Battle Network 3: White Version,7.7,Capcom,Capcom,Megaman - Battle Network 3 - White Version (USA) (Virtual Console).gba,8.0 MiB,1.2 GiB
+Mega Man Battle Network 3: White Version,7.7,Capcom,Capcom,Megaman - Battle Network 3 - White Version (USA).gba,8.0 MiB,1.2 GiB
 Mega Man Zero 3,7.7,Inti Creates,Capcom,Megaman Zero 3 (USA).gba,8.0 MiB,1.2 GiB
 Mega Man Zero 4,7.7,Inti Creates,Capcom,Megaman Zero 4 (USA).gba,16.0 MiB,1.2 GiB
 Need for Speed: Underground,7.7,EA Black Box,Electronic Arts,"Need for Speed - Underground (USA, Europe) (En,Fr,De,It).gba",8.0 MiB,1.2 GiB
@@ -171,7 +171,7 @@ Scurge: Hive,7.6,"Orbital Media, Inc.",SouthPeak Games,"Scurge - Hive (USA) (En,
 Shonen Jump's One Piece,7.6,Dimps Corporation,Bandai,,,
 Spyro 2: Season of Flame,7.6,Digital Eclipse,Universal Interactive,Spyro 2 - Season of Flame (USA).gba,8.0 MiB,1.5 GiB
 Tales of Phantasia,7.6,Namco,Nintendo,"Tales of Phantasia (USA, Australia).gba",8.0 MiB,1.5 GiB
-Tom Clancy's Rainbow Six: Rogue Spear (2002),7.6,Ubisoft Milan,Ubisoft,"Tom Clancy's Rainbow Six - Rogue Spear (USA, Europe) (En,Fr,De,Es,It) (Beta) (2001-10-25).gba",7.6 MiB,1.5 GiB
+Tom Clancy's Rainbow Six: Rogue Spear (2002),7.6,Ubisoft Milan,Ubisoft,"Tom Clancy's Rainbow Six - Rogue Spear (USA) (En,Fr,De,Es,It).gba",8.0 MiB,1.5 GiB
 Aggressive Inline,7.5,"Z-Axis, Ltd.",Acclaim,Aggressive Inline (USA).gba,8.0 MiB,1.5 GiB
 Atari Anniversary Advance,7.5,Digital Eclipse,Infogrames,Atari Anniversary Advance (USA).gba,4.0 MiB,1.5 GiB
 Bomberman Max 2: Blue Advance,7.5,Hudson,Majesco,Bomberman Max 2 - Blue Advance (USA).gba,8.0 MiB,1.5 GiB
@@ -189,7 +189,7 @@ Mary-Kate and Ashley: Girls Night Out,7.5,Powerhead Games,Acclaim,"Mary-Kate and
 Monster Truck Madness,7.5,Tantalus,THQ,"Monster Truck Madness (USA, Europe).gba",4.0 MiB,1.6 GiB
 Mortal Kombat: Tournament Edition,7.5,Criterion Games,Midway,"Mortal Kombat - Tournament Edition (USA) (En,Fr,De,Es,It).gba",16.0 MiB,1.6 GiB
 Muppet Pinball Mayhem,7.5,Digital Eclipse,NewKidCo,Muppet Pinball Mayhem (USA).gba,4.0 MiB,1.6 GiB
-Prince of Persia: The Sands of Time,7.5,Ubisoft,Ubisoft,"Prince of Persia - The Sands of Time (USA) (En,Fr,Es) (Rev 1).gba",8.0 MiB,1.6 GiB
+Prince of Persia: The Sands of Time,7.5,Ubisoft,Ubisoft,"Prince of Persia - The Sands of Time (USA) (En,Fr,Es) (Rev 1).gba",8.0 MiB,1.7 GiB
 River City Ransom,7.5,Million,Atlus,River City Ransom EX (USA).gba,4.0 MiB,1.7 GiB
 Sabre Wulf,7.5,Rare Ltd.,THQ,Sabre Wulf (USA).gba,8.0 MiB,1.7 GiB
 The Lost Vikings,7.5,Mass Media,Blizzard Classic Arcade,"Lost Vikings, The (USA).gba",4.0 MiB,1.7 GiB
@@ -288,7 +288,7 @@ Harry Potter and the Prisoner of Azkaban (2004),6.9,Griptonite Games,EA Games,"H
 Monster House,6.9,Artificial Mind and Movement,THQ,"Monster House (USA) (En,Fr).gba",8.0 MiB,2.4 GiB
 Motocross Maniacs Advance,6.9,Konami,Konami,"Motocross Maniacs Advance (USA) (En,Es).gba",4.0 MiB,2.4 GiB
 Nicktoons: Battle for Volcano Island,6.9,Blue Tongue Entertainment,THQ,Nicktoons - Battle for Volcano Island (USA).gba,4.0 MiB,2.5 GiB
-Prehistorik Man,6.9,Titus Software,Titus Software,"Prehistorik Man (USA, Europe) (En,Fr,De,Es,It,Nl) (Beta).gba",4.0 MiB,2.5 GiB
+Prehistorik Man,6.9,Titus Software,Titus Software,"Prehistorik Man (USA, Europe) (En,Fr,De,Es,It,Nl).gba",4.0 MiB,2.5 GiB
 Sonic Battle,6.9,Sonic Team,THQ,"Sonic Battle (USA) (En,Ja,Fr,De,Es,It).gba",16.0 MiB,2.5 GiB
 The Sum of All Fears,6.9,Red Storm Entertainment,Ubisoft,"Sum of All Fears, The (USA) (En,Fr,De,Es,It).gba",8.0 MiB,2.5 GiB
 Banjo-Pilot,6.8,Rare Ltd.,THQ,Banjo-Pilot (USA).gba,16.0 MiB,2.5 GiB
@@ -298,10 +298,10 @@ Disney's Tarzan: Return to the Jungle,6.8,Digital Eclipse,Activision,"Tarzan - R
 Disney's Treasure Planet,6.8,Bizarre Creations,Disney Interactive,Treasure Planet (USA).gba,8.0 MiB,2.5 GiB
 Dr. Sudoku,6.8,Success,Mastiff,Dr. Sudoku (USA).gba,4.0 MiB,2.5 GiB
 Driven,6.8,Bam Entertainment,Bam Entertainment,"Driven (USA) (En,Fr,De,Es,It).gba",4.0 MiB,2.5 GiB
-Grand Theft Auto (Game Boy Advance),6.8,Digital Eclipse,Rockstar Games,F-Zero for Game Boy Advance (Japan) (Virtual Console).gba,4.0 MiB,2.5 GiB
+Grand Theft Auto (Game Boy Advance),6.8,Digital Eclipse,Rockstar Games,F-Zero for Game Boy Advance (Japan).gba,4.0 MiB,2.5 GiB
 Jazz Jackrabbit,6.8,Game Titan,Jaleco Entertainment,"Jazz Jackrabbit (USA, Europe).gba",4.0 MiB,2.5 GiB
 Madden NFL 07,6.8,EA Tiburon,EA Sports,Madden NFL 07 (USA).gba,4.0 MiB,2.6 GiB
-Mega Man Battle Network 4: Red Sun,6.8,Capcom,Capcom,Megaman - Battle Network 4 - Red Sun (USA) (Virtual Console).gba,8.0 MiB,2.6 GiB
+Mega Man Battle Network 4: Red Sun,6.8,Capcom,Capcom,Megaman - Battle Network 4 - Red Sun (USA).gba,8.0 MiB,2.6 GiB
 NHL Hitz 20-03,6.8,EA Black Box,Midway,NHL Hitz 2003 (USA).gba,4.0 MiB,2.6 GiB
 Robopon 2: Ring Version,6.8,RED Entertainment,Atlus,Robopon 2 - Ring Version (USA).gba,8.0 MiB,2.6 GiB
 Sea Trader: Rise of Taipan,6.8,Jaleco Entertainment,Jaleco Entertainment,Sea Trader - Rise of Taipan (USA).gba,4.0 MiB,2.6 GiB
@@ -317,7 +317,7 @@ Crash Bandicoot Purple: Ripto's Rampage,6.7,Vicarious Visions,VU Games,Crash Ban
 F-14 Tomcat,6.7,Virtucraft,Majesco,"F-14 Tomcat (USA, Europe).gba",4.0 MiB,2.7 GiB
 Guilty Gear X Advance Edition,6.7,Arc System Works,Sammy Studios,Guilty Gear X - Advance Edition (USA).gba,8.0 MiB,2.7 GiB
 Mega Man Battle Network 4: Blue Moon,6.7,Capcom,Capcom,Megaman - Battle Network 4 - Blue Moon (USA).gba,8.0 MiB,2.7 GiB
-Mega Man Battle Network 5: Team Protoman,6.7,Capcom,Capcom,Megaman - Battle Network 5 - Team Protoman (USA) (Virtual Console).gba,8.0 MiB,2.7 GiB
+Mega Man Battle Network 5: Team Protoman,6.7,Capcom,Capcom,Megaman - Battle Network 5 - Team Protoman (USA).gba,8.0 MiB,2.7 GiB
 MotoGP,6.7,Climax Studios,THQ,"MotoGP (USA) (En,Fr,De,Es,It).gba",4.0 MiB,2.7 GiB
 Planet Monsters,6.7,Planet Interactive,Titus Software,"Planet Monsters (USA) (En,Fr,De,Es,It,Nl).gba",4.0 MiB,2.7 GiB
 Pokemon Mystery Dungeon: Red Rescue Team,6.7,ChunSoft,Nintendo,"Pokemon Mystery Dungeon - Red Rescue Team (USA, Australia).gba",32.0 MiB,2.7 GiB
@@ -337,7 +337,7 @@ Hot Wheels: Burnin' Rubber,6.6,Altron,THQ,Hot Wheels - Burnin' Rubber (USA).gba,
 007: NightFire,6.6,Eurocom,Electronic Arts,"007 - NightFire (USA, Europe) (En,Fr,De).gba",8.0 MiB,2.9 GiB
 Juka and the Monophonic Menace,6.6,"Orbital Media, Inc.",SouthPeak Games,"Juka and the Monophonic Menace (USA) (En,Fr,Es).gba",16.0 MiB,2.9 GiB
 Lara Croft - Tomb Raider: The Prophecy,6.6,Ubisoft Milan,Ubisoft,"Lara Croft Tomb Raider - The Prophecy (USA) (En,Fr,De,Es,It).gba",8.0 MiB,2.9 GiB
-Mega Man Battle Network 5: Team Colonel,6.6,Capcom,Capcom,Megaman - Battle Network 5 - Team Colonel (USA) (Virtual Console).gba,8.0 MiB,2.9 GiB
+Mega Man Battle Network 5: Team Colonel,6.6,Capcom,Capcom,Megaman - Battle Network 5 - Team Colonel (USA).gba,8.0 MiB,2.9 GiB
 Pitfall: The Lost Expedition (2004),6.6,Torus Games,Activision,Pitfall - The Lost Expedition (USA).gba,8.0 MiB,2.9 GiB
 "The Chronicles of Narnia: The Lion, The Witch and The Wardrobe",6.6,Traveller's Tales,Buena Vista Games,"Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe (USA, Europe) (En,Fr,De,Es,It,Nl,Sv,Da).gba",16.0 MiB,2.9 GiB
 World Championship Poker: Deluxe Series,6.6,Coresoft,Crave,World Championship Poker (USA).gba,4.0 MiB,2.9 GiB
@@ -374,14 +374,14 @@ Butt Ugly Martians: B.K.M. Battles,6.3,Runecraft,VU Games,Butt-Ugly Martians - B
 Digimon Battle Spirit 2,6.3,Dimps Corporation,Bandai,"Digimon - Battle Spirit 2 (USA) (En,Fr,De,Es,It).gba",4.0 MiB,3.1 GiB
 DreamWorks Shark Tale (2004),6.3,Vicarious Visions,Activision,"Shark Tale (USA, Europe).gba",8.0 MiB,3.2 GiB
 Gumby vs. the Astrobots,6.3,Torus Games,Namco,Gumby vs. the Astrobots (USA).gba,4.0 MiB,3.2 GiB
-Mega Man Battle Network 6: Cybeast Falzar,6.3,Capcom,Capcom,Megaman - Battle Network 6 - Cybeast Falzar (USA) (Virtual Console).gba,16.0 MiB,3.2 GiB
+Mega Man Battle Network 6: Cybeast Falzar,6.3,Capcom,Capcom,Megaman - Battle Network 6 - Cybeast Falzar (USA).gba,8.0 MiB,3.2 GiB
 Rocky (2002),6.3,Rage Software,Ubisoft,"Rocky (USA) (En,Fr,De,Es,It).gba",8.0 MiB,3.2 GiB
 Sabrina the Teenage Witch: Potion Commotion,6.3,Ubisoft,Ubisoft,"Sabrina the Teenage Witch - Potion Commotion (USA) (En,Fr,Es).gba",4.0 MiB,3.2 GiB
 Samurai Jack: The Amulet of Time,6.3,Virtucraft,Bam Entertainment,"Samurai Jack - The Amulet of Time (USA, Europe).gba",8.0 MiB,3.2 GiB
 SSX 3,6.3,EA Canada,EA Sports Big,"SSX 3 (USA, Europe).gba",8.0 MiB,3.2 GiB
 The Great Circus Mystery Starring Mickey & Minnie,6.3,Klein Computer Entertainment,Capcom,Magical Quest Starring Mickey & Minnie (USA).gba,4.0 MiB,3.2 GiB
 Ty the Tasmanian Tiger 2: Bush Rescue,6.3,Krome Studios,EA Games,"Ty the Tasmanian Tiger 2 - Bush Rescue (USA, Europe) (En,Fr,De).gba",8.0 MiB,3.2 GiB
-Atomic Betty,6.2,Big Blue Bubble Inc.,Namco,"Atomic Betty (USA, Europe) (Beta).gba",8.0 MiB,3.2 GiB
+Atomic Betty,6.2,Big Blue Bubble Inc.,Namco,"Atomic Betty (USA, Europe).gba",8.0 MiB,3.2 GiB
 Battle B-Daman,6.2,Atlus,Atlus,Battle B-Daman (USA).gba,8.0 MiB,3.2 GiB
 Bookworm (2004),6.2,PopCap,Majesco,Bookworm (USA).gba,4.0 MiB,3.2 GiB
 DemiKids: Light Version,6.2,Multimedia Intelligence Transfer,Atlus,DemiKids - Light Version (USA).gba,8.0 MiB,3.2 GiB
@@ -393,9 +393,9 @@ Dragon Ball Z: Collectible Card Game,6.2,ImaginEngine,Infogrames,Dragon Ball Z -
 DreamWorks Over the Hedge: Hammy Goes Nuts (2006),6.2,Vicarious Visions,Activision,Over the Hedge - Hammy Goes Nuts! (USA).gba,8.0 MiB,3.3 GiB
 High Heat Major League Baseball 2002,6.2,3DO,3DO,"High Heat Major League Baseball 2002 (USA, Europe).gba",4.0 MiB,3.3 GiB
 Lego Knights' Kingdom,6.2,Razorback Developments,THQ,Knights' Kingdom (USA).gba,4.0 MiB,3.3 GiB
-Mario Pinball Land,6.2,Fuse Games Limited,Nintendo,Mario Pinball Land (USA) (Virtual Console).gba,8.0 MiB,3.3 GiB
-Mega Man Battle Network 6: Cybeast Gregar,6.2,Capcom,Capcom,Megaman - Battle Network 6 - Cybeast Gregar (USA) (Virtual Console).gba,8.0 MiB,3.3 GiB
-Mr. Driller 2,6.2,Namco,Namco,Mr. Driller 2 (USA) (Virtual Console).gba,4.0 MiB,3.3 GiB
+Mario Pinball Land,6.2,Fuse Games Limited,Nintendo,"Mario Pinball Land (USA) (Kiosk, GameCube).gba",8.0 MiB,3.3 GiB
+Mega Man Battle Network 6: Cybeast Gregar,6.2,Capcom,Capcom,Megaman - Battle Network 6 - Cybeast Gregar (USA).gba,8.0 MiB,3.3 GiB
+Mr. Driller 2,6.2,Namco,Namco,Mr. Driller 2 (USA).gba,4.0 MiB,3.3 GiB
 Need for Speed: Porsche Unleashed,6.2,Eden Studios,Electronic Arts,Need for Speed - Porsche Unleashed (USA).gba,4.0 MiB,3.3 GiB
 SimCity 2000,6.2,Full Fat,Destination Software,SimCity 2000 (USA) (Rev 1).gba,4.0 MiB,3.3 GiB
 Spy Kids 3-D: Game Over,6.2,Digital Eclipse,Disney Interactive,Spy Kids 3-D - Game Over (USA).gba,8.0 MiB,3.3 GiB
@@ -413,11 +413,11 @@ Reign of Fire,6.1,Kuju Entertainment,Bam Entertainment,"Reign of Fire (USA) (En,
 Robotech: The Macross Saga,6.1,Lucky Chicken,TDK Mediactive,"Robotech - The Macross Saga (USA, Europe) (En,Fr,De,Es,It,Nl).gba",8.0 MiB,3.4 GiB
 Teen Titans,6.1,Artificial Mind and Movement,THQ,"Teen Titans (USA) (En,Fr).gba",8.0 MiB,3.4 GiB
 Ultimate Winter Games,6.1,Sproing,Telegames,Ultimate Winter Games (USA).gba,8.0 MiB,3.4 GiB
-X-Men: Reign of Apocalypse,6.1,Digital Eclipse,Activision,"X-Men - Reign of Apocalypse (USA, Europe).gba",8.0 MiB,3.5 GiB
+X-Men: Reign of Apocalypse,6.1,Digital Eclipse,Activision,"X-Men - Reign of Apocalypse (USA, Europe).gba",8.0 MiB,3.4 GiB
 Yu-Gi-Oh! Reshef of Destruction,6.1,Konami,Konami,Yu-Gi-Oh! - Reshef of Destruction (USA).gba,16.0 MiB,3.5 GiB
-"Crouching Tiger, Hidden Dragon (2003)",6.0,Ubisoft Shanghai,Ubisoft,"Crouching Tiger, Hidden Dragon (USA) (Beta 1) (2002-09-17).gba",3.2 MiB,3.5 GiB
+"Crouching Tiger, Hidden Dragon (2003)",6.0,Ubisoft Shanghai,Ubisoft,"Crouching Tiger, Hidden Dragon (USA) (En,Fr,Es).gba",8.0 MiB,3.5 GiB
 Digimon Battle Spirit,6.0,Dimps Corporation,Bandai,Digimon - Battle Spirit (USA).gba,4.0 MiB,3.5 GiB
-Medabots AX: Metabee Ver.,6.0,Natsume,Natsume,Medabots AX - Metabee Ver. (USA) (Virtual Console).gba,8.0 MiB,3.5 GiB
+Medabots AX: Metabee Ver.,6.0,Natsume,Natsume,Medabots AX - Metabee Ver. (USA).gba,8.0 MiB,3.5 GiB
 Namco Museum 50th Anniversary,6.0,Backbone Vancouver,Namco,Namco Museum - 50th Anniversary (USA).gba,4.0 MiB,3.5 GiB
 Naruto: Ninja Council,6.0,Arc System Works,D3Publisher,Naruto - Ninja Council (USA).gba,8.0 MiB,3.5 GiB
 Sega Smash Pack,6.0,CodeFire,THQ,SEGA Smash Pack (USA).gba,8.0 MiB,3.5 GiB
@@ -426,7 +426,7 @@ Star Wars: The New Droid Army,6.0,Helixe,THQ,Star Wars - The New Droid Army (USA
 Star Wars Trilogy: Apprentice of the Force,6.0,Ubisoft,Ubisoft,"Star Wars Trilogy - Apprentice of the Force (USA) (En,Fr,Es).gba",8.0 MiB,3.5 GiB
 Star X,6.0,Graphic State,Bam Entertainment,"Star X (USA) (En,Fr,De,Es,It,Nl).gba",8.0 MiB,3.5 GiB
 Super Collapse II,6.0,GameHouse,Majesco,Super Collapse! II (USA).gba,4.0 MiB,3.5 GiB
-The Powerpuff Girls: Mojo Jojo A-Go-Go,6.0,Sennari Interactive,Bam Entertainment,"Powerpuff Girls, The - Mojo Jojo A-Go-Go (USA) (En,Fr,De,Es,It,Nl).gba",4.0 MiB,3.6 GiB
+The Powerpuff Girls: Mojo Jojo A-Go-Go,6.0,Sennari Interactive,Bam Entertainment,"Powerpuff Girls, The - Mojo Jojo A-Go-Go (USA) (En,Fr,De,Es,It,Nl).gba",4.0 MiB,3.5 GiB
 Walt Disney's The Jungle Book,6.0,Visual Impact,Ubisoft,"Jungle Book, The (USA) (En,Fr,De,Es,It,Nl).gba",8.0 MiB,3.6 GiB
 Yoshi Topsy-Turvy,6.0,Artoon,Nintendo,Yoshi Topsy-Turvy (USA).gba,8.0 MiB,3.6 GiB
 Yu-Gi-Oh! The Sacred Cards,6.0,Konami,Konami,Yu-Gi-Oh! - The Sacred Cards (USA).gba,16.0 MiB,3.6 GiB
@@ -441,7 +441,7 @@ Sega Rally Championship,5.9,Dice,Sega,SEGA Rally Championship (USA).gba,8.0 MiB,
 Stuart Little 2,5.9,Creations,Activision,"Stuart Little 2 (USA, Europe).gba",8.0 MiB,3.7 GiB
 Disney's Magical Quest 3 Starring Mickey & Donald,5.8,Klein Computer Entertainment,Capcom,"Magical Quest 3 Starring Mickey & Donald (USA) (En,Fr,De).gba",8.0 MiB,3.7 GiB
 Hugo: The Evil Mirror,5.8,ITE Media,Namco,"Hugo - The Evil Mirror (USA) (En,Fr,Es).gba",4.0 MiB,3.7 GiB
-Metroid,5.8,Nintendo,Nintendo,Metroid Fusion (USA) (Virtual Console).gba,8.0 MiB,3.7 GiB
+Metroid,5.8,Nintendo,Nintendo,Metroid Fusion (USA).gba,8.0 MiB,3.7 GiB
 Monster Jam: Maximum Destruction,5.8,Ubisoft,Ubisoft,Monster Jam - Maximum Destruction (USA).gba,8.0 MiB,3.7 GiB
 Pitfall: The Mayan Adventure,5.8,Pipe Dream Interactive,Majesco,"Pitfall - The Mayan Adventure (USA, Europe).gba",4.0 MiB,3.7 GiB
 Punch King,5.8,Full Fat,Acclaim,,,
@@ -495,7 +495,7 @@ Alienators: Evolution Continues,5.4,Digital Eclipse,Activision,"Alienators - Evo
 Back to Stone,5.4,Hidden Floor,O3 Entertainment,"Back to Stone (USA) (En,Fr).gba",4.0 MiB,4.0 GiB
 Mario Party Advance,5.4,AI,Nintendo,Mario Party Advance (USA).gba,8.0 MiB,4.0 GiB
 Mega Man: Battle Chip Challenge,5.4,Capcom,Capcom,Megaman - Battle Chip Challenge (USA).gba,8.0 MiB,4.0 GiB
-Minority Report: Everybody Runs,5.4,Treyarch,Activision,"Minority Report - Everybody Runs (USA, Europe).gba",8.0 MiB,4.1 GiB
+Minority Report: Everybody Runs,5.4,Treyarch,Activision,"Minority Report - Everybody Runs (USA, Europe).gba",8.0 MiB,4.0 GiB
 Planet of the Apes (2001),5.4,Torus Games,Ubisoft,"Planet of the Apes (USA) (En,Fr,De,Es,It,Nl).gba",4.0 MiB,4.1 GiB
 BattleBots: Beyond the BattleBox,5.3,Cave Barn,Majesco,BattleBots - Beyond the BattleBox (USA).gba,8.0 MiB,4.1 GiB
 Britney's Dance Beat,5.3,Metro Graphics,THQ,Britney's Dance Beat (USA).gba,8.0 MiB,4.1 GiB
@@ -514,7 +514,7 @@ Disney's Peter Pan: Return to Neverland,5.2,Crawfish Interactive,Disney Interact
 KAO the Kangaroo (2001),5.2,Titus Software,Titus Software,"KAO the Kangaroo (USA) (En,Fr,De,Es,It,Nl).gba",4.0 MiB,4.1 GiB
 Kong: The Animated Series,5.2,Planet Interactive,Bam Entertainment,"Kong - The Animated Series (USA) (En,Fr,De,Es,It,Nl).gba",8.0 MiB,4.1 GiB
 NASCAR Heat 2002,5.2,Monster Games Inc.,Infogrames,NASCAR Heat 2002 (USA).gba,4.0 MiB,4.1 GiB
-Pac-Man Pinball Advance,5.2,Human Soft,Namco,Pac-Man Pinball Advance (USA).gba,4.0 MiB,4.2 GiB
+Pac-Man Pinball Advance,5.2,Human Soft,Namco,Pac-Man Pinball Advance (USA).gba,4.0 MiB,4.1 GiB
 Tak: The Great Juju Challenge (2005),5.2,WayForward,THQ,"Tak - The Great Juju Challenge (USA, Europe).gba",8.0 MiB,4.2 GiB
 That's So Raven 2: Supernatural Style,5.2,Artificial Mind and Movement,Buena Vista Interactive,"That's So Raven 2 - Supernatural Style (USA) (En,Fr).gba",8.0 MiB,4.2 GiB
 Serious Sam Advance,5.1,Climax Studios,Global Star Software,"Serious Sam Advance (USA) (En,Fr,De).gba",8.0 MiB,4.2 GiB
@@ -570,16 +570,16 @@ Around the World in 80 Days (2004),4.0,Saffire,Hip Games,Around the World in 80 
 Beyblade G-Revolution,4.0,Full Fat,Atari SA,Beyblade G-Revolution (USA).gba,4.0 MiB,4.5 GiB
 Dead to Rights,4.0,Namco,Namco,Dead to Rights (USA).gba,8.0 MiB,4.5 GiB
 Dr. Seuss' The Cat in the Hat,4.0,Digital Eclipse,VU Games,Dr. Seuss' The Cat in the Hat (USA).gba,4.0 MiB,4.5 GiB
-Dragon Ball Z: Taiketsu,4.0,Webfoot Technologies,Atari SA,Dragon Ball Z - Taiketsu (USA) (Beta).gba,8.0 MiB,4.5 GiB
+Dragon Ball Z: Taiketsu,4.0,Webfoot Technologies,Atari SA,Dragon Ball Z - Taiketsu (USA).gba,8.0 MiB,4.5 GiB
 Cartoon Network Speedway,3.9,DC Studios,Majesco,Cartoon Network Speedway (USA).gba,4.0 MiB,4.5 GiB
 Sports Illustrated for Kids: Baseball,3.9,Sennari Interactive,Bam Entertainment,Sports Illustrated for Kids - Baseball (USA).gba,4.0 MiB,4.5 GiB
 Star Wars: Flight of the Falcon,3.9,Pocket Studios,THQ,Star Wars - Flight of the Falcon (USA).gba,8.0 MiB,4.5 GiB
 That's So Raven,3.9,Vicarious Visions,Buena Vista Interactive,That's So Raven (USA).gba,8.0 MiB,4.5 GiB
 Yu-Gi-Oh! Destiny Board Traveler,3.9,KCEJ,Konami,Yu-Gi-Oh! - Destiny Board Traveler (USA).gba,8.0 MiB,4.5 GiB
 Star Wars Episode II: Attack of the Clones,3.8,David A. Palmer Productions,THQ,Star Wars - Episode II - Attack of the Clones (USA).gba,8.0 MiB,4.5 GiB
-The Ripping Friends: The World's Most Manly Men!,3.8,Software Creations,THQ,"Ripping Friends, The - The World's Most Manly Men! (USA, Europe).gba",4.0 MiB,4.6 GiB
+The Ripping Friends: The World's Most Manly Men!,3.8,Software Creations,THQ,"Ripping Friends, The - The World's Most Manly Men! (USA, Europe).gba",4.0 MiB,4.5 GiB
 Alex Rider: Stormbreaker,3.7,Altron,THQ,Alex Rider - Stormbreaker (USA).gba,4.0 MiB,4.6 GiB
-Defender (Game Boy Advance),3.7,OutLook Entertainment,Midway,F-Zero for Game Boy Advance (Japan) (Virtual Console).gba,4.0 MiB,4.6 GiB
+Defender (Game Boy Advance),3.7,OutLook Entertainment,Midway,F-Zero for Game Boy Advance (Japan).gba,4.0 MiB,4.6 GiB
 Gauntlet: Dark Legacy,3.7,Midway,Midway,Gauntlet - Dark Legacy (USA).gba,8.0 MiB,4.6 GiB
 Mighty Beanz: Pocket Puzzles,3.7,Radius9,Majesco,Mighty Beanz - Pocket Puzzles (USA).gba,4.0 MiB,4.6 GiB
 NFL Blitz 20-02,3.7,Midway,Midway,NFL Blitz 2002 (USA).gba,4.0 MiB,4.6 GiB
@@ -591,11 +591,11 @@ David Beckham Soccer,3.4,Yoyo Entertainment,Majesco,"David Beckham Soccer (USA) 
 Mortal Kombat Advance,3.3,Virtucraft,Midway,Mortal Kombat Advance (USA).gba,8.0 MiB,4.6 GiB
 Sonic the Hedgehog,3.3,Backbone Entertainment,Sega,Sonic The Hedgehog - Genesis (USA).gba,4.0 MiB,4.6 GiB
 Van Helsing,3.3,Saffire,VU Games,Van Helsing (USA).gba,4.0 MiB,4.6 GiB
-Yu Yu Hakusho - Ghost Files: Spirit Detective,3.3,Sensory Sweep,Atari SA,Yu Yu Hakusho - Ghostfiles - Spirit Detective (USA) (Beta).gba,16.0 MiB,4.6 GiB
+Yu Yu Hakusho - Ghost Files: Spirit Detective,3.3,Sensory Sweep,Atari SA,Yu Yu Hakusho - Ghostfiles - Spirit Detective (USA).gba,8.0 MiB,4.6 GiB
 Fear Factor: Unleashed,3.0,DC Studios,Hip Games,Fear Factor - Unleashed (USA).gba,8.0 MiB,4.6 GiB
 Harlem Globetrotters: World Tour,2.8,DSI Games,DSI Games,Harlem Globetrotters - World Tour (USA).gba,4.0 MiB,4.6 GiB
-Shrek Swamp Kart Speedway,2.7,Prolific,TDK Mediactive,"Shrek - Swamp Kart Speedway (USA) (En,Fr,De,Es,It,Nl) (Rev 1).gba",8.0 MiB,4.7 GiB
-Mucha Lucha! Mascaritas of the Lost Code,2.6,Digital Eclipse,Ubisoft,"Mucha Lucha! - Mascaritas of the Lost Code (USA) (En,Fr,Es).gba",4.0 MiB,4.7 GiB
+Shrek Swamp Kart Speedway,2.7,Prolific,TDK Mediactive,"Shrek - Swamp Kart Speedway (USA) (En,Fr,De,Es,It,Nl) (Rev 1).gba",8.0 MiB,4.6 GiB
+Mucha Lucha! Mascaritas of the Lost Code,2.6,Digital Eclipse,Ubisoft,"Mucha Lucha! - Mascaritas of the Lost Code (USA) (En,Fr,Es).gba",4.0 MiB,4.6 GiB
 Legends of Wrestling II,2.4,Acclaim Studios Salt Lake City,Acclaim,"Legends of Wrestling II (USA, Europe).gba",8.0 MiB,4.7 GiB
 Thunder Alley (2004),2.3,Pronto Games,XS Games,Thunder Alley (USA).gba,4.0 MiB,4.7 GiB
 Rock 'Em Sock 'Em Robots,2.1,Full Fat,DSI Games,Rock'em Sock'em Robots (USA).gba,4.0 MiB,4.7 GiB

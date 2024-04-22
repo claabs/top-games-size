@@ -109,14 +109,20 @@ def refine_results(
         bonus = 0
         if "(Demo" in rom_name:
             bonus += -50
-        if "(Bonus Disc" in rom_name:
+        if "Preview Disc" in rom_name:
+            bonus += -50
+        if "Bonus Disc" in rom_name:
             bonus += -25
-        if "(Preview Disc" in rom_name:
+        if "(Beta" in rom_name:
             bonus += -25
-        if "(USA" in rom_name:
-            bonus += 20
+        if "(LodgeNet)" in rom_name:
+            bonus += -25
+        if "Virtual Console)" in rom_name:
+            bonus += -25
         if "(Japan" in rom_name:
             bonus += 10
+        if "(USA" in rom_name:
+            bonus += 20
 
         disc_match = re.search(r"\(Disc (\d+)\)", rom_name)
         if disc_match:

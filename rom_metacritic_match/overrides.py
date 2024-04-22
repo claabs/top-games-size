@@ -4,6 +4,10 @@
 overrides: dict[dict[tuple[str, int | None]]] = {
     "Nintendo - GameCube": {
         "Resident Evil (Remake)": ("Resident Evil (USA) (Disc 2).iso", 2919956480),
+        "Star Wars Rogue Leader: Rogue Squadron II": (
+            "Star Wars - Rogue Squadron II - Rogue Leader (USA).iso",
+            None,
+        ),
     },
     "Nintendo - Wii": {
         "Resident Evil (Remake)": (
